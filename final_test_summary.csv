@@ -1,0 +1,7 @@
+,,,precision,precision,recall,recall,ndcg,ndcg,coverage,coverage,missing,missing
+,,,mean,std,mean,std,mean,std,mean,std,mean,std
+model,configuration,k,,,,,,,,,,
+Jaccard,Baseline,5,0.2487,0.0212,0.7611,0.0342,0.8858,0.0149,0.6827,0.0142,3.1556,0.1485
+Jaccard,Baseline,10,0.1598,0.0201,0.809,0.0312,0.9048,0.0119,0.6275,0.0167,3.386,0.1322
+Jaccard,Combined V2,5,0.256,0.0216,0.7752,0.0337,0.8922,0.015,0.6664,0.0154,2.8958,0.1569
+Jaccard,Combined V2,10,0.1647,0.0207,0.8239,0.0295,0.9101,0.0119,0.6082,0.0178,3.0711,0.1319

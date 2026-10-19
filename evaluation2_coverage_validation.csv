@@ -1,0 +1,801 @@
+seed,query_id,query_length,query,configuration,minimum_coverage,k,number_returned,five_returned,at_most_two_missing,precision,recall,ndcg,coverage,missing
+83,validation_001_3,3,"onion, salt, barbecue sauce",V2 original,,5,5,1,0.4,0.4,0.25,0.5733697430514892,0.7333333333333333,2.8
+83,validation_001_3,3,"onion, salt, barbecue sauce",V2 50%,0.5,5,5,1,0.2,0.4,0.25,0.5890442449142237,0.7999999999999999,3.2
+83,validation_001_3,3,"onion, salt, barbecue sauce",V2 60%,0.6,5,5,1,0.2,0.4,0.25,0.5890442449142237,0.7999999999999999,3.2
+83,validation_001_3,3,"onion, salt, barbecue sauce",V2 70%,0.7,5,5,1,0.0,1.0,0.625,1.0,1.0,6.2
+83,validation_001_4,4,"onion, salt, barbecue sauce, chili powder",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.6,2.6
+83,validation_001_4,4,"onion, salt, barbecue sauce, chili powder",V2 50%,0.5,5,5,1,0.4,0.2,1.0,1.0,0.65,2.2
+83,validation_001_4,4,"onion, salt, barbecue sauce, chili powder",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.8,5.8
+83,validation_001_4,4,"onion, salt, barbecue sauce, chili powder",V2 70%,0.7,5,5,1,0.0,0.2,1.0,1.0,0.8,5.8
+83,validation_001_5,5,"onion, salt, barbecue sauce, chili powder, kidney bean",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.6799999999999999,3.6
+83,validation_001_5,5,"onion, salt, barbecue sauce, chili powder, kidney bean",V2 50%,0.5,5,5,1,0.2,0.2,1.0,1.0,0.7600000000000001,4.4
+83,validation_001_5,5,"onion, salt, barbecue sauce, chili powder, kidney bean",V2 60%,0.6,5,5,1,0.2,0.2,1.0,1.0,0.7600000000000001,4.4
+83,validation_001_5,5,"onion, salt, barbecue sauce, chili powder, kidney bean",V2 70%,0.7,5,5,1,0.2,0.2,1.0,1.0,0.8400000000000001,7.4
+83,validation_001_6,6,"onion, salt, barbecue sauce, chili powder, kidney bean, water",V2 original,,5,5,1,0.6,0.2,1.0,1.0,0.6333333333333334,3.0
+83,validation_001_6,6,"onion, salt, barbecue sauce, chili powder, kidney bean, water",V2 50%,0.5,5,5,1,0.6,0.2,1.0,1.0,0.6666666666666667,3.0
+83,validation_001_6,6,"onion, salt, barbecue sauce, chili powder, kidney bean, water",V2 60%,0.6,5,5,1,0.2,0.2,1.0,1.0,0.7666666666666666,5.6
+83,validation_001_6,6,"onion, salt, barbecue sauce, chili powder, kidney bean, water",V2 70%,0.7,5,3,0,0.3333333333333333,0.2,1.0,0.9086402078338697,0.888888888888889,6.666666666666667
+83,validation_002_3,3,"vegetable oil, soy sauce, fresh mushroom",V2 original,,5,5,1,0.4,0.4,1.0,0.774487192150212,0.7333333333333333,5.6
+83,validation_002_3,3,"vegetable oil, soy sauce, fresh mushroom",V2 50%,0.5,5,5,1,0.2,0.4,1.0,0.8389776660073724,0.7999999999999999,7.2
+83,validation_002_3,3,"vegetable oil, soy sauce, fresh mushroom",V2 60%,0.6,5,5,1,0.2,0.4,1.0,0.8389776660073724,0.7999999999999999,7.2
+83,validation_002_3,3,"vegetable oil, soy sauce, fresh mushroom",V2 70%,0.7,5,2,0,0.0,0.4,1.0,0.7878483464942911,1.0,10.5
+83,validation_002_4,4,"vegetable oil, soy sauce, fresh mushroom, green onion",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.6,5.4
+83,validation_002_4,4,"vegetable oil, soy sauce, fresh mushroom, green onion",V2 50%,0.5,5,5,1,0.2,0.2,1.0,1.0,0.65,6.2
+83,validation_002_4,4,"vegetable oil, soy sauce, fresh mushroom, green onion",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.8,9.2
+83,validation_002_4,4,"vegetable oil, soy sauce, fresh mushroom, green onion",V2 70%,0.7,5,5,1,0.0,0.2,1.0,1.0,0.8,9.2
+83,validation_002_5,5,"vegetable oil, soy sauce, fresh mushroom, green onion, cornstarch",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.52,4.6
+83,validation_002_5,5,"vegetable oil, soy sauce, fresh mushroom, green onion, cornstarch",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.7200000000000001,8.2
+83,validation_002_5,5,"vegetable oil, soy sauce, fresh mushroom, green onion, cornstarch",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.7200000000000001,8.2
+83,validation_002_5,5,"vegetable oil, soy sauce, fresh mushroom, green onion, cornstarch",V2 70%,0.7,5,3,0,0.0,0.2,1.0,0.8347911247384279,0.8666666666666667,10.0
+83,validation_002_6,6,"vegetable oil, soy sauce, fresh mushroom, green onion, cornstarch, light brown sugar",V2 original,,5,5,1,0.6,0.2,1.0,1.0,0.4,3.8
+83,validation_002_6,6,"vegetable oil, soy sauce, fresh mushroom, green onion, cornstarch, light brown sugar",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.6333333333333333,8.6
+83,validation_002_6,6,"vegetable oil, soy sauce, fresh mushroom, green onion, cornstarch, light brown sugar",V2 60%,0.6,5,3,0,0.0,0.2,1.0,0.8347911247384279,0.7777777777777777,9.666666666666666
+83,validation_002_6,6,"vegetable oil, soy sauce, fresh mushroom, green onion, cornstarch, light brown sugar",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,8.0
+83,validation_003_3,3,"sweet onion, capsicum, salt",V2 original,,5,5,1,0.0,0.2,1.0,1.0,0.6666666666666666,5.2
+83,validation_003_3,3,"sweet onion, capsicum, salt",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.7333333333333332,5.8
+83,validation_003_3,3,"sweet onion, capsicum, salt",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.7333333333333332,5.8
+83,validation_003_3,3,"sweet onion, capsicum, salt",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,7.0
+83,validation_003_4,4,"sweet onion, capsicum, salt, tomato",V2 original,,5,5,1,0.0,0.2,1.0,1.0,0.8,4.8
+83,validation_003_4,4,"sweet onion, capsicum, salt, tomato",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.8,4.8
+83,validation_003_4,4,"sweet onion, capsicum, salt, tomato",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.8,4.8
+83,validation_003_4,4,"sweet onion, capsicum, salt, tomato",V2 70%,0.7,5,5,1,0.0,0.2,1.0,1.0,0.8,4.8
+83,validation_003_5,5,"sweet onion, capsicum, salt, tomato, vinegar",V2 original,,5,5,1,0.0,0.2,1.0,1.0,0.8,5.0
+83,validation_003_5,5,"sweet onion, capsicum, salt, tomato, vinegar",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.8,5.0
+83,validation_003_5,5,"sweet onion, capsicum, salt, tomato, vinegar",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.8,5.0
+83,validation_003_5,5,"sweet onion, capsicum, salt, tomato, vinegar",V2 70%,0.7,5,5,1,0.0,0.2,1.0,1.0,0.8400000000000001,7.4
+83,validation_003_6,6,"sweet onion, capsicum, salt, tomato, vinegar, worcestershire sauce",V2 original,,5,5,1,0.0,0.2,1.0,1.0,0.7,4.6
+83,validation_003_6,6,"sweet onion, capsicum, salt, tomato, vinegar, worcestershire sauce",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.7,4.6
+83,validation_003_6,6,"sweet onion, capsicum, salt, tomato, vinegar, worcestershire sauce",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.7333333333333332,5.2
+83,validation_003_6,6,"sweet onion, capsicum, salt, tomato, vinegar, worcestershire sauce",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,4.0
+83,validation_004_3,3,"cinnamon, raisin, coconut",V2 original,,5,5,1,0.0,0.6,0.42857142857142855,0.6765142965891182,0.8666666666666666,6.0
+83,validation_004_3,3,"cinnamon, raisin, coconut",V2 50%,0.5,5,5,1,0.0,0.6,0.42857142857142855,0.6765142965891182,0.8666666666666666,6.0
+83,validation_004_3,3,"cinnamon, raisin, coconut",V2 60%,0.6,5,5,1,0.0,0.6,0.42857142857142855,0.6765142965891182,0.8666666666666666,6.0
+83,validation_004_3,3,"cinnamon, raisin, coconut",V2 70%,0.7,5,5,1,0.0,1.0,0.7142857142857143,1.0,1.0,9.0
+83,validation_004_4,4,"cinnamon, raisin, coconut, nutmeg",V2 original,,5,5,1,0.2,0.4,0.6666666666666666,0.8249925457400985,0.8,5.4
+83,validation_004_4,4,"cinnamon, raisin, coconut, nutmeg",V2 50%,0.5,5,5,1,0.2,0.4,0.6666666666666666,0.8249925457400985,0.8,5.4
+83,validation_004_4,4,"cinnamon, raisin, coconut, nutmeg",V2 60%,0.6,5,5,1,0.2,0.6,1.0,0.9322978750325865,0.9,6.2
+83,validation_004_4,4,"cinnamon, raisin, coconut, nutmeg",V2 70%,0.7,5,5,1,0.2,0.6,1.0,0.9322978750325865,0.9,6.2
+83,validation_004_5,5,"cinnamon, raisin, coconut, nutmeg, vanilla",V2 original,,5,5,1,0.2,0.4,1.0,0.9578347709816888,0.8,4.6
+83,validation_004_5,5,"cinnamon, raisin, coconut, nutmeg, vanilla",V2 50%,0.5,5,5,1,0.2,0.4,1.0,0.9578347709816888,0.8,4.6
+83,validation_004_5,5,"cinnamon, raisin, coconut, nutmeg, vanilla",V2 60%,0.6,5,5,1,0.2,0.4,1.0,0.9578347709816888,0.8,4.6
+83,validation_004_5,5,"cinnamon, raisin, coconut, nutmeg, vanilla",V2 70%,0.7,5,5,1,0.0,0.4,1.0,1.0,0.8799999999999999,6.6
+83,validation_004_6,6,"cinnamon, raisin, coconut, nutmeg, vanilla, salt",V2 original,,5,5,1,0.2,0.4,1.0,1.0,0.7333333333333333,4.2
+83,validation_004_6,6,"cinnamon, raisin, coconut, nutmeg, vanilla, salt",V2 50%,0.5,5,5,1,0.2,0.4,1.0,1.0,0.7333333333333333,4.2
+83,validation_004_6,6,"cinnamon, raisin, coconut, nutmeg, vanilla, salt",V2 60%,0.6,5,5,1,0.0,0.4,1.0,1.0,0.8333333333333334,5.6
+83,validation_004_6,6,"cinnamon, raisin, coconut, nutmeg, vanilla, salt",V2 70%,0.7,5,5,1,0.0,0.4,1.0,1.0,0.9,7.0
+83,validation_005_3,3,"mirin, low-sodium, sesame oil",V2 original,,5,5,1,0.6,0.2,1.0,1.0,0.4666666666666666,3.2
+83,validation_005_3,3,"mirin, low-sodium, sesame oil",V2 50%,0.5,5,2,0,0.0,0.2,1.0,0.7337495705923308,0.8333333333333333,7.5
+83,validation_005_3,3,"mirin, low-sodium, sesame oil",V2 60%,0.6,5,2,0,0.0,0.2,1.0,0.7337495705923308,0.8333333333333333,7.5
+83,validation_005_3,3,"mirin, low-sodium, sesame oil",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,7.0
+83,validation_005_4,4,"mirin, low-sodium, sesame oil, bacon",V2 original,,5,5,1,0.6,0.2,1.0,1.0,0.4,3.0
+83,validation_005_4,4,"mirin, low-sodium, sesame oil, bacon",V2 50%,0.5,5,3,0,0.0,0.2,1.0,0.8347911247384279,0.6666666666666666,7.666666666666667
+83,validation_005_4,4,"mirin, low-sodium, sesame oil, bacon",V2 60%,0.6,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,6.0
+83,validation_005_4,4,"mirin, low-sodium, sesame oil, bacon",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,6.0
+83,validation_005_5,5,"mirin, low-sodium, sesame oil, bacon, baby kale",V2 original,,5,5,1,0.8,0.2,1.0,1.0,0.36,2.4
+83,validation_005_5,5,"mirin, low-sodium, sesame oil, bacon, baby kale",V2 50%,0.5,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,5.0
+83,validation_005_5,5,"mirin, low-sodium, sesame oil, bacon, baby kale",V2 60%,0.6,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,5.0
+83,validation_005_5,5,"mirin, low-sodium, sesame oil, bacon, baby kale",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,5.0
+83,validation_005_6,6,"mirin, low-sodium, sesame oil, bacon, baby kale, soy sauce",V2 original,,5,5,1,0.8,0.2,1.0,1.0,0.4666666666666666,2.2
+83,validation_005_6,6,"mirin, low-sodium, sesame oil, bacon, baby kale, soy sauce",V2 50%,0.5,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,4.0
+83,validation_005_6,6,"mirin, low-sodium, sesame oil, bacon, baby kale, soy sauce",V2 60%,0.6,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,4.0
+83,validation_005_6,6,"mirin, low-sodium, sesame oil, bacon, baby kale, soy sauce",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,4.0
+83,validation_006_3,3,"milk, jalapeno chili, onion",V2 original,,5,5,1,0.6,0.2,1.0,1.0,0.5333333333333333,2.6
+83,validation_006_3,3,"milk, jalapeno chili, onion",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.7333333333333332,4.4
+83,validation_006_3,3,"milk, jalapeno chili, onion",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.7333333333333332,4.4
+83,validation_006_3,3,"milk, jalapeno chili, onion",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,9.0
+83,validation_006_4,4,"milk, jalapeno chili, onion, pasta",V2 original,,5,5,1,0.6,0.2,1.0,1.0,0.45,2.6
+83,validation_006_4,4,"milk, jalapeno chili, onion, pasta",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.7,5.0
+83,validation_006_4,4,"milk, jalapeno chili, onion, pasta",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.8,5.8
+83,validation_006_4,4,"milk, jalapeno chili, onion, pasta",V2 70%,0.7,5,5,1,0.0,0.2,1.0,1.0,0.8,5.8
+83,validation_006_5,5,"milk, jalapeno chili, onion, pasta, flour",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.6000000000000001,4.0
+83,validation_006_5,5,"milk, jalapeno chili, onion, pasta, flour",V2 50%,0.5,5,5,1,0.2,0.2,1.0,1.0,0.76,5.2
+83,validation_006_5,5,"milk, jalapeno chili, onion, pasta, flour",V2 60%,0.6,5,5,1,0.2,0.2,1.0,1.0,0.76,5.2
+83,validation_006_5,5,"milk, jalapeno chili, onion, pasta, flour",V2 70%,0.7,5,5,1,0.0,0.2,1.0,1.0,0.8400000000000001,7.6
+83,validation_006_6,6,"milk, jalapeno chili, onion, pasta, flour, breadcrumbs",V2 original,,5,5,1,0.0,0.2,1.0,1.0,0.7333333333333334,5.2
+83,validation_006_6,6,"milk, jalapeno chili, onion, pasta, flour, breadcrumbs",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.7333333333333334,5.2
+83,validation_006_6,6,"milk, jalapeno chili, onion, pasta, flour, breadcrumbs",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.8333333333333334,6.8
+83,validation_006_6,6,"milk, jalapeno chili, onion, pasta, flour, breadcrumbs",V2 70%,0.7,5,4,0,0.0,0.2,1.0,0.9218235822624828,0.8750000000000001,6.75
+83,validation_007_3,3,"bourbon, orange juice, lemon slices",V2 original,,5,5,1,0.4,0.2,1.0,0.850834274847108,0.5333333333333333,2.6
+83,validation_007_3,3,"bourbon, orange juice, lemon slices",V2 50%,0.5,5,2,0,0.0,0.2,1.0,0.5845838454394389,0.8333333333333333,4.0
+83,validation_007_3,3,"bourbon, orange juice, lemon slices",V2 60%,0.6,5,2,0,0.0,0.2,1.0,0.5845838454394389,0.8333333333333333,4.0
+83,validation_007_3,3,"bourbon, orange juice, lemon slices",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,4.0
+83,validation_007_4,4,"bourbon, orange juice, lemon slices, lemon-lime soft drink",V2 original,,5,5,1,0.6,0.2,1.0,1.0,0.45,2.0
+83,validation_007_4,4,"bourbon, orange juice, lemon slices, lemon-lime soft drink",V2 50%,0.5,5,2,0,0.0,0.2,1.0,0.7337495705923308,0.75,3.5
+83,validation_007_4,4,"bourbon, orange juice, lemon slices, lemon-lime soft drink",V2 60%,0.6,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,3.0
+83,validation_007_4,4,"bourbon, orange juice, lemon slices, lemon-lime soft drink",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,3.0
+83,validation_007_5,5,"bourbon, orange juice, lemon slices, lemon-lime soft drink, lemon juice from concentrate",V2 original,,5,5,1,0.8,0.2,1.0,1.0,0.39999999999999997,1.8
+83,validation_007_5,5,"bourbon, orange juice, lemon slices, lemon-lime soft drink, lemon juice from concentrate",V2 50%,0.5,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,2.0
+83,validation_007_5,5,"bourbon, orange juice, lemon slices, lemon-lime soft drink, lemon juice from concentrate",V2 60%,0.6,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,2.0
+83,validation_007_5,5,"bourbon, orange juice, lemon slices, lemon-lime soft drink, lemon juice from concentrate",V2 70%,0.7,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,2.0
+83,validation_007_6,6,"bourbon, orange juice, lemon slices, lemon-lime soft drink, lemon juice from concentrate, frozen lemonade concentrate",V2 original,,5,5,1,0.8,0.2,1.0,1.0,0.3666666666666667,1.6
+83,validation_007_6,6,"bourbon, orange juice, lemon slices, lemon-lime soft drink, lemon juice from concentrate, frozen lemonade concentrate",V2 50%,0.5,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,1.0
+83,validation_007_6,6,"bourbon, orange juice, lemon slices, lemon-lime soft drink, lemon juice from concentrate, frozen lemonade concentrate",V2 60%,0.6,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,1.0
+83,validation_007_6,6,"bourbon, orange juice, lemon slices, lemon-lime soft drink, lemon juice from concentrate, frozen lemonade concentrate",V2 70%,0.7,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,1.0
+83,validation_008_3,3,"brown sugar, sugar, salt",V2 original,,5,5,1,0.4,0.6,0.02586206896551724,0.6312356866612375,0.8666666666666666,3.6
+83,validation_008_3,3,"brown sugar, sugar, salt",V2 50%,0.5,5,5,1,0.4,0.6,0.02586206896551724,0.6312356866612375,0.8666666666666666,3.6
+83,validation_008_3,3,"brown sugar, sugar, salt",V2 60%,0.6,5,5,1,0.4,0.6,0.02586206896551724,0.6312356866612375,0.8666666666666666,3.6
+83,validation_008_3,3,"brown sugar, sugar, salt",V2 70%,0.7,5,5,1,0.0,1.0,0.04310344827586207,1.0,1.0,4.8
+83,validation_008_4,4,"brown sugar, sugar, salt, vanilla",V2 original,,5,5,1,0.6,0.4,0.02564102564102564,0.543765634986343,0.8,2.4
+83,validation_008_4,4,"brown sugar, sugar, salt, vanilla",V2 50%,0.5,5,5,1,0.6,0.4,0.02564102564102564,0.543765634986343,0.8,2.4
+83,validation_008_4,4,"brown sugar, sugar, salt, vanilla",V2 60%,0.6,5,5,1,0.4,0.6,0.038461538461538464,0.6312356866612375,0.9,3.0
+83,validation_008_4,4,"brown sugar, sugar, salt, vanilla",V2 70%,0.7,5,5,1,0.4,0.6,0.038461538461538464,0.6312356866612375,0.9,3.0
+83,validation_008_5,5,"brown sugar, sugar, salt, vanilla, baking powder",V2 original,,5,5,1,0.2,0.0,0.0,0.3333333333333333,0.76,2.6
+83,validation_008_5,5,"brown sugar, sugar, salt, vanilla, baking powder",V2 50%,0.5,5,5,1,0.2,0.0,0.0,0.3333333333333333,0.76,2.6
+83,validation_008_5,5,"brown sugar, sugar, salt, vanilla, baking powder",V2 60%,0.6,5,5,1,0.2,0.0,0.0,0.3333333333333333,0.76,2.6
+83,validation_008_5,5,"brown sugar, sugar, salt, vanilla, baking powder",V2 70%,0.7,5,5,1,0.0,0.0,0.0,0.3333333333333333,0.8,3.2
+83,validation_008_6,6,"brown sugar, sugar, salt, vanilla, baking powder, nut",V2 original,,5,5,1,0.2,0.0,0.0,0.3333333333333333,0.7333333333333333,3.2
+83,validation_008_6,6,"brown sugar, sugar, salt, vanilla, baking powder, nut",V2 50%,0.5,5,5,1,0.2,0.0,0.0,0.3333333333333333,0.7333333333333333,3.2
+83,validation_008_6,6,"brown sugar, sugar, salt, vanilla, baking powder, nut",V2 60%,0.6,5,5,1,0.2,0.0,0.0,0.3333333333333333,0.7333333333333333,3.2
+83,validation_008_6,6,"brown sugar, sugar, salt, vanilla, baking powder, nut",V2 70%,0.7,5,5,1,0.0,0.4,0.4,0.5338567867660998,0.9,4.6
+83,validation_009_3,3,"soy sauce, onion, ham",V2 original,,5,5,1,0.4,0.2,1.0,0.850834274847108,0.5333333333333334,3.6
+83,validation_009_3,3,"soy sauce, onion, ham",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.7333333333333332,6.2
+83,validation_009_3,3,"soy sauce, onion, ham",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.7333333333333332,6.2
+83,validation_009_3,3,"soy sauce, onion, ham",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,7.0
+83,validation_009_4,4,"soy sauce, onion, ham, tabasco sauce",V2 original,,5,5,1,0.6,0.2,1.0,1.0,0.5,3.2
+83,validation_009_4,4,"soy sauce, onion, ham, tabasco sauce",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.65,5.8
+83,validation_009_4,4,"soy sauce, onion, ham, tabasco sauce",V2 60%,0.6,5,2,0,0.0,0.2,1.0,0.7337495705923308,0.875,5.5
+83,validation_009_4,4,"soy sauce, onion, ham, tabasco sauce",V2 70%,0.7,5,2,0,0.0,0.2,1.0,0.7337495705923308,0.875,5.5
+83,validation_009_5,5,"soy sauce, onion, ham, tabasco sauce, salt",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.56,3.8
+83,validation_009_5,5,"soy sauce, onion, ham, tabasco sauce, salt",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.72,5.2
+83,validation_009_5,5,"soy sauce, onion, ham, tabasco sauce, salt",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.72,5.2
+83,validation_009_5,5,"soy sauce, onion, ham, tabasco sauce, salt",V2 70%,0.7,5,2,0,0.0,0.2,1.0,0.7337495705923308,0.9,4.5
+83,validation_009_6,6,"soy sauce, onion, ham, tabasco sauce, salt, potato",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.6333333333333333,2.6
+83,validation_009_6,6,"soy sauce, onion, ham, tabasco sauce, salt, potato",V2 50%,0.5,5,5,1,0.2,0.2,1.0,1.0,0.7,3.6
+83,validation_009_6,6,"soy sauce, onion, ham, tabasco sauce, salt, potato",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.7333333333333332,4.2
+83,validation_009_6,6,"soy sauce, onion, ham, tabasco sauce, salt, potato",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,4.0
+83,validation_010_3,3,"fresh cilantro, red onion, garlic",V2 original,,5,5,1,0.2,0.4,0.15384615384615385,0.6724935386069494,0.7999999999999999,5.2
+83,validation_010_3,3,"fresh cilantro, red onion, garlic",V2 50%,0.5,5,5,1,0.2,0.4,0.15384615384615385,0.6724935386069494,0.7999999999999999,5.2
+83,validation_010_3,3,"fresh cilantro, red onion, garlic",V2 60%,0.6,5,5,1,0.2,0.4,0.15384615384615385,0.6724935386069494,0.7999999999999999,5.2
+83,validation_010_3,3,"fresh cilantro, red onion, garlic",V2 70%,0.7,5,5,1,0.0,1.0,0.38461538461538464,1.0,1.0,9.0
+83,validation_010_4,4,"fresh cilantro, red onion, garlic, lime juice",V2 original,,5,5,1,0.0,0.2,0.3333333333333333,0.6863024195657901,0.8,5.8
+83,validation_010_4,4,"fresh cilantro, red onion, garlic, lime juice",V2 50%,0.5,5,5,1,0.0,0.2,0.3333333333333333,0.6863024195657901,0.8,5.8
+83,validation_010_4,4,"fresh cilantro, red onion, garlic, lime juice",V2 60%,0.6,5,5,1,0.0,0.2,0.3333333333333333,0.6863024195657901,0.8,5.8
+83,validation_010_4,4,"fresh cilantro, red onion, garlic, lime juice",V2 70%,0.7,5,5,1,0.0,0.2,0.3333333333333333,0.6863024195657901,0.8,5.8
+83,validation_010_5,5,"fresh cilantro, red onion, garlic, lime juice, salt",V2 original,,5,5,1,0.0,0.2,1.0,1.0,0.8400000000000001,4.8
+83,validation_010_5,5,"fresh cilantro, red onion, garlic, lime juice, salt",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.8400000000000001,4.8
+83,validation_010_5,5,"fresh cilantro, red onion, garlic, lime juice, salt",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.8400000000000001,4.8
+83,validation_010_5,5,"fresh cilantro, red onion, garlic, lime juice, salt",V2 70%,0.7,5,5,1,0.0,0.2,1.0,1.0,0.8400000000000001,4.8
+83,validation_010_6,6,"fresh cilantro, red onion, garlic, lime juice, salt, vegetable oil",V2 original,,5,5,1,0.2,0.2,1.0,1.0,0.6666666666666666,3.2
+83,validation_010_6,6,"fresh cilantro, red onion, garlic, lime juice, salt, vegetable oil",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.7,4.0
+83,validation_010_6,6,"fresh cilantro, red onion, garlic, lime juice, salt, vegetable oil",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.7333333333333332,4.6
+83,validation_010_6,6,"fresh cilantro, red onion, garlic, lime juice, salt, vegetable oil",V2 70%,0.7,5,2,0,0.0,0.2,1.0,0.7337495705923308,0.9166666666666667,13.0
+83,validation_011_3,3,"milk, salmon, cream of celery soup",V2 original,,5,5,1,0.2,0.2,1.0,1.0,0.7333333333333332,3.8
+83,validation_011_3,3,"milk, salmon, cream of celery soup",V2 50%,0.5,5,5,1,0.2,0.2,1.0,1.0,0.7333333333333332,3.8
+83,validation_011_3,3,"milk, salmon, cream of celery soup",V2 60%,0.6,5,5,1,0.2,0.2,1.0,1.0,0.7333333333333332,3.8
+83,validation_011_3,3,"milk, salmon, cream of celery soup",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,5.0
+83,validation_011_4,4,"milk, salmon, cream of celery soup, pepper",V2 original,,5,5,1,0.2,0.2,1.0,1.0,0.65,4.0
+83,validation_011_4,4,"milk, salmon, cream of celery soup, pepper",V2 50%,0.5,5,5,1,0.2,0.2,1.0,1.0,0.65,4.0
+83,validation_011_4,4,"milk, salmon, cream of celery soup, pepper",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.8,6.0
+83,validation_011_4,4,"milk, salmon, cream of celery soup, pepper",V2 70%,0.7,5,5,1,0.0,0.2,1.0,1.0,0.8,6.0
+83,validation_011_5,5,"milk, salmon, cream of celery soup, pepper, parsley",V2 original,,5,5,1,0.2,0.2,1.0,1.0,0.64,4.2
+83,validation_011_5,5,"milk, salmon, cream of celery soup, pepper, parsley",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.76,6.6
+83,validation_011_5,5,"milk, salmon, cream of celery soup, pepper, parsley",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.76,6.6
+83,validation_011_5,5,"milk, salmon, cream of celery soup, pepper, parsley",V2 70%,0.7,5,3,0,0.0,0.2,1.0,0.8347911247384279,0.8666666666666667,8.0
+83,validation_011_6,6,"milk, salmon, cream of celery soup, pepper, parsley, onion",V2 original,,5,5,1,0.6,0.2,1.0,1.0,0.6666666666666667,3.4
+83,validation_011_6,6,"milk, salmon, cream of celery soup, pepper, parsley, onion",V2 50%,0.5,5,5,1,0.4,0.2,1.0,1.0,0.7,3.6
+83,validation_011_6,6,"milk, salmon, cream of celery soup, pepper, parsley, onion",V2 60%,0.6,5,5,1,0.4,0.2,1.0,1.0,0.8,5.6
+83,validation_011_6,6,"milk, salmon, cream of celery soup, pepper, parsley, onion",V2 70%,0.7,5,3,0,0.3333333333333333,0.2,1.0,0.9086402078338697,0.888888888888889,7.0
+83,validation_012_3,3,"fresh scallop, butter, parsley",V2 original,,5,5,1,0.6,0.2,1.0,1.0,0.7333333333333332,2.8
+83,validation_012_3,3,"fresh scallop, butter, parsley",V2 50%,0.5,5,5,1,0.6,0.2,1.0,1.0,0.7333333333333332,2.8
+83,validation_012_3,3,"fresh scallop, butter, parsley",V2 60%,0.6,5,5,1,0.6,0.2,1.0,1.0,0.7333333333333332,2.8
+83,validation_012_3,3,"fresh scallop, butter, parsley",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,4.0
+83,validation_012_4,4,"fresh scallop, butter, parsley, white wine",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.7,3.2
+83,validation_012_4,4,"fresh scallop, butter, parsley, white wine",V2 50%,0.5,5,5,1,0.4,0.2,1.0,1.0,0.7,3.2
+83,validation_012_4,4,"fresh scallop, butter, parsley, white wine",V2 60%,0.6,5,5,1,0.2,0.2,1.0,1.0,0.8,4.4
+83,validation_012_4,4,"fresh scallop, butter, parsley, white wine",V2 70%,0.7,5,5,1,0.2,0.2,1.0,1.0,0.8,4.4
+83,validation_012_5,5,"fresh scallop, butter, parsley, white wine, noodle",V2 original,,5,5,1,0.8,0.2,1.0,1.0,0.5599999999999999,2.4
+83,validation_012_5,5,"fresh scallop, butter, parsley, white wine, noodle",V2 50%,0.5,5,5,1,0.4,0.2,1.0,1.0,0.68,4.4
+83,validation_012_5,5,"fresh scallop, butter, parsley, white wine, noodle",V2 60%,0.6,5,5,1,0.4,0.2,1.0,1.0,0.68,4.4
+83,validation_012_5,5,"fresh scallop, butter, parsley, white wine, noodle",V2 70%,0.7,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,2.0
+83,validation_012_6,6,"fresh scallop, butter, parsley, white wine, noodle, clove garlic",V2 original,,5,5,1,0.8,0.2,1.0,1.0,0.5333333333333333,2.0
+83,validation_012_6,6,"fresh scallop, butter, parsley, white wine, noodle, clove garlic",V2 50%,0.5,5,5,1,0.4,0.2,1.0,1.0,0.6333333333333333,4.2
+83,validation_012_6,6,"fresh scallop, butter, parsley, white wine, noodle, clove garlic",V2 60%,0.6,5,2,0,1.0,0.2,1.0,0.8527646662062498,0.8333333333333333,1.0
+83,validation_012_6,6,"fresh scallop, butter, parsley, white wine, noodle, clove garlic",V2 70%,0.7,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,1.0
+83,validation_013_3,3,"water chestnut, chicken breast, sour cream",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.7333333333333332,2.8
+83,validation_013_3,3,"water chestnut, chicken breast, sour cream",V2 50%,0.5,5,5,1,0.4,0.2,1.0,1.0,0.7333333333333332,2.8
+83,validation_013_3,3,"water chestnut, chicken breast, sour cream",V2 60%,0.6,5,5,1,0.4,0.2,1.0,1.0,0.7333333333333332,2.8
+83,validation_013_3,3,"water chestnut, chicken breast, sour cream",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,4.0
+83,validation_013_4,4,"water chestnut, chicken breast, sour cream, margarine",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.65,2.4
+83,validation_013_4,4,"water chestnut, chicken breast, sour cream, margarine",V2 50%,0.5,5,5,1,0.4,0.2,1.0,1.0,0.65,2.4
+83,validation_013_4,4,"water chestnut, chicken breast, sour cream, margarine",V2 60%,0.6,5,4,0,0.0,0.2,1.0,0.9218235822624828,0.8125,4.25
+83,validation_013_4,4,"water chestnut, chicken breast, sour cream, margarine",V2 70%,0.7,5,4,0,0.0,0.2,1.0,0.9218235822624828,0.8125,4.25
+83,validation_013_5,5,"water chestnut, chicken breast, sour cream, margarine, onion",V2 original,,5,5,1,0.6,0.2,1.0,1.0,0.6,2.2
+83,validation_013_5,5,"water chestnut, chicken breast, sour cream, margarine, onion",V2 50%,0.5,5,5,1,0.2,0.2,1.0,1.0,0.7200000000000001,3.0
+83,validation_013_5,5,"water chestnut, chicken breast, sour cream, margarine, onion",V2 60%,0.6,5,5,1,0.2,0.2,1.0,1.0,0.7200000000000001,3.0
+83,validation_013_5,5,"water chestnut, chicken breast, sour cream, margarine, onion",V2 70%,0.7,5,3,0,0.3333333333333333,0.2,1.0,0.9086402078338697,0.8666666666666667,3.6666666666666665
+83,validation_013_6,6,"water chestnut, chicken breast, sour cream, margarine, onion, capsicum",V2 original,,5,5,1,0.6,0.2,1.0,1.0,0.5333333333333333,2.0
+83,validation_013_6,6,"water chestnut, chicken breast, sour cream, margarine, onion, capsicum",V2 50%,0.5,5,5,1,0.2,0.2,1.0,1.0,0.6,2.8
+83,validation_013_6,6,"water chestnut, chicken breast, sour cream, margarine, onion, capsicum",V2 60%,0.6,5,5,1,0.2,0.2,1.0,1.0,0.7333333333333332,4.4
+83,validation_013_6,6,"water chestnut, chicken breast, sour cream, margarine, onion, capsicum",V2 70%,0.7,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,1.0
+83,validation_014_3,3,"sugar, cream of tartar, egg",V2 original,,5,5,1,0.0,0.8,0.2,0.8869465982421278,0.9333333333333332,4.4
+83,validation_014_3,3,"sugar, cream of tartar, egg",V2 50%,0.5,5,5,1,0.0,0.8,0.2,0.8869465982421278,0.9333333333333332,4.4
+83,validation_014_3,3,"sugar, cream of tartar, egg",V2 60%,0.6,5,5,1,0.0,0.8,0.2,0.8869465982421278,0.9333333333333332,4.4
+83,validation_014_3,3,"sugar, cream of tartar, egg",V2 70%,0.7,5,5,1,0.0,1.0,0.25,1.0,1.0,4.4
+83,validation_014_4,4,"sugar, cream of tartar, egg, lemon juice",V2 original,,5,5,1,0.2,0.4,1.0,1.0,0.75,3.4
+83,validation_014_4,4,"sugar, cream of tartar, egg, lemon juice",V2 50%,0.5,5,5,1,0.2,0.4,1.0,1.0,0.75,3.4
+83,validation_014_4,4,"sugar, cream of tartar, egg, lemon juice",V2 60%,0.6,5,5,1,0.0,0.4,1.0,1.0,0.85,4.8
+83,validation_014_4,4,"sugar, cream of tartar, egg, lemon juice",V2 70%,0.7,5,5,1,0.0,0.4,1.0,1.0,0.85,4.8
+83,validation_014_5,5,"sugar, cream of tartar, egg, lemon juice, condensed milk",V2 original,,5,5,1,1.0,0.2,1.0,1.0,0.6,1.6
+83,validation_014_5,5,"sugar, cream of tartar, egg, lemon juice, condensed milk",V2 50%,0.5,5,5,1,0.6,0.2,1.0,1.0,0.76,3.0
+83,validation_014_5,5,"sugar, cream of tartar, egg, lemon juice, condensed milk",V2 60%,0.6,5,5,1,0.6,0.2,1.0,1.0,0.76,3.0
+83,validation_014_5,5,"sugar, cream of tartar, egg, lemon juice, condensed milk",V2 70%,0.7,5,5,1,0.4,0.2,1.0,1.0,0.8400000000000001,4.6
+83,validation_014_6,6,"sugar, cream of tartar, egg, lemon juice, condensed milk, lemon zest",V2 original,,5,5,1,0.6,0.2,1.0,1.0,0.7666666666666666,3.0
+83,validation_014_6,6,"sugar, cream of tartar, egg, lemon juice, condensed milk, lemon zest",V2 50%,0.5,5,5,1,0.6,0.2,1.0,1.0,0.7666666666666666,3.0
+83,validation_014_6,6,"sugar, cream of tartar, egg, lemon juice, condensed milk, lemon zest",V2 60%,0.6,5,5,1,0.6,0.2,1.0,1.0,0.7666666666666666,3.0
+83,validation_014_6,6,"sugar, cream of tartar, egg, lemon juice, condensed milk, lemon zest",V2 70%,0.7,5,2,0,0.5,0.2,1.0,0.8527646662062498,0.9166666666666667,3.0
+83,validation_015_3,3,"cream of chicken soup, cream of mushroom soup, butter",V2 original,,5,5,1,0.2,0.4,0.5,0.5958879880976975,0.7999999999999999,4.2
+83,validation_015_3,3,"cream of chicken soup, cream of mushroom soup, butter",V2 50%,0.5,5,5,1,0.2,0.4,0.5,0.5958879880976975,0.7999999999999999,4.2
+83,validation_015_3,3,"cream of chicken soup, cream of mushroom soup, butter",V2 60%,0.6,5,5,1,0.2,0.4,0.5,0.5958879880976975,0.7999999999999999,4.2
+83,validation_015_3,3,"cream of chicken soup, cream of mushroom soup, butter",V2 70%,0.7,5,4,0,0.0,0.8,1.0,0.9520727775370875,1.0,8.5
+83,validation_015_4,4,"cream of chicken soup, cream of mushroom soup, butter, cheddar cheese",V2 original,,5,5,1,0.0,0.2,1.0,1.0,0.8,4.0
+83,validation_015_4,4,"cream of chicken soup, cream of mushroom soup, butter, cheddar cheese",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.8,4.0
+83,validation_015_4,4,"cream of chicken soup, cream of mushroom soup, butter, cheddar cheese",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.8,4.0
+83,validation_015_4,4,"cream of chicken soup, cream of mushroom soup, butter, cheddar cheese",V2 70%,0.7,5,5,1,0.0,0.2,1.0,1.0,0.8,4.0
+83,validation_015_5,5,"cream of chicken soup, cream of mushroom soup, butter, cheddar cheese, water chestnut",V2 original,,5,5,1,0.0,0.2,1.0,1.0,0.68,3.4
+83,validation_015_5,5,"cream of chicken soup, cream of mushroom soup, butter, cheddar cheese, water chestnut",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.68,3.4
+83,validation_015_5,5,"cream of chicken soup, cream of mushroom soup, butter, cheddar cheese, water chestnut",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.68,3.4
+83,validation_015_5,5,"cream of chicken soup, cream of mushroom soup, butter, cheddar cheese, water chestnut",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,3.0
+83,validation_015_6,6,"cream of chicken soup, cream of mushroom soup, butter, cheddar cheese, water chestnut, rice",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.6666666666666666,3.4
+83,validation_015_6,6,"cream of chicken soup, cream of mushroom soup, butter, cheddar cheese, water chestnut, rice",V2 50%,0.5,5,5,1,0.4,0.2,1.0,1.0,0.6666666666666666,3.4
+83,validation_015_6,6,"cream of chicken soup, cream of mushroom soup, butter, cheddar cheese, water chestnut, rice",V2 60%,0.6,5,4,0,0.25,0.2,1.0,0.9567687797312096,0.7499999999999999,4.75
+83,validation_015_6,6,"cream of chicken soup, cream of mushroom soup, butter, cheddar cheese, water chestnut, rice",V2 70%,0.7,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,2.0
+83,validation_016_3,3,"date, flour, egg",V2 original,,5,5,1,0.0,0.8,0.16,0.9125299483251055,0.9333333333333333,5.4
+83,validation_016_3,3,"date, flour, egg",V2 50%,0.5,5,5,1,0.0,0.8,0.16,0.9125299483251055,0.9333333333333333,5.4
+83,validation_016_3,3,"date, flour, egg",V2 60%,0.6,5,5,1,0.0,0.8,0.16,0.9125299483251055,0.9333333333333333,5.4
+83,validation_016_3,3,"date, flour, egg",V2 70%,0.7,5,5,1,0.0,1.0,0.2,1.0,1.0,5.8
+83,validation_016_4,4,"date, flour, egg, nut",V2 original,,5,5,1,0.0,0.8,0.4444444444444444,0.9125299483251055,0.9,4.6
+83,validation_016_4,4,"date, flour, egg, nut",V2 50%,0.5,5,5,1,0.0,0.8,0.4444444444444444,0.9125299483251055,0.9,4.6
+83,validation_016_4,4,"date, flour, egg, nut",V2 60%,0.6,5,5,1,0.0,1.0,0.5555555555555556,1.0,1.0,5.0
+83,validation_016_4,4,"date, flour, egg, nut",V2 70%,0.7,5,5,1,0.0,1.0,0.5555555555555556,1.0,1.0,5.0
+83,validation_016_5,5,"date, flour, egg, nut, grains of salt",V2 original,,5,5,1,0.2,0.2,1.0,1.0,0.8400000000000001,4.6
+83,validation_016_5,5,"date, flour, egg, nut, grains of salt",V2 50%,0.5,5,5,1,0.2,0.2,1.0,1.0,0.8400000000000001,4.6
+83,validation_016_5,5,"date, flour, egg, nut, grains of salt",V2 60%,0.6,5,5,1,0.2,0.2,1.0,1.0,0.8400000000000001,4.6
+83,validation_016_5,5,"date, flour, egg, nut, grains of salt",V2 70%,0.7,5,5,1,0.2,0.2,1.0,1.0,0.8400000000000001,4.6
+83,validation_016_6,6,"date, flour, egg, nut, grains of salt, baking powder",V2 original,,5,5,1,0.2,0.2,1.0,1.0,0.8,3.6
+83,validation_016_6,6,"date, flour, egg, nut, grains of salt, baking powder",V2 50%,0.5,5,5,1,0.2,0.2,1.0,1.0,0.8,3.6
+83,validation_016_6,6,"date, flour, egg, nut, grains of salt, baking powder",V2 60%,0.6,5,5,1,0.2,0.2,1.0,1.0,0.8,3.6
+83,validation_016_6,6,"date, flour, egg, nut, grains of salt, baking powder",V2 70%,0.7,5,3,0,0.3333333333333333,0.2,1.0,0.9086402078338697,0.888888888888889,3.6666666666666665
+83,validation_017_3,3,"vegetable oil, onion, salt",V2 original,,5,5,1,0.4,0.6,0.03571428571428571,0.8415332562760355,0.8666666666666666,3.0
+83,validation_017_3,3,"vegetable oil, onion, salt",V2 50%,0.5,5,5,1,0.4,0.6,0.03571428571428571,0.8415332562760355,0.8666666666666666,3.0
+83,validation_017_3,3,"vegetable oil, onion, salt",V2 60%,0.6,5,5,1,0.4,0.6,0.03571428571428571,0.8415332562760355,0.8666666666666666,3.0
+83,validation_017_3,3,"vegetable oil, onion, salt",V2 70%,0.7,5,5,1,0.2,1.0,0.05952380952380952,1.0,1.0,3.8
+83,validation_017_4,4,"vegetable oil, onion, salt, sugar",V2 original,,5,5,1,0.6,0.2,0.1,0.42080338500822784,0.7,2.8
+83,validation_017_4,4,"vegetable oil, onion, salt, sugar",V2 50%,0.5,5,5,1,0.6,0.2,0.1,0.42080338500822784,0.7,2.8
+83,validation_017_4,4,"vegetable oil, onion, salt, sugar",V2 60%,0.6,5,5,1,0.4,0.4,0.2,0.543765634986343,0.85,3.6
+83,validation_017_4,4,"vegetable oil, onion, salt, sugar",V2 70%,0.7,5,5,1,0.4,0.4,0.2,0.543765634986343,0.85,3.6
+83,validation_017_5,5,"vegetable oil, onion, salt, sugar, bacon drippings",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.68,4.8
+83,validation_017_5,5,"vegetable oil, onion, salt, sugar, bacon drippings",V2 50%,0.5,5,5,1,0.2,0.2,1.0,1.0,0.72,7.0
+83,validation_017_5,5,"vegetable oil, onion, salt, sugar, bacon drippings",V2 60%,0.6,5,5,1,0.2,0.2,1.0,1.0,0.72,7.0
+83,validation_017_5,5,"vegetable oil, onion, salt, sugar, bacon drippings",V2 70%,0.7,5,5,1,0.0,0.2,1.0,1.0,0.8400000000000001,5.8
+83,validation_017_6,6,"vegetable oil, onion, salt, sugar, bacon drippings, green pepper",V2 original,,5,5,1,0.2,0.2,1.0,1.0,0.7,5.4
+83,validation_017_6,6,"vegetable oil, onion, salt, sugar, bacon drippings, green pepper",V2 50%,0.5,5,5,1,0.2,0.2,1.0,1.0,0.7,5.4
+83,validation_017_6,6,"vegetable oil, onion, salt, sugar, bacon drippings, green pepper",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.7666666666666666,4.4
+83,validation_017_6,6,"vegetable oil, onion, salt, sugar, bacon drippings, green pepper",V2 70%,0.7,5,3,0,0.0,0.2,1.0,0.8347911247384279,0.888888888888889,7.333333333333333
+83,validation_018_3,3,"beef, noodle, sour cream",V2 original,,5,5,1,0.4,0.4,0.6666666666666666,0.7226197476513831,0.7333333333333332,3.0
+83,validation_018_3,3,"beef, noodle, sour cream",V2 50%,0.5,5,5,1,0.2,0.6,1.0,0.9686152031181796,0.8666666666666666,4.6
+83,validation_018_3,3,"beef, noodle, sour cream",V2 60%,0.6,5,5,1,0.2,0.6,1.0,0.9686152031181796,0.8666666666666666,4.6
+83,validation_018_3,3,"beef, noodle, sour cream",V2 70%,0.7,5,3,0,0.0,0.6,1.0,0.8866167491742403,1.0,6.0
+83,validation_018_4,4,"beef, noodle, sour cream, onion",V2 original,,5,5,1,0.2,0.4,0.6666666666666666,0.8249925457400985,0.75,3.2
+83,validation_018_4,4,"beef, noodle, sour cream, onion",V2 50%,0.5,5,5,1,0.0,0.4,0.6666666666666666,0.8613098738256916,0.8,3.8
+83,validation_018_4,4,"beef, noodle, sour cream, onion",V2 60%,0.6,5,5,1,0.0,0.4,0.6666666666666666,0.8613098738256916,0.85,4.4
+83,validation_018_4,4,"beef, noodle, sour cream, onion",V2 70%,0.7,5,5,1,0.0,0.4,0.6666666666666666,0.8613098738256916,0.85,4.4
+83,validation_018_5,5,"beef, noodle, sour cream, onion, mushroom stems",V2 original,,5,5,1,0.4,0.4,1.0,1.0,0.76,3.8
+83,validation_018_5,5,"beef, noodle, sour cream, onion, mushroom stems",V2 50%,0.5,5,5,1,0.2,0.4,1.0,1.0,0.8399999999999999,4.6
+83,validation_018_5,5,"beef, noodle, sour cream, onion, mushroom stems",V2 60%,0.6,5,5,1,0.2,0.4,1.0,1.0,0.8399999999999999,4.6
+83,validation_018_5,5,"beef, noodle, sour cream, onion, mushroom stems",V2 70%,0.7,5,4,0,0.25,0.4,1.0,0.9621115832518098,0.8999999999999999,4.75
+83,validation_018_6,6,"beef, noodle, sour cream, onion, mushroom stems, water",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.6666666666666666,3.6
+83,validation_018_6,6,"beef, noodle, sour cream, onion, mushroom stems, water",V2 50%,0.5,5,5,1,0.2,0.2,1.0,1.0,0.7666666666666666,4.2
+83,validation_018_6,6,"beef, noodle, sour cream, onion, mushroom stems, water",V2 60%,0.6,5,5,1,0.2,0.2,1.0,1.0,0.7666666666666666,4.2
+83,validation_018_6,6,"beef, noodle, sour cream, onion, mushroom stems, water",V2 70%,0.7,5,2,0,0.5,0.2,1.0,0.8527646662062498,0.9166666666666667,3.5
+83,validation_019_3,3,"powdered sugar, sugar, butter",V2 original,,5,5,1,0.8,0.6,0.036585365853658534,0.7983277393912901,0.8666666666666666,1.8
+83,validation_019_3,3,"powdered sugar, sugar, butter",V2 50%,0.5,5,5,1,0.8,0.6,0.036585365853658534,0.7983277393912901,0.8666666666666666,1.8
+83,validation_019_3,3,"powdered sugar, sugar, butter",V2 60%,0.6,5,5,1,0.8,0.6,0.036585365853658534,0.7983277393912901,0.8666666666666666,1.8
+83,validation_019_3,3,"powdered sugar, sugar, butter",V2 70%,0.7,5,5,1,0.4,1.0,0.06097560975609756,0.9659238902765536,1.0,2.8
+83,validation_019_4,4,"powdered sugar, sugar, butter, vanilla",V2 original,,5,5,1,1.0,0.2,0.02127659574468085,0.43815442871761234,0.8,1.0
+83,validation_019_4,4,"powdered sugar, sugar, butter, vanilla",V2 50%,0.5,5,5,1,1.0,0.2,0.02127659574468085,0.43815442871761234,0.8,1.0
+83,validation_019_4,4,"powdered sugar, sugar, butter, vanilla",V2 60%,0.6,5,5,1,1.0,0.2,0.02127659574468085,0.43815442871761234,0.8,1.0
+83,validation_019_4,4,"powdered sugar, sugar, butter, vanilla",V2 70%,0.7,5,5,1,1.0,0.2,0.02127659574468085,0.43815442871761234,0.8,1.0
+83,validation_019_5,5,"powdered sugar, sugar, butter, vanilla, milk",V2 original,,5,5,1,0.6,0.6,0.13043478260869565,0.8239164608135049,0.8800000000000001,1.6
+83,validation_019_5,5,"powdered sugar, sugar, butter, vanilla, milk",V2 50%,0.5,5,5,1,0.6,0.6,0.13043478260869565,0.8239164608135049,0.8800000000000001,1.6
+83,validation_019_5,5,"powdered sugar, sugar, butter, vanilla, milk",V2 60%,0.6,5,5,1,0.6,0.6,0.13043478260869565,0.8239164608135049,0.8800000000000001,1.6
+83,validation_019_5,5,"powdered sugar, sugar, butter, vanilla, milk",V2 70%,0.7,5,5,1,0.4,0.8,0.17391304347826086,0.9017654777972858,0.96,2.4
+83,validation_019_6,6,"powdered sugar, sugar, butter, vanilla, milk, active dry yeast",V2 original,,5,5,1,0.6,0.2,1.0,1.0,0.7666666666666667,1.8
+83,validation_019_6,6,"powdered sugar, sugar, butter, vanilla, milk, active dry yeast",V2 50%,0.5,5,5,1,0.6,0.2,1.0,1.0,0.7666666666666667,1.8
+83,validation_019_6,6,"powdered sugar, sugar, butter, vanilla, milk, active dry yeast",V2 60%,0.6,5,5,1,0.4,0.2,1.0,1.0,0.8,2.6
+83,validation_019_6,6,"powdered sugar, sugar, butter, vanilla, milk, active dry yeast",V2 70%,0.7,5,5,1,0.2,0.2,1.0,1.0,0.8666666666666668,3.2
+83,validation_020_3,3,"sugar, lemon juice, condensed milk",V2 original,,5,5,1,0.6,0.4,0.5,0.5678523601931732,0.7333333333333333,1.6
+83,validation_020_3,3,"sugar, lemon juice, condensed milk",V2 50%,0.5,5,5,1,0.4,0.4,0.5,0.5958879880976975,0.7999999999999999,2.2
+83,validation_020_3,3,"sugar, lemon juice, condensed milk",V2 60%,0.6,5,5,1,0.4,0.4,0.5,0.5958879880976975,0.7999999999999999,2.2
+83,validation_020_3,3,"sugar, lemon juice, condensed milk",V2 70%,0.7,5,4,0,0.0,0.8,1.0,0.9520727775370875,1.0,4.25
+83,validation_020_4,4,"sugar, lemon juice, condensed milk, milk",V2 original,,5,5,1,0.8,0.2,1.0,0.6182649318526006,0.65,1.8
+83,validation_020_4,4,"sugar, lemon juice, condensed milk, milk",V2 50%,0.5,5,5,1,0.8,0.2,1.0,0.6647467502342808,0.7,2.2
+83,validation_020_4,4,"sugar, lemon juice, condensed milk, milk",V2 60%,0.6,5,5,1,0.4,0.2,1.0,0.6647467502342808,0.8,2.6
+83,validation_020_4,4,"sugar, lemon juice, condensed milk, milk",V2 70%,0.7,5,5,1,0.4,0.2,1.0,0.6647467502342808,0.8,2.6
+83,validation_020_5,5,"sugar, lemon juice, condensed milk, milk, molds",V2 original,,5,5,1,0.8,0.2,1.0,1.0,0.56,1.2
+83,validation_020_5,5,"sugar, lemon juice, condensed milk, milk, molds",V2 50%,0.5,5,5,1,0.4,0.2,1.0,1.0,0.68,2.4
+83,validation_020_5,5,"sugar, lemon juice, condensed milk, milk, molds",V2 60%,0.6,5,5,1,0.4,0.2,1.0,1.0,0.68,2.4
+83,validation_020_5,5,"sugar, lemon juice, condensed milk, milk, molds",V2 70%,0.7,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,1.0
+83,validation_020_6,6,"sugar, lemon juice, condensed milk, milk, molds, lemon zest",V2 original,,5,5,1,0.6,0.2,1.0,1.0,0.5999999999999999,1.8
+83,validation_020_6,6,"sugar, lemon juice, condensed milk, milk, molds, lemon zest",V2 50%,0.5,5,5,1,0.6,0.2,1.0,1.0,0.6666666666666666,2.2
+83,validation_020_6,6,"sugar, lemon juice, condensed milk, milk, molds, lemon zest",V2 60%,0.6,5,5,1,0.2,0.2,1.0,1.0,0.7333333333333332,3.8
+83,validation_020_6,6,"sugar, lemon juice, condensed milk, milk, molds, lemon zest",V2 70%,0.7,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,0.0
+83,validation_021_3,3,"black pepper, vinegar, cucumber",V2 original,,5,5,1,0.2,0.2,0.5,0.6134648581575844,0.6666666666666667,3.8
+83,validation_021_3,3,"black pepper, vinegar, cucumber",V2 50%,0.5,5,5,1,0.0,0.2,0.5,0.6134648581575844,0.7333333333333333,4.8
+83,validation_021_3,3,"black pepper, vinegar, cucumber",V2 60%,0.6,5,5,1,0.0,0.2,0.5,0.6134648581575844,0.7333333333333333,4.8
+83,validation_021_3,3,"black pepper, vinegar, cucumber",V2 70%,0.7,5,2,0,0.0,0.4,1.0,0.7878483464942911,1.0,10.5
+83,validation_021_4,4,"black pepper, vinegar, cucumber, black olive",V2 original,,5,5,1,0.0,0.2,1.0,1.0,0.65,4.6
+83,validation_021_4,4,"black pepper, vinegar, cucumber, black olive",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.65,4.6
+83,validation_021_4,4,"black pepper, vinegar, cucumber, black olive",V2 60%,0.6,5,4,0,0.0,0.2,1.0,0.9218235822624828,0.8125,10.5
+83,validation_021_4,4,"black pepper, vinegar, cucumber, black olive",V2 70%,0.7,5,4,0,0.0,0.2,1.0,0.9218235822624828,0.8125,10.5
+83,validation_021_5,5,"black pepper, vinegar, cucumber, black olive, celery",V2 original,,5,5,1,0.2,0.2,1.0,1.0,0.5599999999999999,3.4
+83,validation_021_5,5,"black pepper, vinegar, cucumber, black olive, celery",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.68,5.2
+83,validation_021_5,5,"black pepper, vinegar, cucumber, black olive, celery",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.68,5.2
+83,validation_021_5,5,"black pepper, vinegar, cucumber, black olive, celery",V2 70%,0.7,5,2,0,0.0,0.2,1.0,0.7337495705923308,0.9,10.0
+83,validation_021_6,6,"black pepper, vinegar, cucumber, black olive, celery, feta cheese",V2 original,,5,5,1,0.2,0.2,1.0,1.0,0.5666666666666667,4.2
+83,validation_021_6,6,"black pepper, vinegar, cucumber, black olive, celery, feta cheese",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.6,5.8
+83,validation_021_6,6,"black pepper, vinegar, cucumber, black olive, celery, feta cheese",V2 60%,0.6,5,2,0,0.0,0.2,1.0,0.7337495705923308,0.8333333333333333,9.5
+83,validation_021_6,6,"black pepper, vinegar, cucumber, black olive, celery, feta cheese",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,4.0
+83,validation_022_3,3,"green pepper, parmesan cheese, noodle",V2 original,,5,5,1,0.2,0.2,0.5,0.6779553320147448,0.6666666666666666,5.0
+83,validation_022_3,3,"green pepper, parmesan cheese, noodle",V2 50%,0.5,5,5,1,0.0,0.2,0.5,0.7968124369890611,0.7333333333333332,6.4
+83,validation_022_3,3,"green pepper, parmesan cheese, noodle",V2 60%,0.6,5,5,1,0.0,0.2,0.5,0.7968124369890611,0.7333333333333332,6.4
+83,validation_022_3,3,"green pepper, parmesan cheese, noodle",V2 70%,0.7,5,2,0,0.0,0.4,1.0,0.7878483464942911,1.0,8.5
+83,validation_022_4,4,"green pepper, parmesan cheese, noodle, cottage cheese",V2 original,,5,5,1,0.2,0.2,1.0,1.0,0.7,5.2
+83,validation_022_4,4,"green pepper, parmesan cheese, noodle, cottage cheese",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.8,7.0
+83,validation_022_4,4,"green pepper, parmesan cheese, noodle, cottage cheese",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.8,7.0
+83,validation_022_4,4,"green pepper, parmesan cheese, noodle, cottage cheese",V2 70%,0.7,5,5,1,0.0,0.2,1.0,1.0,0.8,7.0
+83,validation_022_5,5,"green pepper, parmesan cheese, noodle, cottage cheese, sauce",V2 original,,5,5,1,0.2,0.2,1.0,1.0,0.6,4.2
+83,validation_022_5,5,"green pepper, parmesan cheese, noodle, cottage cheese, sauce",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.68,6.0
+83,validation_022_5,5,"green pepper, parmesan cheese, noodle, cottage cheese, sauce",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.68,6.0
+83,validation_022_5,5,"green pepper, parmesan cheese, noodle, cottage cheese, sauce",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,4.0
+83,validation_022_6,6,"green pepper, parmesan cheese, noodle, cottage cheese, sauce, turkey",V2 original,,5,5,1,0.2,0.2,1.0,1.0,0.5666666666666667,3.8
+83,validation_022_6,6,"green pepper, parmesan cheese, noodle, cottage cheese, sauce, turkey",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.6333333333333333,5.0
+83,validation_022_6,6,"green pepper, parmesan cheese, noodle, cottage cheese, sauce, turkey",V2 60%,0.6,5,2,0,0.0,0.2,1.0,0.7337495705923308,0.8333333333333333,4.0
+83,validation_022_6,6,"green pepper, parmesan cheese, noodle, cottage cheese, sauce, turkey",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,3.0
+83,validation_023_3,3,"endive, kosher salt, white wine vinegar",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.5333333333333333,4.0
+83,validation_023_3,3,"endive, kosher salt, white wine vinegar",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.7333333333333332,8.8
+83,validation_023_3,3,"endive, kosher salt, white wine vinegar",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.7333333333333332,8.8
+83,validation_023_3,3,"endive, kosher salt, white wine vinegar",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,5.0
+83,validation_023_4,4,"endive, kosher salt, white wine vinegar, black pepper",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.55,3.6
+83,validation_023_4,4,"endive, kosher salt, white wine vinegar, black pepper",V2 50%,0.5,5,5,1,0.4,0.2,1.0,1.0,0.6,3.0
+83,validation_023_4,4,"endive, kosher salt, white wine vinegar, black pepper",V2 60%,0.6,5,4,0,0.0,0.2,1.0,0.9218235822624828,0.8125,10.75
+83,validation_023_4,4,"endive, kosher salt, white wine vinegar, black pepper",V2 70%,0.7,5,4,0,0.0,0.2,1.0,0.9218235822624828,0.8125,10.75
+83,validation_023_5,5,"endive, kosher salt, white wine vinegar, black pepper, toasted walnut halves",V2 original,,5,5,1,0.6,0.2,1.0,1.0,0.48,2.4
+83,validation_023_5,5,"endive, kosher salt, white wine vinegar, black pepper, toasted walnut halves",V2 50%,0.5,5,4,0,0.0,0.2,1.0,0.9218235822624828,0.7000000000000001,10.5
+83,validation_023_5,5,"endive, kosher salt, white wine vinegar, black pepper, toasted walnut halves",V2 60%,0.6,5,4,0,0.0,0.2,1.0,0.9218235822624828,0.7000000000000001,10.5
+83,validation_023_5,5,"endive, kosher salt, white wine vinegar, black pepper, toasted walnut halves",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,3.0
+83,validation_023_6,6,"endive, kosher salt, white wine vinegar, black pepper, toasted walnut halves, olive oil",V2 original,,5,5,1,1.0,0.2,1.0,1.0,0.5,1.4
+83,validation_023_6,6,"endive, kosher salt, white wine vinegar, black pepper, toasted walnut halves, olive oil",V2 50%,0.5,5,5,1,0.6,0.2,1.0,1.0,0.6666666666666666,5.2
+83,validation_023_6,6,"endive, kosher salt, white wine vinegar, black pepper, toasted walnut halves, olive oil",V2 60%,0.6,5,4,0,0.25,0.2,1.0,0.9567687797312096,0.7499999999999999,9.5
+83,validation_023_6,6,"endive, kosher salt, white wine vinegar, black pepper, toasted walnut halves, olive oil",V2 70%,0.7,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,2.0
+83,validation_024_3,3,"baking powder, milk, salt",V2 original,,5,5,1,0.8,0.8,0.019417475728155338,0.6608397947263838,0.9333333333333332,2.0
+83,validation_024_3,3,"baking powder, milk, salt",V2 50%,0.5,5,5,1,0.8,0.8,0.019417475728155338,0.6608397947263838,0.9333333333333332,2.0
+83,validation_024_3,3,"baking powder, milk, salt",V2 60%,0.6,5,5,1,0.8,0.8,0.019417475728155338,0.6608397947263838,0.9333333333333332,2.0
+83,validation_024_3,3,"baking powder, milk, salt",V2 70%,0.7,5,5,1,0.8,1.0,0.024271844660194174,0.8061941684150765,1.0,2.2
+83,validation_024_4,4,"baking powder, milk, salt, flour",V2 original,,5,5,1,0.8,1.0,0.029069767441860465,0.9250256699929476,1.0,1.6
+83,validation_024_4,4,"baking powder, milk, salt, flour",V2 50%,0.5,5,5,1,0.8,1.0,0.029069767441860465,0.9250256699929476,1.0,1.6
+83,validation_024_4,4,"baking powder, milk, salt, flour",V2 60%,0.6,5,5,1,0.8,1.0,0.029069767441860465,0.9250256699929476,1.0,1.6
+83,validation_024_4,4,"baking powder, milk, salt, flour",V2 70%,0.7,5,5,1,0.8,1.0,0.029069767441860465,0.9250256699929476,1.0,1.6
+83,validation_024_5,5,"baking powder, milk, salt, flour, egg",V2 original,,5,5,1,1.0,0.8,0.02877697841726619,0.8747985572776802,0.96,1.4
+83,validation_024_5,5,"baking powder, milk, salt, flour, egg",V2 50%,0.5,5,5,1,1.0,0.8,0.02877697841726619,0.8747985572776802,0.96,1.4
+83,validation_024_5,5,"baking powder, milk, salt, flour, egg",V2 60%,0.6,5,5,1,1.0,0.8,0.02877697841726619,0.8747985572776802,0.96,1.4
+83,validation_024_5,5,"baking powder, milk, salt, flour, egg",V2 70%,0.7,5,5,1,1.0,0.8,0.02877697841726619,0.8747985572776802,0.96,1.4
+83,validation_024_6,6,"baking powder, milk, salt, flour, egg, sugar",V2 original,,5,5,1,1.0,0.8,0.037383177570093455,0.8875385049894211,0.9666666666666666,0.6
+83,validation_024_6,6,"baking powder, milk, salt, flour, egg, sugar",V2 50%,0.5,5,5,1,1.0,0.8,0.037383177570093455,0.8875385049894211,0.9666666666666666,0.6
+83,validation_024_6,6,"baking powder, milk, salt, flour, egg, sugar",V2 60%,0.6,5,5,1,1.0,0.8,0.037383177570093455,0.8875385049894211,0.9666666666666666,0.6
+83,validation_024_6,6,"baking powder, milk, salt, flour, egg, sugar",V2 70%,0.7,5,5,1,1.0,0.8,0.037383177570093455,0.8875385049894211,0.9666666666666666,0.6
+83,validation_025_3,3,"hoagie roll, tomato, lemon wedge",V2 original,,5,5,1,0.0,0.2,1.0,1.0,0.6,7.0
+83,validation_025_3,3,"hoagie roll, tomato, lemon wedge",V2 50%,0.5,5,3,0,0.0,0.2,1.0,0.8347911247384279,0.7777777777777777,8.0
+83,validation_025_3,3,"hoagie roll, tomato, lemon wedge",V2 60%,0.6,5,3,0,0.0,0.2,1.0,0.8347911247384279,0.7777777777777777,8.0
+83,validation_025_3,3,"hoagie roll, tomato, lemon wedge",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,8.0
+83,validation_025_4,4,"hoagie roll, tomato, lemon wedge, ham",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.5,4.4
+83,validation_025_4,4,"hoagie roll, tomato, lemon wedge, ham",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.6,7.0
+83,validation_025_4,4,"hoagie roll, tomato, lemon wedge, ham",V2 60%,0.6,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,7.0
+83,validation_025_4,4,"hoagie roll, tomato, lemon wedge, ham",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,7.0
+83,validation_025_5,5,"hoagie roll, tomato, lemon wedge, ham, low-fat",V2 original,,5,5,1,0.8,0.2,1.0,1.0,0.36,2.6
+83,validation_025_5,5,"hoagie roll, tomato, lemon wedge, ham, low-fat",V2 50%,0.5,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,6.0
+83,validation_025_5,5,"hoagie roll, tomato, lemon wedge, ham, low-fat",V2 60%,0.6,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,6.0
+83,validation_025_5,5,"hoagie roll, tomato, lemon wedge, ham, low-fat",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,6.0
+83,validation_025_6,6,"hoagie roll, tomato, lemon wedge, ham, low-fat, oyster",V2 original,,5,5,1,0.6,0.2,1.0,1.0,0.3666666666666667,2.8
+83,validation_025_6,6,"hoagie roll, tomato, lemon wedge, ham, low-fat, oyster",V2 50%,0.5,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,5.0
+83,validation_025_6,6,"hoagie roll, tomato, lemon wedge, ham, low-fat, oyster",V2 60%,0.6,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,5.0
+83,validation_025_6,6,"hoagie roll, tomato, lemon wedge, ham, low-fat, oyster",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,5.0
+83,validation_026_3,3,"pecan, zucchini, soda",V2 original,,5,5,1,0.2,0.4,1.0,1.0,0.7333333333333333,6.2
+83,validation_026_3,3,"pecan, zucchini, soda",V2 50%,0.5,5,5,1,0.0,0.4,1.0,1.0,0.7999999999999999,7.4
+83,validation_026_3,3,"pecan, zucchini, soda",V2 60%,0.6,5,5,1,0.0,0.4,1.0,1.0,0.7999999999999999,7.4
+83,validation_026_3,3,"pecan, zucchini, soda",V2 70%,0.7,5,2,0,0.0,0.4,1.0,0.7878483464942911,1.0,8.0
+83,validation_026_4,4,"pecan, zucchini, soda, lemon zest",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.55,4.8
+83,validation_026_4,4,"pecan, zucchini, soda, lemon zest",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.65,7.2
+83,validation_026_4,4,"pecan, zucchini, soda, lemon zest",V2 60%,0.6,5,2,0,0.0,0.2,1.0,0.7337495705923308,0.875,7.5
+83,validation_026_4,4,"pecan, zucchini, soda, lemon zest",V2 70%,0.7,5,2,0,0.0,0.2,1.0,0.7337495705923308,0.875,7.5
+83,validation_026_5,5,"pecan, zucchini, soda, lemon zest, cinnamon",V2 original,,5,5,1,0.0,0.2,1.0,1.0,0.72,6.6
+83,validation_026_5,5,"pecan, zucchini, soda, lemon zest, cinnamon",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.72,6.6
+83,validation_026_5,5,"pecan, zucchini, soda, lemon zest, cinnamon",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.72,6.6
+83,validation_026_5,5,"pecan, zucchini, soda, lemon zest, cinnamon",V2 70%,0.7,5,2,0,0.0,0.2,1.0,0.7337495705923308,0.9,6.5
+83,validation_026_6,6,"pecan, zucchini, soda, lemon zest, cinnamon, baking powder",V2 original,,5,5,1,0.0,0.2,1.0,1.0,0.7333333333333333,6.2
+83,validation_026_6,6,"pecan, zucchini, soda, lemon zest, cinnamon, baking powder",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.7333333333333333,6.2
+83,validation_026_6,6,"pecan, zucchini, soda, lemon zest, cinnamon, baking powder",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.7666666666666666,6.4
+83,validation_026_6,6,"pecan, zucchini, soda, lemon zest, cinnamon, baking powder",V2 70%,0.7,5,2,0,0.0,0.2,1.0,0.7337495705923308,0.9166666666666667,5.5
+83,validation_027_3,3,"dill, celery, water",V2 original,,5,5,1,0.4,0.2,0.5,0.6779553320147448,0.6666666666666666,3.2
+83,validation_027_3,3,"dill, celery, water",V2 50%,0.5,5,5,1,0.2,0.2,0.5,0.7968124369890611,0.7333333333333332,4.0
+83,validation_027_3,3,"dill, celery, water",V2 60%,0.6,5,5,1,0.2,0.2,0.5,0.7968124369890611,0.7333333333333332,4.0
+83,validation_027_3,3,"dill, celery, water",V2 70%,0.7,5,2,0,0.0,0.4,1.0,0.7878483464942911,1.0,6.0
+83,validation_027_4,4,"dill, celery, water, unsalted butter",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.55,3.0
+83,validation_027_4,4,"dill, celery, water, unsalted butter",V2 50%,0.5,5,5,1,0.2,0.2,1.0,1.0,0.6,3.8
+83,validation_027_4,4,"dill, celery, water, unsalted butter",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.8,10.0
+83,validation_027_4,4,"dill, celery, water, unsalted butter",V2 70%,0.7,5,5,1,0.0,0.2,1.0,1.0,0.8,10.0
+83,validation_027_5,5,"dill, celery, water, unsalted butter, milk",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.48,2.8
+83,validation_027_5,5,"dill, celery, water, unsalted butter, milk",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.7200000000000001,7.6
+83,validation_027_5,5,"dill, celery, water, unsalted butter, milk",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.7200000000000001,7.6
+83,validation_027_5,5,"dill, celery, water, unsalted butter, milk",V2 70%,0.7,5,3,0,0.0,0.2,1.0,0.8347911247384279,0.8666666666666667,9.333333333333334
+83,validation_027_6,6,"dill, celery, water, unsalted butter, milk, russet potato",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.4666666666666666,3.2
+83,validation_027_6,6,"dill, celery, water, unsalted butter, milk, russet potato",V2 50%,0.5,5,5,1,0.2,0.2,1.0,1.0,0.6333333333333333,9.6
+83,validation_027_6,6,"dill, celery, water, unsalted butter, milk, russet potato",V2 60%,0.6,5,3,0,0.3333333333333333,0.2,1.0,0.9086402078338697,0.7777777777777777,9.0
+83,validation_027_6,6,"dill, celery, water, unsalted butter, milk, russet potato",V2 70%,0.7,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,2.0
+83,validation_028_3,3,"turmeric, white vinegar, celery",V2 original,,5,5,1,0.2,0.8,1.0,0.9719643720954755,0.8666666666666668,5.0
+83,validation_028_3,3,"turmeric, white vinegar, celery",V2 50%,0.5,5,5,1,0.0,0.8,1.0,1.0,0.9333333333333333,5.8
+83,validation_028_3,3,"turmeric, white vinegar, celery",V2 60%,0.6,5,5,1,0.0,0.8,1.0,1.0,0.9333333333333333,5.8
+83,validation_028_3,3,"turmeric, white vinegar, celery",V2 70%,0.7,5,4,0,0.0,0.8,1.0,0.9520727775370875,1.0,6.0
+83,validation_028_4,4,"turmeric, white vinegar, celery, onion",V2 original,,5,5,1,0.0,0.8,1.0,1.0,0.95,4.8
+83,validation_028_4,4,"turmeric, white vinegar, celery, onion",V2 50%,0.5,5,5,1,0.0,0.8,1.0,1.0,0.95,4.8
+83,validation_028_4,4,"turmeric, white vinegar, celery, onion",V2 60%,0.6,5,5,1,0.0,0.8,1.0,1.0,0.95,4.8
+83,validation_028_4,4,"turmeric, white vinegar, celery, onion",V2 70%,0.7,5,5,1,0.0,0.8,1.0,1.0,0.95,4.8
+83,validation_028_5,5,"turmeric, white vinegar, celery, onion, coarse salt",V2 original,,5,5,1,0.2,0.2,1.0,1.0,0.68,4.0
+83,validation_028_5,5,"turmeric, white vinegar, celery, onion, coarse salt",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.76,4.6
+83,validation_028_5,5,"turmeric, white vinegar, celery, onion, coarse salt",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.76,4.6
+83,validation_028_5,5,"turmeric, white vinegar, celery, onion, coarse salt",V2 70%,0.7,5,4,0,0.0,0.2,1.0,0.9218235822624828,0.8500000000000001,4.75
+83,validation_028_6,6,"turmeric, white vinegar, celery, onion, coarse salt, red",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.5666666666666667,2.6
+83,validation_028_6,6,"turmeric, white vinegar, celery, onion, coarse salt, red",V2 50%,0.5,5,5,1,0.2,0.2,1.0,1.0,0.6666666666666666,3.8
+83,validation_028_6,6,"turmeric, white vinegar, celery, onion, coarse salt, red",V2 60%,0.6,5,4,0,0.25,0.2,1.0,0.9567687797312096,0.7499999999999999,4.5
+83,validation_028_6,6,"turmeric, white vinegar, celery, onion, coarse salt, red",V2 70%,0.7,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,2.0
+83,validation_029_3,3,"flour, sugar, light",V2 original,,5,5,1,0.6,0.2,1.0,1.0,0.7333333333333332,2.8
+83,validation_029_3,3,"flour, sugar, light",V2 50%,0.5,5,5,1,0.6,0.2,1.0,1.0,0.7333333333333332,2.8
+83,validation_029_3,3,"flour, sugar, light",V2 60%,0.6,5,5,1,0.6,0.2,1.0,1.0,0.7333333333333332,2.8
+83,validation_029_3,3,"flour, sugar, light",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,5.0
+83,validation_029_4,4,"flour, sugar, light, active dry yeast",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.7,3.2
+83,validation_029_4,4,"flour, sugar, light, active dry yeast",V2 50%,0.5,5,5,1,0.4,0.2,1.0,1.0,0.7,3.2
+83,validation_029_4,4,"flour, sugar, light, active dry yeast",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.8,4.4
+83,validation_029_4,4,"flour, sugar, light, active dry yeast",V2 70%,0.7,5,5,1,0.0,0.2,1.0,1.0,0.8,4.4
+83,validation_029_5,5,"flour, sugar, light, active dry yeast, salt",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.8,2.8
+83,validation_029_5,5,"flour, sugar, light, active dry yeast, salt",V2 50%,0.5,5,5,1,0.4,0.2,1.0,1.0,0.8,2.8
+83,validation_029_5,5,"flour, sugar, light, active dry yeast, salt",V2 60%,0.6,5,5,1,0.4,0.2,1.0,1.0,0.8,2.8
+83,validation_029_5,5,"flour, sugar, light, active dry yeast, salt",V2 70%,0.7,5,5,1,0.2,0.2,1.0,1.0,0.8400000000000001,3.4
+83,validation_029_6,6,"flour, sugar, light, active dry yeast, salt, olive oil",V2 original,,5,5,1,0.6,0.2,1.0,1.0,0.7333333333333333,2.2
+83,validation_029_6,6,"flour, sugar, light, active dry yeast, salt, olive oil",V2 50%,0.5,5,5,1,0.6,0.2,1.0,1.0,0.7333333333333333,2.2
+83,validation_029_6,6,"flour, sugar, light, active dry yeast, salt, olive oil",V2 60%,0.6,5,5,1,0.4,0.2,1.0,1.0,0.7666666666666666,2.8
+83,validation_029_6,6,"flour, sugar, light, active dry yeast, salt, olive oil",V2 70%,0.7,5,5,1,0.2,0.2,1.0,1.0,0.8666666666666668,6.4
+83,validation_030_3,3,"vanilla, egg, baking soda",V2 original,,5,5,1,0.2,1.0,0.02109704641350211,1.0,1.0,4.0
+83,validation_030_3,3,"vanilla, egg, baking soda",V2 50%,0.5,5,5,1,0.2,1.0,0.02109704641350211,1.0,1.0,4.0
+83,validation_030_3,3,"vanilla, egg, baking soda",V2 60%,0.6,5,5,1,0.2,1.0,0.02109704641350211,1.0,1.0,4.0
+83,validation_030_3,3,"vanilla, egg, baking soda",V2 70%,0.7,5,5,1,0.2,1.0,0.02109704641350211,1.0,1.0,4.0
+83,validation_030_4,4,"vanilla, egg, baking soda, cocoa",V2 original,,5,5,1,0.0,1.0,0.16129032258064516,1.0,1.0,4.8
+83,validation_030_4,4,"vanilla, egg, baking soda, cocoa",V2 50%,0.5,5,5,1,0.0,1.0,0.16129032258064516,1.0,1.0,4.8
+83,validation_030_4,4,"vanilla, egg, baking soda, cocoa",V2 60%,0.6,5,5,1,0.0,1.0,0.16129032258064516,1.0,1.0,4.8
+83,validation_030_4,4,"vanilla, egg, baking soda, cocoa",V2 70%,0.7,5,5,1,0.0,1.0,0.16129032258064516,1.0,1.0,4.8
+83,validation_030_5,5,"vanilla, egg, baking soda, cocoa, mayonnaise",V2 original,,5,5,1,0.0,0.4,1.0,1.0,0.8399999999999999,4.0
+83,validation_030_5,5,"vanilla, egg, baking soda, cocoa, mayonnaise",V2 50%,0.5,5,5,1,0.0,0.4,1.0,1.0,0.8399999999999999,4.0
+83,validation_030_5,5,"vanilla, egg, baking soda, cocoa, mayonnaise",V2 60%,0.6,5,5,1,0.0,0.4,1.0,1.0,0.8399999999999999,4.0
+83,validation_030_5,5,"vanilla, egg, baking soda, cocoa, mayonnaise",V2 70%,0.7,5,5,1,0.0,0.4,1.0,1.0,0.8799999999999999,4.4
+83,validation_030_6,6,"vanilla, egg, baking soda, cocoa, mayonnaise, water",V2 original,,5,5,1,0.2,0.4,1.0,1.0,0.8333333333333334,3.2
+83,validation_030_6,6,"vanilla, egg, baking soda, cocoa, mayonnaise, water",V2 50%,0.5,5,5,1,0.2,0.4,1.0,1.0,0.8333333333333334,3.2
+83,validation_030_6,6,"vanilla, egg, baking soda, cocoa, mayonnaise, water",V2 60%,0.6,5,5,1,0.0,0.4,1.0,1.0,0.8666666666666668,3.8
+83,validation_030_6,6,"vanilla, egg, baking soda, cocoa, mayonnaise, water",V2 70%,0.7,5,5,1,0.0,0.4,1.0,1.0,0.9,4.4
+83,validation_031_3,3,"fresh basil, egg, breadcrumbs",V2 original,,5,5,1,0.0,0.6,1.0,1.0,0.8666666666666666,6.4
+83,validation_031_3,3,"fresh basil, egg, breadcrumbs",V2 50%,0.5,5,5,1,0.0,0.6,1.0,1.0,0.8666666666666666,6.4
+83,validation_031_3,3,"fresh basil, egg, breadcrumbs",V2 60%,0.6,5,5,1,0.0,0.6,1.0,1.0,0.8666666666666666,6.4
+83,validation_031_3,3,"fresh basil, egg, breadcrumbs",V2 70%,0.7,5,3,0,0.0,0.6,1.0,0.8866167491742403,1.0,6.666666666666667
+83,validation_031_4,4,"fresh basil, egg, breadcrumbs, hamburger",V2 original,,5,5,1,0.0,0.2,1.0,1.0,0.8,4.6
+83,validation_031_4,4,"fresh basil, egg, breadcrumbs, hamburger",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.8,4.6
+83,validation_031_4,4,"fresh basil, egg, breadcrumbs, hamburger",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.8,4.6
+83,validation_031_4,4,"fresh basil, egg, breadcrumbs, hamburger",V2 70%,0.7,5,5,1,0.0,0.2,1.0,1.0,0.8,4.6
+83,validation_031_5,5,"fresh basil, egg, breadcrumbs, hamburger, garlic",V2 original,,5,5,1,0.0,0.2,1.0,1.0,0.72,4.2
+83,validation_031_5,5,"fresh basil, egg, breadcrumbs, hamburger, garlic",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.72,4.2
+83,validation_031_5,5,"fresh basil, egg, breadcrumbs, hamburger, garlic",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.72,4.2
+83,validation_031_5,5,"fresh basil, egg, breadcrumbs, hamburger, garlic",V2 70%,0.7,5,3,0,0.0,0.2,1.0,0.8347911247384279,0.8666666666666667,5.666666666666667
+83,validation_031_6,6,"fresh basil, egg, breadcrumbs, hamburger, garlic, oregano",V2 original,,5,5,1,0.0,0.2,1.0,1.0,0.6333333333333333,4.0
+83,validation_031_6,6,"fresh basil, egg, breadcrumbs, hamburger, garlic, oregano",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.6333333333333333,4.0
+83,validation_031_6,6,"fresh basil, egg, breadcrumbs, hamburger, garlic, oregano",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.7333333333333332,6.6
+83,validation_031_6,6,"fresh basil, egg, breadcrumbs, hamburger, garlic, oregano",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,4.0
+83,validation_032_3,3,"potato, sugar, egg",V2 original,,5,5,1,0.8,0.2,0.08333333333333333,0.6966287459243109,0.6,1.2
+83,validation_032_3,3,"potato, sugar, egg",V2 50%,0.5,5,5,1,0.4,0.4,0.16666666666666666,0.7568609674455612,0.7999999999999999,2.6
+83,validation_032_3,3,"potato, sugar, egg",V2 60%,0.6,5,5,1,0.4,0.4,0.16666666666666666,0.7568609674455612,0.7999999999999999,2.6
+83,validation_032_3,3,"potato, sugar, egg",V2 70%,0.7,5,5,1,0.2,1.0,0.4166666666666667,1.0,1.0,4.4
+83,validation_032_4,4,"potato, sugar, egg, milk",V2 original,,5,5,1,0.8,0.2,0.2,0.42080338500822784,0.75,2.0
+83,validation_032_4,4,"potato, sugar, egg, milk",V2 50%,0.5,5,5,1,0.8,0.2,0.2,0.42080338500822784,0.75,2.0
+83,validation_032_4,4,"potato, sugar, egg, milk",V2 60%,0.6,5,5,1,0.6,0.4,0.4,0.5181822849033655,0.85,2.4
+83,validation_032_4,4,"potato, sugar, egg, milk",V2 70%,0.7,5,5,1,0.6,0.4,0.4,0.5181822849033655,0.85,2.4
+83,validation_032_5,5,"potato, sugar, egg, milk, butter",V2 original,,5,5,1,0.6,0.4,0.4,0.543765634986343,0.8400000000000001,1.8
+83,validation_032_5,5,"potato, sugar, egg, milk, butter",V2 50%,0.5,5,5,1,0.6,0.4,0.4,0.543765634986343,0.8400000000000001,1.8
+83,validation_032_5,5,"potato, sugar, egg, milk, butter",V2 60%,0.6,5,5,1,0.6,0.4,0.4,0.543765634986343,0.8400000000000001,1.8
+83,validation_032_5,5,"potato, sugar, egg, milk, butter",V2 70%,0.7,5,5,1,0.6,0.4,0.4,0.5890442449142237,0.8799999999999999,2.0
+83,validation_032_6,6,"potato, sugar, egg, milk, butter, cinnamon",V2 original,,5,5,1,1.0,0.2,1.0,1.0,0.7,1.0
+83,validation_032_6,6,"potato, sugar, egg, milk, butter, cinnamon",V2 50%,0.5,5,5,1,1.0,0.2,1.0,1.0,0.7,1.0
+83,validation_032_6,6,"potato, sugar, egg, milk, butter, cinnamon",V2 60%,0.6,5,5,1,0.8,0.2,1.0,1.0,0.8,1.6
+83,validation_032_6,6,"potato, sugar, egg, milk, butter, cinnamon",V2 70%,0.7,5,5,1,0.4,0.2,1.0,1.0,0.8666666666666668,2.4
+83,validation_033_3,3,"mascarpone cheese, white breadcrumb, tomato",V2 original,,5,5,1,0.0,0.2,1.0,1.0,0.4666666666666666,8.6
+83,validation_033_3,3,"mascarpone cheese, white breadcrumb, tomato",V2 50%,0.5,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,8.0
+83,validation_033_3,3,"mascarpone cheese, white breadcrumb, tomato",V2 60%,0.6,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,8.0
+83,validation_033_3,3,"mascarpone cheese, white breadcrumb, tomato",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,8.0
+83,validation_033_4,4,"mascarpone cheese, white breadcrumb, tomato, mozzarella cheese",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.55,3.6
+83,validation_033_4,4,"mascarpone cheese, white breadcrumb, tomato, mozzarella cheese",V2 50%,0.5,5,5,1,0.2,0.2,1.0,1.0,0.6,4.4
+83,validation_033_4,4,"mascarpone cheese, white breadcrumb, tomato, mozzarella cheese",V2 60%,0.6,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,7.0
+83,validation_033_4,4,"mascarpone cheese, white breadcrumb, tomato, mozzarella cheese",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,7.0
+83,validation_033_5,5,"mascarpone cheese, white breadcrumb, tomato, mozzarella cheese, red onion",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.5599999999999999,4.8
+83,validation_033_5,5,"mascarpone cheese, white breadcrumb, tomato, mozzarella cheese, red onion",V2 50%,0.5,5,4,0,0.0,0.2,1.0,0.9218235822624828,0.7000000000000001,10.0
+83,validation_033_5,5,"mascarpone cheese, white breadcrumb, tomato, mozzarella cheese, red onion",V2 60%,0.6,5,4,0,0.0,0.2,1.0,0.9218235822624828,0.7000000000000001,10.0
+83,validation_033_5,5,"mascarpone cheese, white breadcrumb, tomato, mozzarella cheese, red onion",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,6.0
+83,validation_033_6,6,"mascarpone cheese, white breadcrumb, tomato, mozzarella cheese, red onion, basil",V2 original,,5,5,1,0.0,0.2,1.0,1.0,0.5333333333333333,4.0
+83,validation_033_6,6,"mascarpone cheese, white breadcrumb, tomato, mozzarella cheese, red onion, basil",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.6,5.0
+83,validation_033_6,6,"mascarpone cheese, white breadcrumb, tomato, mozzarella cheese, red onion, basil",V2 60%,0.6,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,5.0
+83,validation_033_6,6,"mascarpone cheese, white breadcrumb, tomato, mozzarella cheese, red onion, basil",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,5.0
+83,validation_034_3,3,"pepper, butter, salmon",V2 original,,5,5,1,0.2,0.4,0.6666666666666666,0.7936077488582781,0.7333333333333333,4.8
+83,validation_034_3,3,"pepper, butter, salmon",V2 50%,0.5,5,5,1,0.2,0.4,0.6666666666666666,0.8057635919248217,0.7999999999999999,5.0
+83,validation_034_3,3,"pepper, butter, salmon",V2 60%,0.6,5,5,1,0.2,0.4,0.6666666666666666,0.8057635919248217,0.7999999999999999,5.0
+83,validation_034_3,3,"pepper, butter, salmon",V2 70%,0.7,5,3,0,0.0,0.6,1.0,0.8866167491742403,1.0,8.333333333333334
+83,validation_034_4,4,"pepper, butter, salmon, yellow onion",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.55,4.4
+83,validation_034_4,4,"pepper, butter, salmon, yellow onion",V2 50%,0.5,5,5,1,0.4,0.2,1.0,1.0,0.65,4.4
+83,validation_034_4,4,"pepper, butter, salmon, yellow onion",V2 60%,0.6,5,3,0,0.0,0.2,1.0,0.8347911247384279,0.8333333333333334,8.0
+83,validation_034_4,4,"pepper, butter, salmon, yellow onion",V2 70%,0.7,5,3,0,0.0,0.2,1.0,0.8347911247384279,0.8333333333333334,8.0
+83,validation_034_5,5,"pepper, butter, salmon, yellow onion, artichoke",V2 original,,5,5,1,0.6,0.2,1.0,1.0,0.44000000000000006,3.2
+83,validation_034_5,5,"pepper, butter, salmon, yellow onion, artichoke",V2 50%,0.5,5,3,0,0.0,0.2,1.0,0.8347911247384279,0.7333333333333334,7.666666666666667
+83,validation_034_5,5,"pepper, butter, salmon, yellow onion, artichoke",V2 60%,0.6,5,3,0,0.0,0.2,1.0,0.8347911247384279,0.7333333333333334,7.666666666666667
+83,validation_034_5,5,"pepper, butter, salmon, yellow onion, artichoke",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,7.0
+83,validation_034_6,6,"pepper, butter, salmon, yellow onion, artichoke, whole wheat pasta",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.4666666666666666,4.4
+83,validation_034_6,6,"pepper, butter, salmon, yellow onion, artichoke, whole wheat pasta",V2 50%,0.5,5,4,0,0.0,0.2,1.0,0.9218235822624828,0.625,7.75
+83,validation_034_6,6,"pepper, butter, salmon, yellow onion, artichoke, whole wheat pasta",V2 60%,0.6,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,6.0
+83,validation_034_6,6,"pepper, butter, salmon, yellow onion, artichoke, whole wheat pasta",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,6.0
+83,validation_035_3,3,"onion, flour, steak",V2 original,,5,5,1,0.2,0.4,1.0,1.0,0.7999999999999999,5.2
+83,validation_035_3,3,"onion, flour, steak",V2 50%,0.5,5,5,1,0.2,0.4,1.0,1.0,0.7999999999999999,5.2
+83,validation_035_3,3,"onion, flour, steak",V2 60%,0.6,5,5,1,0.2,0.4,1.0,1.0,0.7999999999999999,5.2
+83,validation_035_3,3,"onion, flour, steak",V2 70%,0.7,5,2,0,0.5,0.4,1.0,0.8709609941113843,1.0,2.5
+83,validation_035_4,4,"onion, flour, steak, beef broth",V2 original,,5,5,1,0.4,0.2,1.0,0.850834274847108,0.65,2.8
+83,validation_035_4,4,"onion, flour, steak, beef broth",V2 50%,0.5,5,5,1,0.2,0.2,1.0,0.850834274847108,0.7,4.2
+83,validation_035_4,4,"onion, flour, steak, beef broth",V2 60%,0.6,5,5,1,0.2,0.2,1.0,0.850834274847108,0.8,4.6
+83,validation_035_4,4,"onion, flour, steak, beef broth",V2 70%,0.7,5,5,1,0.2,0.2,1.0,0.850834274847108,0.8,4.6
+83,validation_035_5,5,"onion, flour, steak, beef broth, worcestershire sauce",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.76,4.8
+83,validation_035_5,5,"onion, flour, steak, beef broth, worcestershire sauce",V2 50%,0.5,5,5,1,0.4,0.2,1.0,1.0,0.76,4.8
+83,validation_035_5,5,"onion, flour, steak, beef broth, worcestershire sauce",V2 60%,0.6,5,5,1,0.4,0.2,1.0,1.0,0.76,4.8
+83,validation_035_5,5,"onion, flour, steak, beef broth, worcestershire sauce",V2 70%,0.7,5,4,0,0.25,0.2,1.0,0.9567687797312096,0.8500000000000001,6.0
+83,validation_035_6,6,"onion, flour, steak, beef broth, worcestershire sauce, pepper sauce",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.6666666666666666,4.6
+83,validation_035_6,6,"onion, flour, steak, beef broth, worcestershire sauce, pepper sauce",V2 50%,0.5,5,5,1,0.4,0.2,1.0,1.0,0.6666666666666666,4.6
+83,validation_035_6,6,"onion, flour, steak, beef broth, worcestershire sauce, pepper sauce",V2 60%,0.6,5,4,0,0.25,0.2,1.0,0.9567687797312096,0.7499999999999999,5.75
+83,validation_035_6,6,"onion, flour, steak, beef broth, worcestershire sauce, pepper sauce",V2 70%,0.7,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,1.0
+83,validation_036_3,3,"butter, four cheese sauce, water",V2 original,,5,5,1,0.8,0.2,1.0,1.0,0.5333333333333333,2.2
+83,validation_036_3,3,"butter, four cheese sauce, water",V2 50%,0.5,5,5,1,0.4,0.2,1.0,1.0,0.7333333333333332,3.4
+83,validation_036_3,3,"butter, four cheese sauce, water",V2 60%,0.6,5,5,1,0.4,0.2,1.0,1.0,0.7333333333333332,3.4
+83,validation_036_3,3,"butter, four cheese sauce, water",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,7.0
+83,validation_036_4,4,"butter, four cheese sauce, water, salt",V2 original,,5,5,1,0.6,0.2,1.0,1.0,0.8,2.8
+83,validation_036_4,4,"butter, four cheese sauce, water, salt",V2 50%,0.5,5,5,1,0.6,0.2,1.0,1.0,0.8,2.8
+83,validation_036_4,4,"butter, four cheese sauce, water, salt",V2 60%,0.6,5,5,1,0.6,0.2,1.0,1.0,0.8,2.8
+83,validation_036_4,4,"butter, four cheese sauce, water, salt",V2 70%,0.7,5,5,1,0.6,0.2,1.0,1.0,0.8,2.8
+83,validation_036_5,5,"butter, four cheese sauce, water, salt, mushroom",V2 original,,5,5,1,0.2,0.2,1.0,1.0,0.7200000000000001,3.6
+83,validation_036_5,5,"butter, four cheese sauce, water, salt, mushroom",V2 50%,0.5,5,5,1,0.2,0.2,1.0,1.0,0.7200000000000001,3.6
+83,validation_036_5,5,"butter, four cheese sauce, water, salt, mushroom",V2 60%,0.6,5,5,1,0.2,0.2,1.0,1.0,0.7200000000000001,3.6
+83,validation_036_5,5,"butter, four cheese sauce, water, salt, mushroom",V2 70%,0.7,5,5,1,0.0,0.2,1.0,1.0,0.8400000000000001,6.6
+83,validation_036_6,6,"butter, four cheese sauce, water, salt, mushroom, milk",V2 original,,5,5,1,0.8,0.2,1.0,1.0,0.6,1.8
+83,validation_036_6,6,"butter, four cheese sauce, water, salt, mushroom, milk",V2 50%,0.5,5,5,1,0.8,0.2,1.0,1.0,0.6,1.8
+83,validation_036_6,6,"butter, four cheese sauce, water, salt, mushroom, milk",V2 60%,0.6,5,5,1,0.2,0.2,1.0,1.0,0.7333333333333332,3.6
+83,validation_036_6,6,"butter, four cheese sauce, water, salt, mushroom, milk",V2 70%,0.7,5,2,0,0.0,0.2,1.0,0.7337495705923308,0.9166666666666667,6.5
+83,validation_037_3,3,"white sugar, pecan, brown sugar",V2 original,,5,5,1,0.6,0.6,0.5,0.872712285110806,0.8666666666666666,3.0
+83,validation_037_3,3,"white sugar, pecan, brown sugar",V2 50%,0.5,5,5,1,0.6,0.6,0.5,0.872712285110806,0.8666666666666666,3.0
+83,validation_037_3,3,"white sugar, pecan, brown sugar",V2 60%,0.6,5,5,1,0.6,0.6,0.5,0.872712285110806,0.8666666666666666,3.0
+83,validation_037_3,3,"white sugar, pecan, brown sugar",V2 70%,0.7,5,5,1,0.2,1.0,0.8333333333333334,1.0,1.0,5.4
+83,validation_037_4,4,"white sugar, pecan, brown sugar, cinnamon",V2 original,,5,5,1,0.6,0.2,1.0,1.0,0.8,2.8
+83,validation_037_4,4,"white sugar, pecan, brown sugar, cinnamon",V2 50%,0.5,5,5,1,0.6,0.2,1.0,1.0,0.8,2.8
+83,validation_037_4,4,"white sugar, pecan, brown sugar, cinnamon",V2 60%,0.6,5,5,1,0.6,0.2,1.0,1.0,0.8,2.8
+83,validation_037_4,4,"white sugar, pecan, brown sugar, cinnamon",V2 70%,0.7,5,5,1,0.6,0.2,1.0,1.0,0.8,2.8
+83,validation_037_5,5,"white sugar, pecan, brown sugar, cinnamon, raisin",V2 original,,5,5,1,0.8,0.2,1.0,1.0,0.68,2.0
+83,validation_037_5,5,"white sugar, pecan, brown sugar, cinnamon, raisin",V2 50%,0.5,5,5,1,0.8,0.2,1.0,1.0,0.68,2.0
+83,validation_037_5,5,"white sugar, pecan, brown sugar, cinnamon, raisin",V2 60%,0.6,5,5,1,0.8,0.2,1.0,1.0,0.68,2.0
+83,validation_037_5,5,"white sugar, pecan, brown sugar, cinnamon, raisin",V2 70%,0.7,5,5,1,0.2,0.2,1.0,1.0,0.8400000000000001,5.6
+83,validation_037_6,6,"white sugar, pecan, brown sugar, cinnamon, raisin, margarine",V2 original,,5,5,1,0.8,0.2,1.0,1.0,0.6666666666666666,2.0
+83,validation_037_6,6,"white sugar, pecan, brown sugar, cinnamon, raisin, margarine",V2 50%,0.5,5,5,1,0.8,0.2,1.0,1.0,0.6666666666666666,2.0
+83,validation_037_6,6,"white sugar, pecan, brown sugar, cinnamon, raisin, margarine",V2 60%,0.6,5,5,1,0.4,0.2,1.0,1.0,0.7333333333333332,3.0
+83,validation_037_6,6,"white sugar, pecan, brown sugar, cinnamon, raisin, margarine",V2 70%,0.7,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,0.0
+83,validation_038_3,3,"pepper, butter, beef",V2 original,,5,5,1,0.8,0.2,0.2,0.5594401368490773,0.7333333333333332,2.2
+83,validation_038_3,3,"pepper, butter, beef",V2 50%,0.5,5,5,1,0.8,0.2,0.2,0.5594401368490773,0.7333333333333332,2.2
+83,validation_038_3,3,"pepper, butter, beef",V2 60%,0.6,5,5,1,0.8,0.2,0.2,0.5594401368490773,0.7333333333333332,2.2
+83,validation_038_3,3,"pepper, butter, beef",V2 70%,0.7,5,5,1,0.0,1.0,1.0,1.0,1.0,7.2
+83,validation_038_4,4,"pepper, butter, beef, mushroom",V2 original,,5,5,1,0.2,0.4,1.0,0.97435344412509,0.85,5.2
+83,validation_038_4,4,"pepper, butter, beef, mushroom",V2 50%,0.5,5,5,1,0.2,0.4,1.0,0.97435344412509,0.85,5.2
+83,validation_038_4,4,"pepper, butter, beef, mushroom",V2 60%,0.6,5,5,1,0.2,0.4,1.0,0.97435344412509,0.85,5.2
+83,validation_038_4,4,"pepper, butter, beef, mushroom",V2 70%,0.7,5,5,1,0.2,0.4,1.0,0.97435344412509,0.85,5.2
+83,validation_038_5,5,"pepper, butter, beef, mushroom, water",V2 original,,5,5,1,0.2,0.2,1.0,1.0,0.76,4.0
+83,validation_038_5,5,"pepper, butter, beef, mushroom, water",V2 50%,0.5,5,5,1,0.2,0.2,1.0,1.0,0.76,4.0
+83,validation_038_5,5,"pepper, butter, beef, mushroom, water",V2 60%,0.6,5,5,1,0.2,0.2,1.0,1.0,0.76,4.0
+83,validation_038_5,5,"pepper, butter, beef, mushroom, water",V2 70%,0.7,5,5,1,0.2,0.2,1.0,1.0,0.8400000000000001,5.6
+83,validation_038_6,6,"pepper, butter, beef, mushroom, water, cornstarch",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.5999999999999999,2.8
+83,validation_038_6,6,"pepper, butter, beef, mushroom, water, cornstarch",V2 50%,0.5,5,5,1,0.2,0.2,1.0,1.0,0.6666666666666666,3.8
+83,validation_038_6,6,"pepper, butter, beef, mushroom, water, cornstarch",V2 60%,0.6,5,5,1,0.2,0.2,1.0,1.0,0.7333333333333332,5.2
+83,validation_038_6,6,"pepper, butter, beef, mushroom, water, cornstarch",V2 70%,0.7,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,0.0
+83,validation_039_3,3,"beef sirloin steak, original sauce, oil",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.5333333333333334,3.8
+83,validation_039_3,3,"beef sirloin steak, original sauce, oil",V2 50%,0.5,5,2,0,0.0,0.2,1.0,0.7337495705923308,0.8333333333333333,6.0
+83,validation_039_3,3,"beef sirloin steak, original sauce, oil",V2 60%,0.6,5,2,0,0.0,0.2,1.0,0.7337495705923308,0.8333333333333333,6.0
+83,validation_039_3,3,"beef sirloin steak, original sauce, oil",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,3.0
+83,validation_039_4,4,"beef sirloin steak, original sauce, oil, poupon",V2 original,,5,5,1,0.6,0.2,1.0,1.0,0.45,3.6
+83,validation_039_4,4,"beef sirloin steak, original sauce, oil, poupon",V2 50%,0.5,5,2,0,0.5,0.2,1.0,0.8527646662062498,0.75,5.5
+83,validation_039_4,4,"beef sirloin steak, original sauce, oil, poupon",V2 60%,0.6,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,2.0
+83,validation_039_4,4,"beef sirloin steak, original sauce, oil, poupon",V2 70%,0.7,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,2.0
+83,validation_039_5,5,"beef sirloin steak, original sauce, oil, poupon, lemon juice",V2 original,,5,5,1,1.0,0.2,1.0,1.0,0.36,1.2
+83,validation_039_5,5,"beef sirloin steak, original sauce, oil, poupon, lemon juice",V2 50%,0.5,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,1.0
+83,validation_039_5,5,"beef sirloin steak, original sauce, oil, poupon, lemon juice",V2 60%,0.6,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,1.0
+83,validation_039_5,5,"beef sirloin steak, original sauce, oil, poupon, lemon juice",V2 70%,0.7,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,1.0
+83,validation_039_6,6,"beef sirloin steak, original sauce, oil, poupon, lemon juice, garlic",V2 original,,5,5,1,0.8,0.2,1.0,1.0,0.4,2.4
+83,validation_039_6,6,"beef sirloin steak, original sauce, oil, poupon, lemon juice, garlic",V2 50%,0.5,5,3,0,0.3333333333333333,0.2,1.0,0.9086402078338697,0.6666666666666666,7.333333333333333
+83,validation_039_6,6,"beef sirloin steak, original sauce, oil, poupon, lemon juice, garlic",V2 60%,0.6,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,0.0
+83,validation_039_6,6,"beef sirloin steak, original sauce, oil, poupon, lemon juice, garlic",V2 70%,0.7,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,0.0
+83,validation_040_3,3,"salt, milk, pepper",V2 original,,5,5,1,0.6,0.4,0.017857142857142856,0.7020976466720956,0.6666666666666667,1.8
+83,validation_040_3,3,"salt, milk, pepper",V2 50%,0.5,5,5,1,0.4,0.6,0.026785714285714284,0.7994765465672333,0.8666666666666666,3.0
+83,validation_040_3,3,"salt, milk, pepper",V2 60%,0.6,5,5,1,0.4,0.6,0.026785714285714284,0.7994765465672333,0.8666666666666666,3.0
+83,validation_040_3,3,"salt, milk, pepper",V2 70%,0.7,5,5,1,0.0,1.0,0.044642857142857144,1.0,1.0,3.8
+83,validation_040_4,4,"salt, milk, pepper, bread",V2 original,,5,5,1,0.4,0.6,0.3333333333333333,0.6312356866612375,0.7,3.2
+83,validation_040_4,4,"salt, milk, pepper, bread",V2 50%,0.5,5,5,1,0.0,0.6,0.3333333333333333,0.8151510484299677,0.9,4.4
+83,validation_040_4,4,"salt, milk, pepper, bread",V2 60%,0.6,5,5,1,0.0,0.6,0.3333333333333333,0.8151510484299677,0.9,4.4
+83,validation_040_4,4,"salt, milk, pepper, bread",V2 70%,0.7,5,5,1,0.0,0.6,0.3333333333333333,0.8151510484299677,0.9,4.4
+83,validation_040_5,5,"salt, milk, pepper, bread, cheddar cheese",V2 original,,5,5,1,0.2,0.6,1.0,0.8106961231285943,0.8800000000000001,3.0
+83,validation_040_5,5,"salt, milk, pepper, bread, cheddar cheese",V2 50%,0.5,5,5,1,0.2,0.6,1.0,0.8106961231285943,0.8800000000000001,3.0
+83,validation_040_5,5,"salt, milk, pepper, bread, cheddar cheese",V2 60%,0.6,5,5,1,0.2,0.6,1.0,0.8106961231285943,0.8800000000000001,3.0
+83,validation_040_5,5,"salt, milk, pepper, bread, cheddar cheese",V2 70%,0.7,5,5,1,0.0,0.6,1.0,0.9444537180991301,0.9199999999999999,3.6
+83,validation_040_6,6,"salt, milk, pepper, bread, cheddar cheese, egg",V2 original,,5,5,1,1.0,0.4,0.6666666666666666,0.6784674130643662,0.7666666666666667,1.4
+83,validation_040_6,6,"salt, milk, pepper, bread, cheddar cheese, egg",V2 50%,0.5,5,5,1,0.8,0.6,1.0,0.7348023114192629,0.9,2.0
+83,validation_040_6,6,"salt, milk, pepper, bread, cheddar cheese, egg",V2 60%,0.6,5,5,1,0.8,0.6,1.0,0.7348023114192629,0.9,2.0
+83,validation_040_6,6,"salt, milk, pepper, bread, cheddar cheese, egg",V2 70%,0.7,5,5,1,0.6,0.6,1.0,0.9327054847607639,0.9333333333333333,2.6
+83,validation_041_3,3,"egg, bread, onion powder",V2 original,,5,5,1,0.4,0.4,1.0,0.7380487420225963,0.7333333333333333,4.0
+83,validation_041_3,3,"egg, bread, onion powder",V2 50%,0.5,5,5,1,0.2,0.4,1.0,0.774487192150212,0.7999999999999999,4.8
+83,validation_041_3,3,"egg, bread, onion powder",V2 60%,0.6,5,5,1,0.2,0.4,1.0,0.774487192150212,0.7999999999999999,4.8
+83,validation_041_3,3,"egg, bread, onion powder",V2 70%,0.7,5,2,0,0.0,0.4,1.0,0.7878483464942911,1.0,8.5
+83,validation_041_4,4,"egg, bread, onion powder, mushroom",V2 original,,5,5,1,0.4,0.2,1.0,0.850834274847108,0.6,3.8
+83,validation_041_4,4,"egg, bread, onion powder, mushroom",V2 50%,0.5,5,5,1,0.2,0.2,1.0,0.850834274847108,0.65,4.6
+83,validation_041_4,4,"egg, bread, onion powder, mushroom",V2 60%,0.6,5,4,0,0.0,0.2,1.0,0.9218235822624828,0.8125,8.5
+83,validation_041_4,4,"egg, bread, onion powder, mushroom",V2 70%,0.7,5,4,0,0.0,0.2,1.0,0.9218235822624828,0.8125,8.5
+83,validation_041_5,5,"egg, bread, onion powder, mushroom, onion",V2 original,,5,5,1,0.4,0.2,1.0,0.850834274847108,0.5199999999999999,2.6
+83,validation_041_5,5,"egg, bread, onion powder, mushroom, onion",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.72,5.6
+83,validation_041_5,5,"egg, bread, onion powder, mushroom, onion",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.72,5.6
+83,validation_041_5,5,"egg, bread, onion powder, mushroom, onion",V2 70%,0.7,5,3,0,0.0,0.2,1.0,0.8347911247384279,0.8666666666666667,10.0
+83,validation_041_6,6,"egg, bread, onion powder, mushroom, onion, pepper",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.4666666666666667,2.4
+83,validation_041_6,6,"egg, bread, onion powder, mushroom, onion, pepper",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.6666666666666666,5.8
+83,validation_041_6,6,"egg, bread, onion powder, mushroom, onion, pepper",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.7333333333333332,5.6
+83,validation_041_6,6,"egg, bread, onion powder, mushroom, onion, pepper",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,6.0
+83,validation_042_3,3,"basil, oregano, grape tomato",V2 original,,5,5,1,0.0,0.2,1.0,1.0,0.7333333333333332,5.0
+83,validation_042_3,3,"basil, oregano, grape tomato",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.7333333333333332,5.0
+83,validation_042_3,3,"basil, oregano, grape tomato",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.7333333333333332,5.0
+83,validation_042_3,3,"basil, oregano, grape tomato",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,6.0
+83,validation_042_4,4,"basil, oregano, grape tomato, parmesan cheese",V2 original,,5,5,1,0.2,0.2,1.0,1.0,0.7,4.2
+83,validation_042_4,4,"basil, oregano, grape tomato, parmesan cheese",V2 50%,0.5,5,5,1,0.2,0.2,1.0,1.0,0.7,4.2
+83,validation_042_4,4,"basil, oregano, grape tomato, parmesan cheese",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.8,6.6
+83,validation_042_4,4,"basil, oregano, grape tomato, parmesan cheese",V2 70%,0.7,5,5,1,0.0,0.2,1.0,1.0,0.8,6.6
+83,validation_042_5,5,"basil, oregano, grape tomato, parmesan cheese, garlic",V2 original,,5,5,1,0.2,0.2,1.0,1.0,0.76,3.6
+83,validation_042_5,5,"basil, oregano, grape tomato, parmesan cheese, garlic",V2 50%,0.5,5,5,1,0.2,0.2,1.0,1.0,0.76,3.6
+83,validation_042_5,5,"basil, oregano, grape tomato, parmesan cheese, garlic",V2 60%,0.6,5,5,1,0.2,0.2,1.0,1.0,0.76,3.6
+83,validation_042_5,5,"basil, oregano, grape tomato, parmesan cheese, garlic",V2 70%,0.7,5,5,1,0.0,0.2,1.0,1.0,0.8400000000000001,4.8
+83,validation_042_6,6,"basil, oregano, grape tomato, parmesan cheese, garlic, green bean",V2 original,,5,5,1,0.2,0.2,1.0,1.0,0.6666666666666666,3.4
+83,validation_042_6,6,"basil, oregano, grape tomato, parmesan cheese, garlic, green bean",V2 50%,0.5,5,5,1,0.2,0.2,1.0,1.0,0.6666666666666666,3.4
+83,validation_042_6,6,"basil, oregano, grape tomato, parmesan cheese, garlic, green bean",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.7333333333333332,4.6
+83,validation_042_6,6,"basil, oregano, grape tomato, parmesan cheese, garlic, green bean",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,3.0
+83,validation_043_3,3,"marjoram leaf, tomato sauce, oil",V2 original,,5,5,1,0.2,0.2,1.0,1.0,0.6666666666666666,5.6
+83,validation_043_3,3,"marjoram leaf, tomato sauce, oil",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.7333333333333332,7.6
+83,validation_043_3,3,"marjoram leaf, tomato sauce, oil",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.7333333333333332,7.6
+83,validation_043_3,3,"marjoram leaf, tomato sauce, oil",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,12.0
+83,validation_043_4,4,"marjoram leaf, tomato sauce, oil, bay leaf",V2 original,,5,5,1,0.0,0.2,1.0,1.0,0.7,7.4
+83,validation_043_4,4,"marjoram leaf, tomato sauce, oil, bay leaf",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.7,7.4
+83,validation_043_4,4,"marjoram leaf, tomato sauce, oil, bay leaf",V2 60%,0.6,5,3,0,0.0,0.2,1.0,0.8347911247384279,0.8333333333333334,9.666666666666666
+83,validation_043_4,4,"marjoram leaf, tomato sauce, oil, bay leaf",V2 70%,0.7,5,3,0,0.0,0.2,1.0,0.8347911247384279,0.8333333333333334,9.666666666666666
+83,validation_043_5,5,"marjoram leaf, tomato sauce, oil, bay leaf, white",V2 original,,5,5,1,0.2,0.2,1.0,1.0,0.56,6.6
+83,validation_043_5,5,"marjoram leaf, tomato sauce, oil, bay leaf, white",V2 50%,0.5,5,3,0,0.0,0.2,1.0,0.8347911247384279,0.7333333333333334,9.333333333333334
+83,validation_043_5,5,"marjoram leaf, tomato sauce, oil, bay leaf, white",V2 60%,0.6,5,3,0,0.0,0.2,1.0,0.8347911247384279,0.7333333333333334,9.333333333333334
+83,validation_043_5,5,"marjoram leaf, tomato sauce, oil, bay leaf, white",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,10.0
+83,validation_043_6,6,"marjoram leaf, tomato sauce, oil, bay leaf, white, shallot",V2 original,,5,5,1,0.2,0.2,1.0,1.0,0.5,6.2
+83,validation_043_6,6,"marjoram leaf, tomato sauce, oil, bay leaf, white, shallot",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.6,10.4
+83,validation_043_6,6,"marjoram leaf, tomato sauce, oil, bay leaf, white, shallot",V2 60%,0.6,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,9.0
+83,validation_043_6,6,"marjoram leaf, tomato sauce, oil, bay leaf, white, shallot",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,9.0
+83,validation_044_3,3,"ham, mayonnaise, stalks celery",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.6,2.8
+83,validation_044_3,3,"ham, mayonnaise, stalks celery",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.7333333333333332,4.4
+83,validation_044_3,3,"ham, mayonnaise, stalks celery",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.7333333333333332,4.4
+83,validation_044_3,3,"ham, mayonnaise, stalks celery",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,4.0
+83,validation_044_4,4,"ham, mayonnaise, stalks celery, white sugar",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.5,2.6
+83,validation_044_4,4,"ham, mayonnaise, stalks celery, white sugar",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.6,4.8
+83,validation_044_4,4,"ham, mayonnaise, stalks celery, white sugar",V2 60%,0.6,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,3.0
+83,validation_044_4,4,"ham, mayonnaise, stalks celery, white sugar",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,3.0
+83,validation_044_5,5,"ham, mayonnaise, stalks celery, white sugar, velveeta cheese",V2 original,,5,5,1,0.6,0.2,1.0,1.0,0.44000000000000006,2.4
+83,validation_044_5,5,"ham, mayonnaise, stalks celery, white sugar, velveeta cheese",V2 50%,0.5,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,2.0
+83,validation_044_5,5,"ham, mayonnaise, stalks celery, white sugar, velveeta cheese",V2 60%,0.6,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,2.0
+83,validation_044_5,5,"ham, mayonnaise, stalks celery, white sugar, velveeta cheese",V2 70%,0.7,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,2.0
+83,validation_044_6,6,"ham, mayonnaise, stalks celery, white sugar, velveeta cheese, onion",V2 original,,5,5,1,0.4,0.2,1.0,1.0,0.4666666666666666,2.8
+83,validation_044_6,6,"ham, mayonnaise, stalks celery, white sugar, velveeta cheese, onion",V2 50%,0.5,5,3,0,0.3333333333333333,0.2,1.0,0.9086402078338697,0.6666666666666666,4.666666666666667
+83,validation_044_6,6,"ham, mayonnaise, stalks celery, white sugar, velveeta cheese, onion",V2 60%,0.6,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,1.0
+83,validation_044_6,6,"ham, mayonnaise, stalks celery, white sugar, velveeta cheese, onion",V2 70%,0.7,5,1,0,1.0,0.2,1.0,0.7822575827866779,1.0,1.0
+83,validation_045_3,3,"green pepper, chili powder, cheddar cheese",V2 original,,5,5,1,0.0,0.6,0.5,0.8151510484299677,0.8666666666666666,6.8
+83,validation_045_3,3,"green pepper, chili powder, cheddar cheese",V2 50%,0.5,5,5,1,0.0,0.6,0.5,0.8151510484299677,0.8666666666666666,6.8
+83,validation_045_3,3,"green pepper, chili powder, cheddar cheese",V2 60%,0.6,5,5,1,0.0,0.6,0.5,0.8151510484299677,0.8666666666666666,6.8
+83,validation_045_3,3,"green pepper, chili powder, cheddar cheese",V2 70%,0.7,5,5,1,0.0,1.0,0.8333333333333334,1.0,1.0,8.6
+83,validation_045_4,4,"green pepper, chili powder, cheddar cheese, cream of chicken soup",V2 original,,5,5,1,0.0,0.2,1.0,1.0,0.75,6.4
+83,validation_045_4,4,"green pepper, chili powder, cheddar cheese, cream of chicken soup",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.75,6.4
+83,validation_045_4,4,"green pepper, chili powder, cheddar cheese, cream of chicken soup",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.8,7.2
+83,validation_045_4,4,"green pepper, chili powder, cheddar cheese, cream of chicken soup",V2 70%,0.7,5,5,1,0.0,0.2,1.0,1.0,0.8,7.2
+83,validation_045_5,5,"green pepper, chili powder, cheddar cheese, cream of chicken soup, ro-tel tomato",V2 original,,5,5,1,0.2,0.2,1.0,1.0,0.52,5.6
+83,validation_045_5,5,"green pepper, chili powder, cheddar cheese, cream of chicken soup, ro-tel tomato",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.68,6.6
+83,validation_045_5,5,"green pepper, chili powder, cheddar cheese, cream of chicken soup, ro-tel tomato",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.68,6.6
+83,validation_045_5,5,"green pepper, chili powder, cheddar cheese, cream of chicken soup, ro-tel tomato",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,5.0
+83,validation_045_6,6,"green pepper, chili powder, cheddar cheese, cream of chicken soup, ro-tel tomato, garlic",V2 original,,5,5,1,0.2,0.2,1.0,1.0,0.4666666666666667,4.8
+83,validation_045_6,6,"green pepper, chili powder, cheddar cheese, cream of chicken soup, ro-tel tomato, garlic",V2 50%,0.5,5,5,1,0.0,0.2,1.0,1.0,0.6666666666666666,6.8
+83,validation_045_6,6,"green pepper, chili powder, cheddar cheese, cream of chicken soup, ro-tel tomato, garlic",V2 60%,0.6,5,4,0,0.0,0.2,1.0,0.9218235822624828,0.7499999999999999,9.0
+83,validation_045_6,6,"green pepper, chili powder, cheddar cheese, cream of chicken soup, ro-tel tomato, garlic",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,4.0
+83,validation_046_3,3,"egg, onion, salt",V2 original,,5,5,1,0.8,0.8,0.016666666666666666,0.6857289945482251,0.9333333333333332,1.8
+83,validation_046_3,3,"egg, onion, salt",V2 50%,0.5,5,5,1,0.8,0.8,0.016666666666666666,0.6857289945482251,0.9333333333333332,1.8
+83,validation_046_3,3,"egg, onion, salt",V2 60%,0.6,5,5,1,0.8,0.8,0.016666666666666666,0.6857289945482251,0.9333333333333332,1.8
+83,validation_046_3,3,"egg, onion, salt",V2 70%,0.7,5,5,1,0.6,1.0,0.020833333333333332,0.90976723004651,1.0,2.4
+83,validation_046_4,4,"egg, onion, salt, pepper",V2 original,,5,5,1,0.6,0.6,0.031578947368421054,0.5592645493925131,0.85,1.8
+83,validation_046_4,4,"egg, onion, salt, pepper",V2 50%,0.5,5,5,1,0.6,0.6,0.031578947368421054,0.5592645493925131,0.85,1.8
+83,validation_046_4,4,"egg, onion, salt, pepper",V2 60%,0.6,5,5,1,0.4,0.8,0.042105263157894736,0.6096061957584515,0.95,2.6
+83,validation_046_4,4,"egg, onion, salt, pepper",V2 70%,0.7,5,5,1,0.4,0.8,0.042105263157894736,0.6096061957584515,0.95,2.6
+83,validation_046_5,5,"egg, onion, salt, pepper, zucchini",V2 original,,5,5,1,0.6,0.0,0.0,0.3333333333333333,0.72,2.2
+83,validation_046_5,5,"egg, onion, salt, pepper, zucchini",V2 50%,0.5,5,5,1,0.6,0.0,0.0,0.3333333333333333,0.72,2.2
+83,validation_046_5,5,"egg, onion, salt, pepper, zucchini",V2 60%,0.6,5,5,1,0.6,0.0,0.0,0.3333333333333333,0.72,2.2
+83,validation_046_5,5,"egg, onion, salt, pepper, zucchini",V2 70%,0.7,5,5,1,0.4,0.4,0.4,0.5181822849033655,0.8800000000000001,3.4
+83,validation_046_6,6,"egg, onion, salt, pepper, zucchini, vegetable oil",V2 original,,5,5,1,0.4,0.4,0.6666666666666666,0.6670734657505132,0.8333333333333334,3.0
+83,validation_046_6,6,"egg, onion, salt, pepper, zucchini, vegetable oil",V2 50%,0.5,5,5,1,0.4,0.4,0.6666666666666666,0.6670734657505132,0.8333333333333334,3.0
+83,validation_046_6,6,"egg, onion, salt, pepper, zucchini, vegetable oil",V2 60%,0.6,5,5,1,0.4,0.4,0.6666666666666666,0.6670734657505132,0.8333333333333334,3.0
+83,validation_046_6,6,"egg, onion, salt, pepper, zucchini, vegetable oil",V2 70%,0.7,5,5,1,0.2,0.4,0.6666666666666666,0.7226197476513831,0.9,3.6
+83,validation_047_3,3,"oil, garlic, water",V2 original,,5,5,1,0.4,0.4,0.1,0.7948632681270251,0.7999999999999999,3.2
+83,validation_047_3,3,"oil, garlic, water",V2 50%,0.5,5,5,1,0.4,0.4,0.1,0.7948632681270251,0.7999999999999999,3.2
+83,validation_047_3,3,"oil, garlic, water",V2 60%,0.6,5,5,1,0.4,0.4,0.1,0.7948632681270251,0.7999999999999999,3.2
+83,validation_047_3,3,"oil, garlic, water",V2 70%,0.7,5,5,1,0.2,1.0,0.25,1.0,1.0,4.0
+83,validation_047_4,4,"oil, garlic, water, baking powder",V2 original,,5,5,1,0.2,0.0,0.0,0.47476776900380596,0.75,4.2
+83,validation_047_4,4,"oil, garlic, water, baking powder",V2 50%,0.5,5,5,1,0.2,0.0,0.0,0.47476776900380596,0.75,4.2
+83,validation_047_4,4,"oil, garlic, water, baking powder",V2 60%,0.6,5,5,1,0.2,0.0,0.0,0.47476776900380596,0.75,4.2
+83,validation_047_4,4,"oil, garlic, water, baking powder",V2 70%,0.7,5,5,1,0.2,0.0,0.0,0.47476776900380596,0.75,4.2
+83,validation_047_5,5,"oil, garlic, water, baking powder, chutney",V2 original,,5,5,1,0.2,0.2,1.0,1.0,0.68,4.2
+83,validation_047_5,5,"oil, garlic, water, baking powder, chutney",V2 50%,0.5,5,5,1,0.2,0.2,1.0,1.0,0.68,4.2
+83,validation_047_5,5,"oil, garlic, water, baking powder, chutney",V2 60%,0.6,5,5,1,0.2,0.2,1.0,1.0,0.68,4.2
+83,validation_047_5,5,"oil, garlic, water, baking powder, chutney",V2 70%,0.7,5,2,0,0.0,0.2,1.0,0.7337495705923308,0.9,6.5
+83,validation_047_6,6,"oil, garlic, water, baking powder, chutney, coriander seed",V2 original,,5,5,1,0.6,0.2,1.0,1.0,0.5,2.8
+83,validation_047_6,6,"oil, garlic, water, baking powder, chutney, coriander seed",V2 50%,0.5,5,5,1,0.2,0.2,1.0,1.0,0.6,4.0
+83,validation_047_6,6,"oil, garlic, water, baking powder, chutney, coriander seed",V2 60%,0.6,5,2,0,0.0,0.2,1.0,0.7337495705923308,0.8333333333333333,6.0
+83,validation_047_6,6,"oil, garlic, water, baking powder, chutney, coriander seed",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,5.0
+83,validation_048_3,3,"black pepper, tomato paste, tomato",V2 original,,5,5,1,0.2,0.2,0.125,0.43071223322847096,0.6666666666666666,5.6
+83,validation_048_3,3,"black pepper, tomato paste, tomato",V2 50%,0.5,5,5,1,0.2,0.2,0.125,0.44638673509120536,0.7333333333333332,5.8
+83,validation_048_3,3,"black pepper, tomato paste, tomato",V2 60%,0.6,5,5,1,0.2,0.2,0.125,0.44638673509120536,0.7333333333333332,5.8
+83,validation_048_3,3,"black pepper, tomato paste, tomato",V2 70%,0.7,5,5,1,0.0,1.0,0.625,1.0,1.0,10.6
+83,validation_048_4,4,"black pepper, tomato paste, tomato, garlic",V2 original,,5,5,1,0.2,0.4,0.25,0.5181822849033655,0.85,5.6
+83,validation_048_4,4,"black pepper, tomato paste, tomato, garlic",V2 50%,0.5,5,5,1,0.2,0.4,0.25,0.5181822849033655,0.85,5.6
+83,validation_048_4,4,"black pepper, tomato paste, tomato, garlic",V2 60%,0.6,5,5,1,0.2,0.4,0.25,0.5181822849033655,0.85,5.6
+83,validation_048_4,4,"black pepper, tomato paste, tomato, garlic",V2 70%,0.7,5,5,1,0.2,0.4,0.25,0.5181822849033655,0.85,5.6
+83,validation_048_5,5,"black pepper, tomato paste, tomato, garlic, breadcrumbs",V2 original,,5,5,1,0.2,0.2,1.0,0.7521866188906461,0.72,5.8
+83,validation_048_5,5,"black pepper, tomato paste, tomato, garlic, breadcrumbs",V2 50%,0.5,5,5,1,0.2,0.2,1.0,0.7521866188906461,0.72,5.8
+83,validation_048_5,5,"black pepper, tomato paste, tomato, garlic, breadcrumbs",V2 60%,0.6,5,5,1,0.2,0.2,1.0,0.7521866188906461,0.72,5.8
+83,validation_048_5,5,"black pepper, tomato paste, tomato, garlic, breadcrumbs",V2 70%,0.7,5,5,1,0.0,0.2,1.0,0.850834274847108,0.8400000000000001,9.0
+83,validation_048_6,6,"black pepper, tomato paste, tomato, garlic, breadcrumbs, turmeric",V2 original,,5,5,1,0.0,0.2,1.0,0.850834274847108,0.5666666666666667,5.2
+83,validation_048_6,6,"black pepper, tomato paste, tomato, garlic, breadcrumbs, turmeric",V2 50%,0.5,5,5,1,0.0,0.2,1.0,0.850834274847108,0.6333333333333333,6.4
+83,validation_048_6,6,"black pepper, tomato paste, tomato, garlic, breadcrumbs, turmeric",V2 60%,0.6,5,5,1,0.0,0.2,1.0,1.0,0.7333333333333332,8.8
+83,validation_048_6,6,"black pepper, tomato paste, tomato, garlic, breadcrumbs, turmeric",V2 70%,0.7,5,1,0,0.0,0.2,1.0,0.6062493248765826,1.0,8.0
+83,validation_049_3,3,"butter, water, cheddar cheese",V2 original,,5,5,1,0.2,0.6,0.23076923076923078,0.8151510484299677,0.8666666666666666,3.4
+83,validation_049_3,3,"butter, water, cheddar cheese",V2 50%,0.5,5,5,1,0.2,0.6,0.23076923076923078,0.8151510484299677,0.8666666666666666,3.4
+83,validation_049_3,3,"butter, water, cheddar cheese",V2 60%,0.6,5,5,1,0.2,0.6,0.23076923076923078,0.8151510484299677,0.8666666666666666,3.4
+83,validation_049_3,3,"butter, water, cheddar cheese",V2 70%,0.7,5,5,1,0.0,1.0,0.38461538461538464,1.0,1.0,4.2
+83,validation_049_4,4,"butter, water, cheddar cheese, egg",V2 original,,5,5,1,0.4,0.4,0.3333333333333333,0.7020976466720956,0.75,2.2
+83,validation_049_4,4,"butter, water, cheddar cheese, egg",V2 50%,0.5,5,5,1,0.4,0.4,0.3333333333333333,0.7020976466720956,0.75,2.2
+83,validation_049_4,4,"butter, water, cheddar cheese, egg",V2 60%,0.6,5,5,1,0.0,0.6,0.5,0.7994765465672333,0.9,3.4
+83,validation_049_4,4,"butter, water, cheddar cheese, egg",V2 70%,0.7,5,5,1,0.0,0.6,0.5,0.7994765465672333,0.9,3.4
+83,validation_049_5,5,"butter, water, cheddar cheese, egg, milk",V2 original,,5,5,1,0.6,0.2,0.5,0.7968124369890611,0.7200000000000001,2.0
+83,validation_049_5,5,"butter, water, cheddar cheese, egg, milk",V2 50%,0.5,5,5,1,0.6,0.2,0.5,0.7968124369890611,0.7200000000000001,2.0
+83,validation_049_5,5,"butter, water, cheddar cheese, egg, milk",V2 60%,0.6,5,5,1,0.6,0.2,0.5,0.7968124369890611,0.7200000000000001,2.0
+83,validation_049_5,5,"butter, water, cheddar cheese, egg, milk",V2 70%,0.7,5,5,1,0.4,0.4,1.0,0.9578347709816888,0.8799999999999999,2.6
+83,validation_049_6,6,"butter, water, cheddar cheese, egg, milk, grits",V2 original,,5,5,1,0.6,0.2,1.0,1.0,0.7,2.0
+83,validation_049_6,6,"butter, water, cheddar cheese, egg, milk, grits",V2 50%,0.5,5,5,1,0.6,0.2,1.0,1.0,0.7333333333333334,2.0
+83,validation_049_6,6,"butter, water, cheddar cheese, egg, milk, grits",V2 60%,0.6,5,5,1,0.6,0.2,1.0,1.0,0.8,2.4
+83,validation_049_6,6,"butter, water, cheddar cheese, egg, milk, grits",V2 70%,0.7,5,3,0,0.3333333333333333,0.2,1.0,0.9086402078338697,0.888888888888889,2.6666666666666665
+83,validation_050_3,3,"egg, sugar, flour",V2 original,,5,5,1,1.0,0.8,0.004733727810650888,0.8546456263113074,0.9333333333333332,0.8
+83,validation_050_3,3,"egg, sugar, flour",V2 50%,0.5,5,5,1,1.0,0.8,0.004733727810650888,0.8546456263113074,0.9333333333333332,0.8
+83,validation_050_3,3,"egg, sugar, flour",V2 60%,0.6,5,5,1,1.0,0.8,0.004733727810650888,0.8546456263113074,0.9333333333333332,0.8
+83,validation_050_3,3,"egg, sugar, flour",V2 70%,0.7,5,5,1,1.0,1.0,0.005917159763313609,1.0,1.0,1.0
+83,validation_050_4,4,"egg, sugar, flour, salt",V2 original,,5,5,1,1.0,0.8,0.007104795737122558,0.7092912526226147,0.95,1.2
+83,validation_050_4,4,"egg, sugar, flour, salt",V2 50%,0.5,5,5,1,1.0,0.8,0.007104795737122558,0.7092912526226147,0.95,1.2
+83,validation_050_4,4,"egg, sugar, flour, salt",V2 60%,0.6,5,5,1,1.0,0.8,0.007104795737122558,0.7092912526226147,0.95,1.2
+83,validation_050_4,4,"egg, sugar, flour, salt",V2 70%,0.7,5,5,1,1.0,0.8,0.007104795737122558,0.7092912526226147,0.95,1.2
+83,validation_050_5,5,"egg, sugar, flour, salt, vanilla",V2 original,,5,5,1,1.0,0.6,0.011029411764705883,0.5840898099002949,0.9199999999999999,1.0
+83,validation_050_5,5,"egg, sugar, flour, salt, vanilla",V2 50%,0.5,5,5,1,1.0,0.6,0.011029411764705883,0.5840898099002949,0.9199999999999999,1.0
+83,validation_050_5,5,"egg, sugar, flour, salt, vanilla",V2 60%,0.6,5,5,1,1.0,0.6,0.011029411764705883,0.5840898099002949,0.9199999999999999,1.0
+83,validation_050_5,5,"egg, sugar, flour, salt, vanilla",V2 70%,0.7,5,5,1,1.0,0.6,0.011029411764705883,0.5840898099002949,0.9199999999999999,1.0
+83,validation_050_6,6,"egg, sugar, flour, salt, vanilla, baking powder",V2 original,,5,5,1,1.0,0.8,0.029850746268656716,0.8875385049894211,0.9666666666666666,1.2
+83,validation_050_6,6,"egg, sugar, flour, salt, vanilla, baking powder",V2 50%,0.5,5,5,1,1.0,0.8,0.029850746268656716,0.8875385049894211,0.9666666666666666,1.2
+83,validation_050_6,6,"egg, sugar, flour, salt, vanilla, baking powder",V2 60%,0.6,5,5,1,1.0,0.8,0.029850746268656716,0.8875385049894211,0.9666666666666666,1.2
+83,validation_050_6,6,"egg, sugar, flour, salt, vanilla, baking powder",V2 70%,0.7,5,5,1,1.0,0.8,0.029850746268656716,0.8875385049894211,0.9666666666666666,1.2

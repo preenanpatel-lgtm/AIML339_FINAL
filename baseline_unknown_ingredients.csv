@@ -1,0 +1,10 @@
+model,query,status,returned,error
+TF-IDF,ingredient_that_does_not_exist_12345,ok,5,
+Jaccard,ingredient_that_does_not_exist_12345,ok,5,
+MiniLM,ingredient_that_does_not_exist_12345,ok,5,
+TF-IDF,"carrot, ingredient_that_does_not_exist_12345",ok,5,
+Jaccard,"carrot, ingredient_that_does_not_exist_12345",ok,5,
+MiniLM,"carrot, ingredient_that_does_not_exist_12345",ok,5,
+TF-IDF,,ok,5,
+Jaccard,,ok,5,
+MiniLM,,ok,5,

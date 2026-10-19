@@ -1,0 +1,61 @@
+experiment,query_id,group,query_number,source_index,query_length,query,split_seed,query_seed,model,precision_at_5,coverage,missing
+manual,tomato_pasta_3,tomato_pasta,,,3,"pasta, tomato, garlic",,,TF-IDF,0.4,0.7333333333333333,3.0
+manual,tomato_pasta_3,tomato_pasta,,,3,"pasta, tomato, garlic",,,Jaccard,0.8,0.9333333333333332,3.6
+manual,tomato_pasta_3,tomato_pasta,,,3,"pasta, tomato, garlic",,,MiniLM,0.4,0.7999999999999999,4.4
+manual,tomato_pasta_4,tomato_pasta,,,4,"pasta, tomato, garlic, onion",,,TF-IDF,0.4,0.7,3.6
+manual,tomato_pasta_4,tomato_pasta,,,4,"pasta, tomato, garlic, onion",,,Jaccard,0.2,0.8,3.0
+manual,tomato_pasta_4,tomato_pasta,,,4,"pasta, tomato, garlic, onion",,,MiniLM,0.2,0.8,4.4
+manual,tomato_pasta_5,tomato_pasta,,,5,"pasta, tomato, garlic, onion, olive oil",,,TF-IDF,0.0,0.7200000000000001,2.4
+manual,tomato_pasta_5,tomato_pasta,,,5,"pasta, tomato, garlic, onion, olive oil",,,Jaccard,0.0,0.7600000000000001,2.2
+manual,tomato_pasta_5,tomato_pasta,,,5,"pasta, tomato, garlic, onion, olive oil",,,MiniLM,0.0,0.64,2.6
+manual,tomato_pasta_6,tomato_pasta,,,6,"pasta, tomato, garlic, onion, olive oil, basil",,,TF-IDF,0.0,0.6666666666666667,1.8
+manual,tomato_pasta_6,tomato_pasta,,,6,"pasta, tomato, garlic, onion, olive oil, basil",,,Jaccard,0.4,0.8666666666666668,3.2
+manual,tomato_pasta_6,tomato_pasta,,,6,"pasta, tomato, garlic, onion, olive oil, basil",,,MiniLM,0.0,0.7666666666666667,2.6
+manual,white_cake_3,white_cake,,,3,"flour, sugar, egg",,,TF-IDF,0.8,0.9333333333333332,0.8
+manual,white_cake_3,white_cake,,,3,"flour, sugar, egg",,,Jaccard,0.8,0.9333333333333333,0.6
+manual,white_cake_3,white_cake,,,3,"flour, sugar, egg",,,MiniLM,0.4,0.7999999999999999,1.6
+manual,white_cake_4,white_cake,,,4,"flour, sugar, egg, butter",,,TF-IDF,0.2,0.8,0.4
+manual,white_cake_4,white_cake,,,4,"flour, sugar, egg, butter",,,Jaccard,0.6,0.9,0.6
+manual,white_cake_4,white_cake,,,4,"flour, sugar, egg, butter",,,MiniLM,0.0,0.75,0.4
+manual,white_cake_5,white_cake,,,5,"flour, sugar, egg, butter, milk",,,TF-IDF,0.4,0.8800000000000001,0.8
+manual,white_cake_5,white_cake,,,5,"flour, sugar, egg, butter, milk",,,Jaccard,0.8,0.96,1.0
+manual,white_cake_5,white_cake,,,5,"flour, sugar, egg, butter, milk",,,MiniLM,0.0,0.76,0.8
+manual,white_cake_6,white_cake,,,6,"flour, sugar, egg, butter, milk, vanilla",,,TF-IDF,0.2,0.8666666666666668,0.4
+manual,white_cake_6,white_cake,,,6,"flour, sugar, egg, butter, milk, vanilla",,,Jaccard,0.6,0.9333333333333333,0.6
+manual,white_cake_6,white_cake,,,6,"flour, sugar, egg, butter, milk, vanilla",,,MiniLM,0.4,0.9,0.6
+manual,mashed_potatoes_3,mashed_potatoes,,,3,"potato, butter, salt",,,TF-IDF,0.8,0.8666666666666668,0.8
+manual,mashed_potatoes_3,mashed_potatoes,,,3,"potato, butter, salt",,,Jaccard,1.0,1.0,1.2
+manual,mashed_potatoes_3,mashed_potatoes,,,3,"potato, butter, salt",,,MiniLM,1.0,1.0,1.2
+manual,mashed_potatoes_4,mashed_potatoes,,,4,"potato, butter, salt, pepper",,,TF-IDF,0.6,0.9,1.4
+manual,mashed_potatoes_4,mashed_potatoes,,,4,"potato, butter, salt, pepper",,,Jaccard,0.4,0.85,1.0
+manual,mashed_potatoes_4,mashed_potatoes,,,4,"potato, butter, salt, pepper",,,MiniLM,0.4,0.85,1.2
+manual,mashed_potatoes_5,mashed_potatoes,,,5,"potato, butter, salt, pepper, milk",,,TF-IDF,0.4,0.8800000000000001,1.4
+manual,mashed_potatoes_5,mashed_potatoes,,,5,"potato, butter, salt, pepper, milk",,,Jaccard,0.6,0.9199999999999999,1.2
+manual,mashed_potatoes_5,mashed_potatoes,,,5,"potato, butter, salt, pepper, milk",,,MiniLM,0.6,0.9199999999999999,1.2
+manual,mashed_potatoes_6,mashed_potatoes,,,6,"potato, butter, salt, pepper, milk, onion",,,TF-IDF,0.4,0.7999999999999999,1.0
+manual,mashed_potatoes_6,mashed_potatoes,,,6,"potato, butter, salt, pepper, milk, onion",,,Jaccard,0.6,0.8666666666666666,1.2
+manual,mashed_potatoes_6,mashed_potatoes,,,6,"potato, butter, salt, pepper, milk, onion",,,MiniLM,0.2,0.8333333333333334,1.4
+manual,tomato_chilli_3,tomato_chilli,,,3,"cumin, onion, garlic",,,TF-IDF,1.0,1.0,6.2
+manual,tomato_chilli_3,tomato_chilli,,,3,"cumin, onion, garlic",,,Jaccard,0.6,0.8666666666666666,4.0
+manual,tomato_chilli_3,tomato_chilli,,,3,"cumin, onion, garlic",,,MiniLM,0.2,0.5999999999999999,3.0
+manual,tomato_chilli_4,tomato_chilli,,,4,"cumin, onion, garlic, tomato",,,TF-IDF,0.6,0.9,4.4
+manual,tomato_chilli_4,tomato_chilli,,,4,"cumin, onion, garlic, tomato",,,Jaccard,0.4,0.85,3.4
+manual,tomato_chilli_4,tomato_chilli,,,4,"cumin, onion, garlic, tomato",,,MiniLM,0.2,0.7,4.0
+manual,tomato_chilli_5,tomato_chilli,,,5,"cumin, onion, garlic, tomato, chili powder",,,TF-IDF,0.6,0.9199999999999999,5.8
+manual,tomato_chilli_5,tomato_chilli,,,5,"cumin, onion, garlic, tomato, chili powder",,,Jaccard,0.8,0.96,5.4
+manual,tomato_chilli_5,tomato_chilli,,,5,"cumin, onion, garlic, tomato, chili powder",,,MiniLM,0.2,0.7200000000000001,5.0
+manual,tomato_chilli_6,tomato_chilli,,,6,"cumin, onion, garlic, tomato, chili powder, salt",,,TF-IDF,0.4,0.9,5.0
+manual,tomato_chilli_6,tomato_chilli,,,6,"cumin, onion, garlic, tomato, chili powder, salt",,,Jaccard,0.4,0.8333333333333334,3.0
+manual,tomato_chilli_6,tomato_chilli,,,6,"cumin, onion, garlic, tomato, chili powder, salt",,,MiniLM,0.2,0.7333333333333333,4.2
+manual,beef_rice_3,beef_rice,,,3,"rice, beef, onion",,,TF-IDF,0.8,0.9333333333333332,6.0
+manual,beef_rice_3,beef_rice,,,3,"rice, beef, onion",,,Jaccard,0.4,0.8,3.0
+manual,beef_rice_3,beef_rice,,,3,"rice, beef, onion",,,MiniLM,0.2,0.6,3.8
+manual,beef_rice_4,beef_rice,,,4,"rice, beef, onion, salt",,,TF-IDF,0.8,0.95,5.0
+manual,beef_rice_4,beef_rice,,,4,"rice, beef, onion, salt",,,Jaccard,0.4,0.8,2.8
+manual,beef_rice_4,beef_rice,,,4,"rice, beef, onion, salt",,,MiniLM,0.0,0.65,3.6
+manual,beef_rice_5,beef_rice,,,5,"rice, beef, onion, salt, pepper",,,TF-IDF,0.8,0.96,5.4
+manual,beef_rice_5,beef_rice,,,5,"rice, beef, onion, salt, pepper",,,Jaccard,0.6,0.8800000000000001,3.6
+manual,beef_rice_5,beef_rice,,,5,"rice, beef, onion, salt, pepper",,,MiniLM,0.2,0.6,3.8
+manual,beef_rice_6,beef_rice,,,6,"rice, beef, onion, salt, pepper, tomato",,,TF-IDF,0.2,0.8333333333333334,3.8
+manual,beef_rice_6,beef_rice,,,6,"rice, beef, onion, salt, pepper, tomato",,,Jaccard,0.2,0.8333333333333334,2.6
+manual,beef_rice_6,beef_rice,,,6,"rice, beef, onion, salt, pepper, tomato",,,MiniLM,0.0,0.6333333333333334,3.6

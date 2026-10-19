@@ -1,0 +1,13 @@
+model,first,second,same_top_5_order
+TF-IDF,scallion,green onion,True
+Jaccard,scallion,green onion,True
+MiniLM,scallion,green onion,True
+TF-IDF,spring onion,green onion,True
+Jaccard,spring onion,green onion,True
+MiniLM,spring onion,green onion,True
+TF-IDF,capsicum,bell pepper,True
+Jaccard,capsicum,bell pepper,True
+MiniLM,capsicum,bell pepper,True
+TF-IDF,icing sugar,powdered sugar,True
+Jaccard,icing sugar,powdered sugar,True
+MiniLM,icing sugar,powdered sugar,True

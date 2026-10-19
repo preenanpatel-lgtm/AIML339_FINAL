@@ -1,0 +1,601 @@
+experiment,query_id,group,query_number,source_index,query_length,query,split_seed,query_seed,model,precision_at_5,coverage,missing
+random,validation_001_3,random,1,1409,3,"onion, salt, barbecue sauce",34,83,TF-IDF,0.4,0.7333333333333333,3.0
+random,validation_001_3,random,1,1409,3,"onion, salt, barbecue sauce",34,83,Jaccard,0.4,0.7999999999999999,2.2
+random,validation_001_3,random,1,1409,3,"onion, salt, barbecue sauce",34,83,MiniLM,0.2,0.7333333333333332,3.4
+random,validation_001_4,random,1,1409,4,"onion, salt, barbecue sauce, chili powder",34,83,TF-IDF,0.2,0.6,2.8
+random,validation_001_4,random,1,1409,4,"onion, salt, barbecue sauce, chili powder",34,83,Jaccard,0.2,0.7,2.4
+random,validation_001_4,random,1,1409,4,"onion, salt, barbecue sauce, chili powder",34,83,MiniLM,0.2,0.75,5.6
+random,validation_001_5,random,1,1409,5,"onion, salt, barbecue sauce, chili powder, kidney bean",34,83,TF-IDF,0.2,0.56,3.2
+random,validation_001_5,random,1,1409,5,"onion, salt, barbecue sauce, chili powder, kidney bean",34,83,Jaccard,0.2,0.6799999999999999,3.0
+random,validation_001_5,random,1,1409,5,"onion, salt, barbecue sauce, chili powder, kidney bean",34,83,MiniLM,0.2,0.64,4.6
+random,validation_001_6,random,1,1409,6,"onion, salt, barbecue sauce, chili powder, kidney bean, water",34,83,TF-IDF,0.2,0.5666666666666667,3.0
+random,validation_001_6,random,1,1409,6,"onion, salt, barbecue sauce, chili powder, kidney bean, water",34,83,Jaccard,0.2,0.6666666666666667,2.6
+random,validation_001_6,random,1,1409,6,"onion, salt, barbecue sauce, chili powder, kidney bean, water",34,83,MiniLM,0.2,0.6666666666666666,4.2
+random,validation_002_3,random,2,7476,3,"vegetable oil, soy sauce, fresh mushroom",34,83,TF-IDF,0.4,0.6666666666666667,6.0
+random,validation_002_3,random,2,7476,3,"vegetable oil, soy sauce, fresh mushroom",34,83,Jaccard,0.0,0.6666666666666666,4.0
+random,validation_002_3,random,2,7476,3,"vegetable oil, soy sauce, fresh mushroom",34,83,MiniLM,0.0,0.4666666666666667,4.8
+random,validation_002_4,random,2,7476,4,"vegetable oil, soy sauce, fresh mushroom, green onion",34,83,TF-IDF,0.2,0.55,5.8
+random,validation_002_4,random,2,7476,4,"vegetable oil, soy sauce, fresh mushroom, green onion",34,83,Jaccard,0.2,0.65,5.0
+random,validation_002_4,random,2,7476,4,"vegetable oil, soy sauce, fresh mushroom, green onion",34,83,MiniLM,0.0,0.45,5.2
+random,validation_002_5,random,2,7476,5,"vegetable oil, soy sauce, fresh mushroom, green onion, cornstarch",34,83,TF-IDF,0.2,0.5199999999999999,4.6
+random,validation_002_5,random,2,7476,5,"vegetable oil, soy sauce, fresh mushroom, green onion, cornstarch",34,83,Jaccard,0.2,0.6799999999999999,6.0
+random,validation_002_5,random,2,7476,5,"vegetable oil, soy sauce, fresh mushroom, green onion, cornstarch",34,83,MiniLM,0.0,0.48,6.0
+random,validation_002_6,random,2,7476,6,"vegetable oil, soy sauce, fresh mushroom, green onion, cornstarch, light brown sugar",34,83,TF-IDF,0.2,0.4666666666666666,5.0
+random,validation_002_6,random,2,7476,6,"vegetable oil, soy sauce, fresh mushroom, green onion, cornstarch, light brown sugar",34,83,Jaccard,0.2,0.6333333333333333,6.6
+random,validation_002_6,random,2,7476,6,"vegetable oil, soy sauce, fresh mushroom, green onion, cornstarch, light brown sugar",34,83,MiniLM,0.2,0.5333333333333333,6.4
+random,validation_003_3,random,3,5301,3,"sweet onion, capsicum, salt",34,83,TF-IDF,0.2,0.6666666666666666,5.2
+random,validation_003_3,random,3,5301,3,"sweet onion, capsicum, salt",34,83,Jaccard,0.2,0.6666666666666666,3.8
+random,validation_003_3,random,3,5301,3,"sweet onion, capsicum, salt",34,83,MiniLM,0.0,0.4666666666666666,4.2
+random,validation_003_4,random,3,5301,4,"sweet onion, capsicum, salt, tomato",34,83,TF-IDF,0.2,0.8,4.8
+random,validation_003_4,random,3,5301,4,"sweet onion, capsicum, salt, tomato",34,83,Jaccard,0.2,0.8,4.4
+random,validation_003_4,random,3,5301,4,"sweet onion, capsicum, salt, tomato",34,83,MiniLM,0.0,0.5,3.2
+random,validation_003_5,random,3,5301,5,"sweet onion, capsicum, salt, tomato, vinegar",34,83,TF-IDF,0.2,0.8,5.4
+random,validation_003_5,random,3,5301,5,"sweet onion, capsicum, salt, tomato, vinegar",34,83,Jaccard,0.2,0.8,5.0
+random,validation_003_5,random,3,5301,5,"sweet onion, capsicum, salt, tomato, vinegar",34,83,MiniLM,0.0,0.6000000000000001,5.0
+random,validation_003_6,random,3,5301,6,"sweet onion, capsicum, salt, tomato, vinegar, worcestershire sauce",34,83,TF-IDF,0.2,0.7333333333333332,5.2
+random,validation_003_6,random,3,5301,6,"sweet onion, capsicum, salt, tomato, vinegar, worcestershire sauce",34,83,Jaccard,0.2,0.7,4.6
+random,validation_003_6,random,3,5301,6,"sweet onion, capsicum, salt, tomato, vinegar, worcestershire sauce",34,83,MiniLM,0.2,0.6,5.4
+random,validation_004_3,random,4,4253,3,"cinnamon, raisin, coconut",34,83,TF-IDF,0.4,0.7999999999999999,6.4
+random,validation_004_3,random,4,4253,3,"cinnamon, raisin, coconut",34,83,Jaccard,0.2,0.7333333333333332,3.4
+random,validation_004_3,random,4,4253,3,"cinnamon, raisin, coconut",34,83,MiniLM,0.0,0.6,3.0
+random,validation_004_4,random,4,4253,4,"cinnamon, raisin, coconut, nutmeg",34,83,TF-IDF,0.4,0.8,5.4
+random,validation_004_4,random,4,4253,4,"cinnamon, raisin, coconut, nutmeg",34,83,Jaccard,0.2,0.75,3.6
+random,validation_004_4,random,4,4253,4,"cinnamon, raisin, coconut, nutmeg",34,83,MiniLM,0.2,0.75,3.8
+random,validation_004_5,random,4,4253,5,"cinnamon, raisin, coconut, nutmeg, vanilla",34,83,TF-IDF,0.4,0.8,4.6
+random,validation_004_5,random,4,4253,5,"cinnamon, raisin, coconut, nutmeg, vanilla",34,83,Jaccard,0.2,0.76,4.0
+random,validation_004_5,random,4,4253,5,"cinnamon, raisin, coconut, nutmeg, vanilla",34,83,MiniLM,0.2,0.64,4.4
+random,validation_004_6,random,4,4253,6,"cinnamon, raisin, coconut, nutmeg, vanilla, salt",34,83,TF-IDF,0.4,0.7333333333333333,4.2
+random,validation_004_6,random,4,4253,6,"cinnamon, raisin, coconut, nutmeg, vanilla, salt",34,83,Jaccard,0.4,0.8333333333333333,5.4
+random,validation_004_6,random,4,4253,6,"cinnamon, raisin, coconut, nutmeg, vanilla, salt",34,83,MiniLM,0.4,0.7,5.4
+random,validation_005_3,random,5,2885,3,"mirin, low-sodium, sesame oil",34,83,TF-IDF,0.2,0.4666666666666666,8.0
+random,validation_005_3,random,5,2885,3,"mirin, low-sodium, sesame oil",34,83,Jaccard,0.2,0.4666666666666666,3.0
+random,validation_005_3,random,5,2885,3,"mirin, low-sodium, sesame oil",34,83,MiniLM,0.0,0.39999999999999997,3.6
+random,validation_005_4,random,5,2885,4,"mirin, low-sodium, sesame oil, bacon",34,83,TF-IDF,0.2,0.4,7.8
+random,validation_005_4,random,5,2885,4,"mirin, low-sodium, sesame oil, bacon",34,83,Jaccard,0.2,0.4,2.2
+random,validation_005_4,random,5,2885,4,"mirin, low-sodium, sesame oil, bacon",34,83,MiniLM,0.2,0.35,6.2
+random,validation_005_5,random,5,2885,5,"mirin, low-sodium, sesame oil, bacon, baby kale",34,83,TF-IDF,0.2,0.36,7.6
+random,validation_005_5,random,5,2885,5,"mirin, low-sodium, sesame oil, bacon, baby kale",34,83,Jaccard,0.2,0.4,3.2
+random,validation_005_5,random,5,2885,5,"mirin, low-sodium, sesame oil, bacon, baby kale",34,83,MiniLM,0.2,0.36,5.6
+random,validation_005_6,random,5,2885,6,"mirin, low-sodium, sesame oil, bacon, baby kale, soy sauce",34,83,TF-IDF,0.2,0.4666666666666666,2.2
+random,validation_005_6,random,5,2885,6,"mirin, low-sodium, sesame oil, bacon, baby kale, soy sauce",34,83,Jaccard,0.2,0.4666666666666666,2.2
+random,validation_005_6,random,5,2885,6,"mirin, low-sodium, sesame oil, bacon, baby kale, soy sauce",34,83,MiniLM,0.2,0.4,5.8
+random,validation_006_3,random,6,9972,3,"milk, jalapeno chili, onion",34,83,TF-IDF,0.2,0.5333333333333333,2.6
+random,validation_006_3,random,6,9972,3,"milk, jalapeno chili, onion",34,83,Jaccard,0.0,0.6,2.4
+random,validation_006_3,random,6,9972,3,"milk, jalapeno chili, onion",34,83,MiniLM,0.0,0.3333333333333333,4.8
+random,validation_006_4,random,6,9972,4,"milk, jalapeno chili, onion, pasta",34,83,TF-IDF,0.2,0.6,5.2
+random,validation_006_4,random,6,9972,4,"milk, jalapeno chili, onion, pasta",34,83,Jaccard,0.2,0.75,4.6
+random,validation_006_4,random,6,9972,4,"milk, jalapeno chili, onion, pasta",34,83,MiniLM,0.2,0.45,6.8
+random,validation_006_5,random,6,9972,5,"milk, jalapeno chili, onion, pasta, flour",34,83,TF-IDF,0.2,0.6000000000000001,4.0
+random,validation_006_5,random,6,9972,5,"milk, jalapeno chili, onion, pasta, flour",34,83,Jaccard,0.2,0.7200000000000001,4.0
+random,validation_006_5,random,6,9972,5,"milk, jalapeno chili, onion, pasta, flour",34,83,MiniLM,0.2,0.36,6.8
+random,validation_006_6,random,6,9972,6,"milk, jalapeno chili, onion, pasta, flour, breadcrumbs",34,83,TF-IDF,0.2,0.7333333333333334,5.2
+random,validation_006_6,random,6,9972,6,"milk, jalapeno chili, onion, pasta, flour, breadcrumbs",34,83,Jaccard,0.2,0.7333333333333334,4.4
+random,validation_006_6,random,6,9972,6,"milk, jalapeno chili, onion, pasta, flour, breadcrumbs",34,83,MiniLM,0.2,0.6,6.0
+random,validation_007_3,random,7,8762,3,"bourbon, orange juice, lemon slices",34,83,TF-IDF,0.2,0.5333333333333333,4.2
+random,validation_007_3,random,7,8762,3,"bourbon, orange juice, lemon slices",34,83,Jaccard,0.2,0.5333333333333334,2.0
+random,validation_007_3,random,7,8762,3,"bourbon, orange juice, lemon slices",34,83,MiniLM,0.2,0.4666666666666666,3.8
+random,validation_007_4,random,7,8762,4,"bourbon, orange juice, lemon slices, lemon-lime soft drink",34,83,TF-IDF,0.2,0.45,4.0
+random,validation_007_4,random,7,8762,4,"bourbon, orange juice, lemon slices, lemon-lime soft drink",34,83,Jaccard,0.2,0.45,1.8
+random,validation_007_4,random,7,8762,4,"bourbon, orange juice, lemon slices, lemon-lime soft drink",34,83,MiniLM,0.2,0.45,3.6
+random,validation_007_5,random,7,8762,5,"bourbon, orange juice, lemon slices, lemon-lime soft drink, lemon juice from concentrate",34,83,TF-IDF,0.2,0.39999999999999997,3.4
+random,validation_007_5,random,7,8762,5,"bourbon, orange juice, lemon slices, lemon-lime soft drink, lemon juice from concentrate",34,83,Jaccard,0.2,0.39999999999999997,1.6
+random,validation_007_5,random,7,8762,5,"bourbon, orange juice, lemon slices, lemon-lime soft drink, lemon juice from concentrate",34,83,MiniLM,0.2,0.39999999999999997,2.8
+random,validation_007_6,random,7,8762,6,"bourbon, orange juice, lemon slices, lemon-lime soft drink, lemon juice from concentrate, frozen lemonade concentrate",34,83,TF-IDF,0.2,0.3666666666666667,2.4
+random,validation_007_6,random,7,8762,6,"bourbon, orange juice, lemon slices, lemon-lime soft drink, lemon juice from concentrate, frozen lemonade concentrate",34,83,Jaccard,0.2,0.3666666666666667,1.4
+random,validation_007_6,random,7,8762,6,"bourbon, orange juice, lemon slices, lemon-lime soft drink, lemon juice from concentrate, frozen lemonade concentrate",34,83,MiniLM,0.2,0.3666666666666667,4.4
+random,validation_008_3,random,8,5407,3,"brown sugar, sugar, salt",34,83,TF-IDF,0.6,0.8666666666666666,3.6
+random,validation_008_3,random,8,5407,3,"brown sugar, sugar, salt",34,83,Jaccard,0.2,0.7333333333333332,2.2
+random,validation_008_3,random,8,5407,3,"brown sugar, sugar, salt",34,83,MiniLM,0.0,0.4666666666666666,3.8
+random,validation_008_4,random,8,5407,4,"brown sugar, sugar, salt, vanilla",34,83,TF-IDF,0.4,0.8,2.4
+random,validation_008_4,random,8,5407,4,"brown sugar, sugar, salt, vanilla",34,83,Jaccard,0.2,0.8,2.2
+random,validation_008_4,random,8,5407,4,"brown sugar, sugar, salt, vanilla",34,83,MiniLM,0.0,0.55,3.6
+random,validation_008_5,random,8,5407,5,"brown sugar, sugar, salt, vanilla, baking powder",34,83,TF-IDF,0.0,0.76,2.6
+random,validation_008_5,random,8,5407,5,"brown sugar, sugar, salt, vanilla, baking powder",34,83,Jaccard,0.4,0.8,2.8
+random,validation_008_5,random,8,5407,5,"brown sugar, sugar, salt, vanilla, baking powder",34,83,MiniLM,0.0,0.4800000000000001,4.4
+random,validation_008_6,random,8,5407,6,"brown sugar, sugar, salt, vanilla, baking powder, nut",34,83,TF-IDF,0.0,0.7,3.2
+random,validation_008_6,random,8,5407,6,"brown sugar, sugar, salt, vanilla, baking powder, nut",34,83,Jaccard,0.4,0.8,3.0
+random,validation_008_6,random,8,5407,6,"brown sugar, sugar, salt, vanilla, baking powder, nut",34,83,MiniLM,0.0,0.5666666666666667,4.6
+random,validation_009_3,random,9,1503,3,"soy sauce, onion, ham",34,83,TF-IDF,0.2,0.5333333333333334,3.6
+random,validation_009_3,random,9,1503,3,"soy sauce, onion, ham",34,83,Jaccard,0.2,0.7333333333333332,4.6
+random,validation_009_3,random,9,1503,3,"soy sauce, onion, ham",34,83,MiniLM,0.2,0.5999999999999999,4.6
+random,validation_009_4,random,9,1503,4,"soy sauce, onion, ham, tabasco sauce",34,83,TF-IDF,0.2,0.55,4.4
+random,validation_009_4,random,9,1503,4,"soy sauce, onion, ham, tabasco sauce",34,83,Jaccard,0.2,0.65,4.4
+random,validation_009_4,random,9,1503,4,"soy sauce, onion, ham, tabasco sauce",34,83,MiniLM,0.2,0.6,4.6
+random,validation_009_5,random,9,1503,5,"soy sauce, onion, ham, tabasco sauce, salt",34,83,TF-IDF,0.2,0.56,3.8
+random,validation_009_5,random,9,1503,5,"soy sauce, onion, ham, tabasco sauce, salt",34,83,Jaccard,0.2,0.68,3.4
+random,validation_009_5,random,9,1503,5,"soy sauce, onion, ham, tabasco sauce, salt",34,83,MiniLM,0.2,0.6000000000000001,4.8
+random,validation_009_6,random,9,1503,6,"soy sauce, onion, ham, tabasco sauce, salt, potato",34,83,TF-IDF,0.2,0.6666666666666666,3.2
+random,validation_009_6,random,9,1503,6,"soy sauce, onion, ham, tabasco sauce, salt, potato",34,83,Jaccard,0.2,0.6666666666666666,3.0
+random,validation_009_6,random,9,1503,6,"soy sauce, onion, ham, tabasco sauce, salt, potato",34,83,MiniLM,0.2,0.5999999999999999,4.8
+random,validation_010_3,random,10,8683,3,"fresh cilantro, red onion, garlic",34,83,TF-IDF,0.4,0.7999999999999999,6.6
+random,validation_010_3,random,10,8683,3,"fresh cilantro, red onion, garlic",34,83,Jaccard,0.4,0.7333333333333333,3.6
+random,validation_010_3,random,10,8683,3,"fresh cilantro, red onion, garlic",34,83,MiniLM,0.0,0.39999999999999997,4.8
+random,validation_010_4,random,10,8683,4,"fresh cilantro, red onion, garlic, lime juice",34,83,TF-IDF,0.2,0.75,6.0
+random,validation_010_4,random,10,8683,4,"fresh cilantro, red onion, garlic, lime juice",34,83,Jaccard,0.2,0.75,4.4
+random,validation_010_4,random,10,8683,4,"fresh cilantro, red onion, garlic, lime juice",34,83,MiniLM,0.0,0.5,5.2
+random,validation_010_5,random,10,8683,5,"fresh cilantro, red onion, garlic, lime juice, salt",34,83,TF-IDF,0.2,0.8,5.0
+random,validation_010_5,random,10,8683,5,"fresh cilantro, red onion, garlic, lime juice, salt",34,83,Jaccard,0.2,0.76,3.4
+random,validation_010_5,random,10,8683,5,"fresh cilantro, red onion, garlic, lime juice, salt",34,83,MiniLM,0.2,0.6799999999999999,4.2
+random,validation_010_6,random,10,8683,6,"fresh cilantro, red onion, garlic, lime juice, salt, vegetable oil",34,83,TF-IDF,0.2,0.7,4.8
+random,validation_010_6,random,10,8683,6,"fresh cilantro, red onion, garlic, lime juice, salt, vegetable oil",34,83,Jaccard,0.2,0.7,3.6
+random,validation_010_6,random,10,8683,6,"fresh cilantro, red onion, garlic, lime juice, salt, vegetable oil",34,83,MiniLM,0.2,0.6333333333333333,4.0
+random,validation_011_3,random,11,2000,3,"milk, salmon, cream of celery soup",34,83,TF-IDF,0.2,0.7333333333333332,3.8
+random,validation_011_3,random,11,2000,3,"milk, salmon, cream of celery soup",34,83,Jaccard,0.2,0.5999999999999999,2.2
+random,validation_011_3,random,11,2000,3,"milk, salmon, cream of celery soup",34,83,MiniLM,0.0,0.4666666666666666,3.6
+random,validation_011_4,random,11,2000,4,"milk, salmon, cream of celery soup, pepper",34,83,TF-IDF,0.2,0.65,4.0
+random,validation_011_4,random,11,2000,4,"milk, salmon, cream of celery soup, pepper",34,83,Jaccard,0.2,0.7,3.8
+random,validation_011_4,random,11,2000,4,"milk, salmon, cream of celery soup, pepper",34,83,MiniLM,0.2,0.5,3.4
+random,validation_011_5,random,11,2000,5,"milk, salmon, cream of celery soup, pepper, parsley",34,83,TF-IDF,0.2,0.64,4.2
+random,validation_011_5,random,11,2000,5,"milk, salmon, cream of celery soup, pepper, parsley",34,83,Jaccard,0.2,0.68,4.4
+random,validation_011_5,random,11,2000,5,"milk, salmon, cream of celery soup, pepper, parsley",34,83,MiniLM,0.2,0.52,5.4
+random,validation_011_6,random,11,2000,6,"milk, salmon, cream of celery soup, pepper, parsley, onion",34,83,TF-IDF,0.2,0.6666666666666667,3.4
+random,validation_011_6,random,11,2000,6,"milk, salmon, cream of celery soup, pepper, parsley, onion",34,83,Jaccard,0.2,0.7333333333333332,3.8
+random,validation_011_6,random,11,2000,6,"milk, salmon, cream of celery soup, pepper, parsley, onion",34,83,MiniLM,0.2,0.5666666666666667,5.2
+random,validation_012_3,random,12,8416,3,"fresh scallop, butter, parsley",34,83,TF-IDF,0.2,0.7333333333333332,3.2
+random,validation_012_3,random,12,8416,3,"fresh scallop, butter, parsley",34,83,Jaccard,0.2,0.7333333333333332,2.6
+random,validation_012_3,random,12,8416,3,"fresh scallop, butter, parsley",34,83,MiniLM,0.2,0.4,6.8
+random,validation_012_4,random,12,8416,4,"fresh scallop, butter, parsley, white wine",34,83,TF-IDF,0.2,0.7,4.0
+random,validation_012_4,random,12,8416,4,"fresh scallop, butter, parsley, white wine",34,83,Jaccard,0.2,0.7,2.8
+random,validation_012_4,random,12,8416,4,"fresh scallop, butter, parsley, white wine",34,83,MiniLM,0.2,0.6,5.6
+random,validation_012_5,random,12,8416,5,"fresh scallop, butter, parsley, white wine, noodle",34,83,TF-IDF,0.2,0.56,3.0
+random,validation_012_5,random,12,8416,5,"fresh scallop, butter, parsley, white wine, noodle",34,83,Jaccard,0.2,0.6,2.6
+random,validation_012_5,random,12,8416,5,"fresh scallop, butter, parsley, white wine, noodle",34,83,MiniLM,0.2,0.52,7.0
+random,validation_012_6,random,12,8416,6,"fresh scallop, butter, parsley, white wine, noodle, clove garlic",34,83,TF-IDF,0.2,0.5333333333333333,2.6
+random,validation_012_6,random,12,8416,6,"fresh scallop, butter, parsley, white wine, noodle, clove garlic",34,83,Jaccard,0.2,0.5666666666666667,2.2
+random,validation_012_6,random,12,8416,6,"fresh scallop, butter, parsley, white wine, noodle, clove garlic",34,83,MiniLM,0.2,0.4666666666666666,6.8
+random,validation_013_3,random,13,9915,3,"water chestnut, chicken breast, sour cream",34,83,TF-IDF,0.2,0.7333333333333332,2.8
+random,validation_013_3,random,13,9915,3,"water chestnut, chicken breast, sour cream",34,83,Jaccard,0.2,0.7333333333333332,2.4
+random,validation_013_3,random,13,9915,3,"water chestnut, chicken breast, sour cream",34,83,MiniLM,0.2,0.6,3.0
+random,validation_013_4,random,13,9915,4,"water chestnut, chicken breast, sour cream, margarine",34,83,TF-IDF,0.2,0.65,3.4
+random,validation_013_4,random,13,9915,4,"water chestnut, chicken breast, sour cream, margarine",34,83,Jaccard,0.2,0.7,2.6
+random,validation_013_4,random,13,9915,4,"water chestnut, chicken breast, sour cream, margarine",34,83,MiniLM,0.2,0.5,4.2
+random,validation_013_5,random,13,9915,5,"water chestnut, chicken breast, sour cream, margarine, onion",34,83,TF-IDF,0.2,0.6,3.0
+random,validation_013_5,random,13,9915,5,"water chestnut, chicken breast, sour cream, margarine, onion",34,83,Jaccard,0.2,0.76,3.4
+random,validation_013_5,random,13,9915,5,"water chestnut, chicken breast, sour cream, margarine, onion",34,83,MiniLM,0.2,0.6399999999999999,3.4
+random,validation_013_6,random,13,9915,6,"water chestnut, chicken breast, sour cream, margarine, onion, capsicum",34,83,TF-IDF,0.2,0.5333333333333333,3.0
+random,validation_013_6,random,13,9915,6,"water chestnut, chicken breast, sour cream, margarine, onion, capsicum",34,83,Jaccard,0.2,0.7,3.6
+random,validation_013_6,random,13,9915,6,"water chestnut, chicken breast, sour cream, margarine, onion, capsicum",34,83,MiniLM,0.2,0.5,3.8
+random,validation_014_3,random,14,6071,3,"sugar, cream of tartar, egg",34,83,TF-IDF,0.6,0.8666666666666666,4.4
+random,validation_014_3,random,14,6071,3,"sugar, cream of tartar, egg",34,83,Jaccard,0.2,0.7333333333333333,1.2
+random,validation_014_3,random,14,6071,3,"sugar, cream of tartar, egg",34,83,MiniLM,0.0,0.6666666666666666,2.8
+random,validation_014_4,random,14,6071,4,"sugar, cream of tartar, egg, lemon juice",34,83,TF-IDF,0.4,0.8,4.4
+random,validation_014_4,random,14,6071,4,"sugar, cream of tartar, egg, lemon juice",34,83,Jaccard,0.2,0.7,1.4
+random,validation_014_4,random,14,6071,4,"sugar, cream of tartar, egg, lemon juice",34,83,MiniLM,0.0,0.6,3.8
+random,validation_014_5,random,14,6071,5,"sugar, cream of tartar, egg, lemon juice, condensed milk",34,83,TF-IDF,0.2,0.6,2.2
+random,validation_014_5,random,14,6071,5,"sugar, cream of tartar, egg, lemon juice, condensed milk",34,83,Jaccard,0.2,0.72,1.6
+random,validation_014_5,random,14,6071,5,"sugar, cream of tartar, egg, lemon juice, condensed milk",34,83,MiniLM,0.0,0.5599999999999999,3.6
+random,validation_014_6,random,14,6071,6,"sugar, cream of tartar, egg, lemon juice, condensed milk, lemon zest",34,83,TF-IDF,0.2,0.7666666666666666,3.0
+random,validation_014_6,random,14,6071,6,"sugar, cream of tartar, egg, lemon juice, condensed milk, lemon zest",34,83,Jaccard,0.2,0.7333333333333332,1.8
+random,validation_014_6,random,14,6071,6,"sugar, cream of tartar, egg, lemon juice, condensed milk, lemon zest",34,83,MiniLM,0.2,0.7,2.6
+random,validation_015_3,random,15,7519,3,"cream of chicken soup, cream of mushroom soup, butter",34,83,TF-IDF,0.2,0.7333333333333332,4.2
+random,validation_015_3,random,15,7519,3,"cream of chicken soup, cream of mushroom soup, butter",34,83,Jaccard,0.4,0.7999999999999999,3.6
+random,validation_015_3,random,15,7519,3,"cream of chicken soup, cream of mushroom soup, butter",34,83,MiniLM,0.0,0.5333333333333333,3.2
+random,validation_015_4,random,15,7519,4,"cream of chicken soup, cream of mushroom soup, butter, cheddar cheese",34,83,TF-IDF,0.2,0.8,4.4
+random,validation_015_4,random,15,7519,4,"cream of chicken soup, cream of mushroom soup, butter, cheddar cheese",34,83,Jaccard,0.2,0.8,3.4
+random,validation_015_4,random,15,7519,4,"cream of chicken soup, cream of mushroom soup, butter, cheddar cheese",34,83,MiniLM,0.0,0.5,3.8
+random,validation_015_5,random,15,7519,5,"cream of chicken soup, cream of mushroom soup, butter, cheddar cheese, water chestnut",34,83,TF-IDF,0.2,0.6,4.8
+random,validation_015_5,random,15,7519,5,"cream of chicken soup, cream of mushroom soup, butter, cheddar cheese, water chestnut",34,83,Jaccard,0.2,0.68,3.0
+random,validation_015_5,random,15,7519,5,"cream of chicken soup, cream of mushroom soup, butter, cheddar cheese, water chestnut",34,83,MiniLM,0.2,0.5599999999999999,3.6
+random,validation_015_6,random,15,7519,6,"cream of chicken soup, cream of mushroom soup, butter, cheddar cheese, water chestnut, rice",34,83,TF-IDF,0.2,0.6333333333333333,4.0
+random,validation_015_6,random,15,7519,6,"cream of chicken soup, cream of mushroom soup, butter, cheddar cheese, water chestnut, rice",34,83,Jaccard,0.2,0.6666666666666666,3.0
+random,validation_015_6,random,15,7519,6,"cream of chicken soup, cream of mushroom soup, butter, cheddar cheese, water chestnut, rice",34,83,MiniLM,0.2,0.5666666666666667,3.4
+random,validation_016_3,random,16,7840,3,"date, flour, egg",34,83,TF-IDF,0.8,0.9333333333333332,5.4
+random,validation_016_3,random,16,7840,3,"date, flour, egg",34,83,Jaccard,0.2,0.7333333333333332,2.2
+random,validation_016_3,random,16,7840,3,"date, flour, egg",34,83,MiniLM,0.2,0.7333333333333332,2.2
+random,validation_016_4,random,16,7840,4,"date, flour, egg, nut",34,83,TF-IDF,0.6,0.8,4.8
+random,validation_016_4,random,16,7840,4,"date, flour, egg, nut",34,83,Jaccard,0.6,0.9,3.6
+random,validation_016_4,random,16,7840,4,"date, flour, egg, nut",34,83,MiniLM,0.4,0.8,4.6
+random,validation_016_5,random,16,7840,5,"date, flour, egg, nut, grains of salt",34,83,TF-IDF,0.2,0.76,4.0
+random,validation_016_5,random,16,7840,5,"date, flour, egg, nut, grains of salt",34,83,Jaccard,0.2,0.8,3.8
+random,validation_016_5,random,16,7840,5,"date, flour, egg, nut, grains of salt",34,83,MiniLM,0.2,0.68,5.2
+random,validation_016_6,random,16,7840,6,"date, flour, egg, nut, grains of salt, baking powder",34,83,TF-IDF,0.2,0.7333333333333334,4.0
+random,validation_016_6,random,16,7840,6,"date, flour, egg, nut, grains of salt, baking powder",34,83,Jaccard,0.2,0.8,3.4
+random,validation_016_6,random,16,7840,6,"date, flour, egg, nut, grains of salt, baking powder",34,83,MiniLM,0.2,0.7666666666666666,4.2
+random,validation_017_3,random,17,5267,3,"vegetable oil, onion, salt",34,83,TF-IDF,0.6,0.8666666666666666,3.0
+random,validation_017_3,random,17,5267,3,"vegetable oil, onion, salt",34,83,Jaccard,0.6,0.8666666666666666,2.2
+random,validation_017_3,random,17,5267,3,"vegetable oil, onion, salt",34,83,MiniLM,0.2,0.6666666666666666,3.2
+random,validation_017_4,random,17,5267,4,"vegetable oil, onion, salt, sugar",34,83,TF-IDF,0.0,0.6,2.4
+random,validation_017_4,random,17,5267,4,"vegetable oil, onion, salt, sugar",34,83,Jaccard,0.4,0.8,2.4
+random,validation_017_4,random,17,5267,4,"vegetable oil, onion, salt, sugar",34,83,MiniLM,0.0,0.7,3.4
+random,validation_017_5,random,17,5267,5,"vegetable oil, onion, salt, sugar, bacon drippings",34,83,TF-IDF,0.2,0.68,8.6
+random,validation_017_5,random,17,5267,5,"vegetable oil, onion, salt, sugar, bacon drippings",34,83,Jaccard,0.2,0.76,3.2
+random,validation_017_5,random,17,5267,5,"vegetable oil, onion, salt, sugar, bacon drippings",34,83,MiniLM,0.2,0.6,6.0
+random,validation_017_6,random,17,5267,6,"vegetable oil, onion, salt, sugar, bacon drippings, green pepper",34,83,TF-IDF,0.2,0.6666666666666667,8.0
+random,validation_017_6,random,17,5267,6,"vegetable oil, onion, salt, sugar, bacon drippings, green pepper",34,83,Jaccard,0.2,0.7333333333333332,3.2
+random,validation_017_6,random,17,5267,6,"vegetable oil, onion, salt, sugar, bacon drippings, green pepper",34,83,MiniLM,0.2,0.5333333333333333,5.0
+random,validation_018_3,random,18,5320,3,"beef, noodle, sour cream",34,83,TF-IDF,0.4,0.7333333333333332,3.6
+random,validation_018_3,random,18,5320,3,"beef, noodle, sour cream",34,83,Jaccard,0.2,0.7333333333333332,2.8
+random,validation_018_3,random,18,5320,3,"beef, noodle, sour cream",34,83,MiniLM,0.2,0.6666666666666667,4.0
+random,validation_018_4,random,18,5320,4,"beef, noodle, sour cream, onion",34,83,TF-IDF,0.4,0.75,3.2
+random,validation_018_4,random,18,5320,4,"beef, noodle, sour cream, onion",34,83,Jaccard,0.4,0.8,3.2
+random,validation_018_4,random,18,5320,4,"beef, noodle, sour cream, onion",34,83,MiniLM,0.2,0.65,4.6
+random,validation_018_5,random,18,5320,5,"beef, noodle, sour cream, onion, mushroom stems",34,83,TF-IDF,0.4,0.76,3.8
+random,validation_018_5,random,18,5320,5,"beef, noodle, sour cream, onion, mushroom stems",34,83,Jaccard,0.4,0.8400000000000001,4.4
+random,validation_018_5,random,18,5320,5,"beef, noodle, sour cream, onion, mushroom stems",34,83,MiniLM,0.4,0.8,4.4
+random,validation_018_6,random,18,5320,6,"beef, noodle, sour cream, onion, mushroom stems, water",34,83,TF-IDF,0.2,0.6666666666666666,3.6
+random,validation_018_6,random,18,5320,6,"beef, noodle, sour cream, onion, mushroom stems, water",34,83,Jaccard,0.2,0.7333333333333333,3.4
+random,validation_018_6,random,18,5320,6,"beef, noodle, sour cream, onion, mushroom stems, water",34,83,MiniLM,0.2,0.7333333333333333,4.0
+random,validation_019_3,random,19,1020,3,"powdered sugar, sugar, butter",34,83,TF-IDF,0.4,0.7999999999999999,1.8
+random,validation_019_3,random,19,1020,3,"powdered sugar, sugar, butter",34,83,Jaccard,0.6,0.8666666666666666,1.6
+random,validation_019_3,random,19,1020,3,"powdered sugar, sugar, butter",34,83,MiniLM,0.2,0.6666666666666666,1.6
+random,validation_019_4,random,19,1020,4,"powdered sugar, sugar, butter, vanilla",34,83,TF-IDF,0.2,0.8,1.0
+random,validation_019_4,random,19,1020,4,"powdered sugar, sugar, butter, vanilla",34,83,Jaccard,0.4,0.85,1.2
+random,validation_019_4,random,19,1020,4,"powdered sugar, sugar, butter, vanilla",34,83,MiniLM,0.0,0.7,1.2
+random,validation_019_5,random,19,1020,5,"powdered sugar, sugar, butter, vanilla, milk",34,83,TF-IDF,0.6,0.8800000000000001,1.6
+random,validation_019_5,random,19,1020,5,"powdered sugar, sugar, butter, vanilla, milk",34,83,Jaccard,0.4,0.8800000000000001,1.2
+random,validation_019_5,random,19,1020,5,"powdered sugar, sugar, butter, vanilla, milk",34,83,MiniLM,0.2,0.72,0.8
+random,validation_019_6,random,19,1020,6,"powdered sugar, sugar, butter, vanilla, milk, active dry yeast",34,83,TF-IDF,0.2,0.8,2.6
+random,validation_019_6,random,19,1020,6,"powdered sugar, sugar, butter, vanilla, milk, active dry yeast",34,83,Jaccard,0.0,0.7333333333333333,1.2
+random,validation_019_6,random,19,1020,6,"powdered sugar, sugar, butter, vanilla, milk, active dry yeast",34,83,MiniLM,0.2,0.7333333333333333,4.6
+random,validation_020_3,random,20,6757,3,"sugar, lemon juice, condensed milk",34,83,TF-IDF,0.2,0.6666666666666666,1.6
+random,validation_020_3,random,20,6757,3,"sugar, lemon juice, condensed milk",34,83,Jaccard,0.2,0.7333333333333333,1.2
+random,validation_020_3,random,20,6757,3,"sugar, lemon juice, condensed milk",34,83,MiniLM,0.2,0.7333333333333332,2.0
+random,validation_020_4,random,20,6757,4,"sugar, lemon juice, condensed milk, milk",34,83,TF-IDF,0.0,0.55,1.8
+random,validation_020_4,random,20,6757,4,"sugar, lemon juice, condensed milk, milk",34,83,Jaccard,0.2,0.75,2.0
+random,validation_020_4,random,20,6757,4,"sugar, lemon juice, condensed milk, milk",34,83,MiniLM,0.2,0.6,3.0
+random,validation_020_5,random,20,6757,5,"sugar, lemon juice, condensed milk, milk, molds",34,83,TF-IDF,0.2,0.52,1.4
+random,validation_020_5,random,20,6757,5,"sugar, lemon juice, condensed milk, milk, molds",34,83,Jaccard,0.2,0.64,1.8
+random,validation_020_5,random,20,6757,5,"sugar, lemon juice, condensed milk, milk, molds",34,83,MiniLM,0.2,0.5199999999999999,3.6
+random,validation_020_6,random,20,6757,6,"sugar, lemon juice, condensed milk, milk, molds, lemon zest",34,83,TF-IDF,0.2,0.5999999999999999,2.6
+random,validation_020_6,random,20,6757,6,"sugar, lemon juice, condensed milk, milk, molds, lemon zest",34,83,Jaccard,0.2,0.6666666666666666,2.2
+random,validation_020_6,random,20,6757,6,"sugar, lemon juice, condensed milk, milk, molds, lemon zest",34,83,MiniLM,0.2,0.6333333333333333,3.0
+random,validation_021_3,random,21,8079,3,"black pepper, vinegar, cucumber",34,83,TF-IDF,0.0,0.6666666666666666,4.4
+random,validation_021_3,random,21,8079,3,"black pepper, vinegar, cucumber",34,83,Jaccard,0.2,0.7333333333333332,4.2
+random,validation_021_3,random,21,8079,3,"black pepper, vinegar, cucumber",34,83,MiniLM,0.0,0.4666666666666666,5.0
+random,validation_021_4,random,21,8079,4,"black pepper, vinegar, cucumber, black olive",34,83,TF-IDF,0.2,0.65,4.6
+random,validation_021_4,random,21,8079,4,"black pepper, vinegar, cucumber, black olive",34,83,Jaccard,0.2,0.65,4.4
+random,validation_021_4,random,21,8079,4,"black pepper, vinegar, cucumber, black olive",34,83,MiniLM,0.2,0.5,5.8
+random,validation_021_5,random,21,8079,5,"black pepper, vinegar, cucumber, black olive, celery",34,83,TF-IDF,0.2,0.5599999999999999,3.4
+random,validation_021_5,random,21,8079,5,"black pepper, vinegar, cucumber, black olive, celery",34,83,Jaccard,0.2,0.64,4.2
+random,validation_021_5,random,21,8079,5,"black pepper, vinegar, cucumber, black olive, celery",34,83,MiniLM,0.2,0.4800000000000001,5.4
+random,validation_021_6,random,21,8079,6,"black pepper, vinegar, cucumber, black olive, celery, feta cheese",34,83,TF-IDF,0.2,0.6,5.8
+random,validation_021_6,random,21,8079,6,"black pepper, vinegar, cucumber, black olive, celery, feta cheese",34,83,Jaccard,0.2,0.5666666666666667,3.6
+random,validation_021_6,random,21,8079,6,"black pepper, vinegar, cucumber, black olive, celery, feta cheese",34,83,MiniLM,0.2,0.4666666666666666,5.8
+random,validation_022_3,random,22,5909,3,"green pepper, parmesan cheese, noodle",34,83,TF-IDF,0.2,0.6,4.8
+random,validation_022_3,random,22,5909,3,"green pepper, parmesan cheese, noodle",34,83,Jaccard,0.2,0.6666666666666666,4.2
+random,validation_022_3,random,22,5909,3,"green pepper, parmesan cheese, noodle",34,83,MiniLM,0.2,0.5333333333333333,5.2
+random,validation_022_4,random,22,5909,4,"green pepper, parmesan cheese, noodle, cottage cheese",34,83,TF-IDF,0.2,0.7,5.2
+random,validation_022_4,random,22,5909,4,"green pepper, parmesan cheese, noodle, cottage cheese",34,83,Jaccard,0.2,0.7,4.6
+random,validation_022_4,random,22,5909,4,"green pepper, parmesan cheese, noodle, cottage cheese",34,83,MiniLM,0.2,0.6,6.6
+random,validation_022_5,random,22,5909,5,"green pepper, parmesan cheese, noodle, cottage cheese, sauce",34,83,TF-IDF,0.2,0.6000000000000001,4.2
+random,validation_022_5,random,22,5909,5,"green pepper, parmesan cheese, noodle, cottage cheese, sauce",34,83,Jaccard,0.2,0.68,5.4
+random,validation_022_5,random,22,5909,5,"green pepper, parmesan cheese, noodle, cottage cheese, sauce",34,83,MiniLM,0.2,0.6,6.4
+random,validation_022_6,random,22,5909,6,"green pepper, parmesan cheese, noodle, cottage cheese, sauce, turkey",34,83,TF-IDF,0.2,0.6333333333333333,5.0
+random,validation_022_6,random,22,5909,6,"green pepper, parmesan cheese, noodle, cottage cheese, sauce, turkey",34,83,Jaccard,0.2,0.6,4.2
+random,validation_022_6,random,22,5909,6,"green pepper, parmesan cheese, noodle, cottage cheese, sauce, turkey",34,83,MiniLM,0.2,0.6,5.0
+random,validation_023_3,random,23,4334,3,"endive, kosher salt, white wine vinegar",34,83,TF-IDF,0.2,0.4666666666666666,4.6
+random,validation_023_3,random,23,4334,3,"endive, kosher salt, white wine vinegar",34,83,Jaccard,0.2,0.5333333333333334,3.2
+random,validation_023_3,random,23,4334,3,"endive, kosher salt, white wine vinegar",34,83,MiniLM,0.2,0.3333333333333333,5.0
+random,validation_023_4,random,23,4334,4,"endive, kosher salt, white wine vinegar, black pepper",34,83,TF-IDF,0.2,0.5,3.6
+random,validation_023_4,random,23,4334,4,"endive, kosher salt, white wine vinegar, black pepper",34,83,Jaccard,0.2,0.6,2.8
+random,validation_023_4,random,23,4334,4,"endive, kosher salt, white wine vinegar, black pepper",34,83,MiniLM,0.2,0.5,3.8
+random,validation_023_5,random,23,4334,5,"endive, kosher salt, white wine vinegar, black pepper, toasted walnut halves",34,83,TF-IDF,0.2,0.44000000000000006,3.4
+random,validation_023_5,random,23,4334,5,"endive, kosher salt, white wine vinegar, black pepper, toasted walnut halves",34,83,Jaccard,0.2,0.5199999999999999,2.6
+random,validation_023_5,random,23,4334,5,"endive, kosher salt, white wine vinegar, black pepper, toasted walnut halves",34,83,MiniLM,0.2,0.39999999999999997,5.0
+random,validation_023_6,random,23,4334,6,"endive, kosher salt, white wine vinegar, black pepper, toasted walnut halves, olive oil",34,83,TF-IDF,0.2,0.5333333333333333,4.6
+random,validation_023_6,random,23,4334,6,"endive, kosher salt, white wine vinegar, black pepper, toasted walnut halves, olive oil",34,83,Jaccard,0.2,0.6,2.6
+random,validation_023_6,random,23,4334,6,"endive, kosher salt, white wine vinegar, black pepper, toasted walnut halves, olive oil",34,83,MiniLM,0.2,0.4666666666666667,5.4
+random,validation_024_3,random,24,8570,3,"baking powder, milk, salt",34,83,TF-IDF,0.8,0.9333333333333332,2.8
+random,validation_024_3,random,24,8570,3,"baking powder, milk, salt",34,83,Jaccard,1.0,1.0,2.0
+random,validation_024_3,random,24,8570,3,"baking powder, milk, salt",34,83,MiniLM,0.6,0.8666666666666666,1.8
+random,validation_024_4,random,24,8570,4,"baking powder, milk, salt, flour",34,83,TF-IDF,1.0,1.0,2.4
+random,validation_024_4,random,24,8570,4,"baking powder, milk, salt, flour",34,83,Jaccard,1.0,1.0,1.4
+random,validation_024_4,random,24,8570,4,"baking powder, milk, salt, flour",34,83,MiniLM,0.8,0.95,1.2
+random,validation_024_5,random,24,8570,5,"baking powder, milk, salt, flour, egg",34,83,TF-IDF,0.8,0.96,1.4
+random,validation_024_5,random,24,8570,5,"baking powder, milk, salt, flour, egg",34,83,Jaccard,0.8,0.96,1.4
+random,validation_024_5,random,24,8570,5,"baking powder, milk, salt, flour, egg",34,83,MiniLM,0.4,0.8799999999999999,1.4
+random,validation_024_6,random,24,8570,6,"baking powder, milk, salt, flour, egg, sugar",34,83,TF-IDF,0.8,0.9666666666666666,0.6
+random,validation_024_6,random,24,8570,6,"baking powder, milk, salt, flour, egg, sugar",34,83,Jaccard,1.0,1.0,0.8
+random,validation_024_6,random,24,8570,6,"baking powder, milk, salt, flour, egg, sugar",34,83,MiniLM,1.0,1.0,0.8
+random,validation_025_3,random,25,8472,3,"hoagie roll, tomato, lemon wedge",34,83,TF-IDF,0.2,0.5333333333333333,6.6
+random,validation_025_3,random,25,8472,3,"hoagie roll, tomato, lemon wedge",34,83,Jaccard,0.2,0.4666666666666666,3.2
+random,validation_025_3,random,25,8472,3,"hoagie roll, tomato, lemon wedge",34,83,MiniLM,0.2,0.26666666666666666,4.6
+random,validation_025_4,random,25,8472,4,"hoagie roll, tomato, lemon wedge, ham",34,83,TF-IDF,0.2,0.45,5.8
+random,validation_025_4,random,25,8472,4,"hoagie roll, tomato, lemon wedge, ham",34,83,Jaccard,0.2,0.55,4.8
+random,validation_025_4,random,25,8472,4,"hoagie roll, tomato, lemon wedge, ham",34,83,MiniLM,0.2,0.25,4.4
+random,validation_025_5,random,25,8472,5,"hoagie roll, tomato, lemon wedge, ham, low-fat",34,83,TF-IDF,0.2,0.4,3.8
+random,validation_025_5,random,25,8472,5,"hoagie roll, tomato, lemon wedge, ham, low-fat",34,83,Jaccard,0.2,0.5199999999999999,5.4
+random,validation_025_5,random,25,8472,5,"hoagie roll, tomato, lemon wedge, ham, low-fat",34,83,MiniLM,0.2,0.24,6.6
+random,validation_025_6,random,25,8472,6,"hoagie roll, tomato, lemon wedge, ham, low-fat, oyster",34,83,TF-IDF,0.2,0.3666666666666667,2.8
+random,validation_025_6,random,25,8472,6,"hoagie roll, tomato, lemon wedge, ham, low-fat, oyster",34,83,Jaccard,0.2,0.4666666666666666,4.6
+random,validation_025_6,random,25,8472,6,"hoagie roll, tomato, lemon wedge, ham, low-fat, oyster",34,83,MiniLM,0.2,0.23333333333333334,6.4
+random,validation_026_3,random,26,7087,3,"pecan, zucchini, soda",34,83,TF-IDF,0.4,0.7999999999999999,7.4
+random,validation_026_3,random,26,7087,3,"pecan, zucchini, soda",34,83,Jaccard,0.4,0.6666666666666667,4.6
+random,validation_026_3,random,26,7087,3,"pecan, zucchini, soda",34,83,MiniLM,0.0,0.3333333333333333,4.0
+random,validation_026_4,random,26,7087,4,"pecan, zucchini, soda, lemon zest",34,83,TF-IDF,0.2,0.65,7.2
+random,validation_026_4,random,26,7087,4,"pecan, zucchini, soda, lemon zest",34,83,Jaccard,0.2,0.65,6.4
+random,validation_026_4,random,26,7087,4,"pecan, zucchini, soda, lemon zest",34,83,MiniLM,0.2,0.45,5.4
+random,validation_026_5,random,26,7087,5,"pecan, zucchini, soda, lemon zest, cinnamon",34,83,TF-IDF,0.2,0.72,6.6
+random,validation_026_5,random,26,7087,5,"pecan, zucchini, soda, lemon zest, cinnamon",34,83,Jaccard,0.2,0.72,6.0
+random,validation_026_5,random,26,7087,5,"pecan, zucchini, soda, lemon zest, cinnamon",34,83,MiniLM,0.2,0.64,6.0
+random,validation_026_6,random,26,7087,6,"pecan, zucchini, soda, lemon zest, cinnamon, baking powder",34,83,TF-IDF,0.2,0.7333333333333333,6.2
+random,validation_026_6,random,26,7087,6,"pecan, zucchini, soda, lemon zest, cinnamon, baking powder",34,83,Jaccard,0.2,0.7666666666666666,6.2
+random,validation_026_6,random,26,7087,6,"pecan, zucchini, soda, lemon zest, cinnamon, baking powder",34,83,MiniLM,0.2,0.7333333333333333,6.6
+random,validation_027_3,random,27,3887,3,"dill, celery, water",34,83,TF-IDF,0.2,0.6666666666666666,3.8
+random,validation_027_3,random,27,3887,3,"dill, celery, water",34,83,Jaccard,0.2,0.6666666666666666,2.6
+random,validation_027_3,random,27,3887,3,"dill, celery, water",34,83,MiniLM,0.0,0.39999999999999997,3.2
+random,validation_027_4,random,27,3887,4,"dill, celery, water, unsalted butter",34,83,TF-IDF,0.2,0.55,3.6
+random,validation_027_4,random,27,3887,4,"dill, celery, water, unsalted butter",34,83,Jaccard,0.2,0.6,3.0
+random,validation_027_4,random,27,3887,4,"dill, celery, water, unsalted butter",34,83,MiniLM,0.2,0.45,4.4
+random,validation_027_5,random,27,3887,5,"dill, celery, water, unsalted butter, milk",34,83,TF-IDF,0.2,0.48,3.4
+random,validation_027_5,random,27,3887,5,"dill, celery, water, unsalted butter, milk",34,83,Jaccard,0.2,0.5199999999999999,2.0
+random,validation_027_5,random,27,3887,5,"dill, celery, water, unsalted butter, milk",34,83,MiniLM,0.2,0.39999999999999997,4.6
+random,validation_027_6,random,27,3887,6,"dill, celery, water, unsalted butter, milk, russet potato",34,83,TF-IDF,0.2,0.4666666666666666,3.8
+random,validation_027_6,random,27,3887,6,"dill, celery, water, unsalted butter, milk, russet potato",34,83,Jaccard,0.2,0.5,2.6
+random,validation_027_6,random,27,3887,6,"dill, celery, water, unsalted butter, milk, russet potato",34,83,MiniLM,0.2,0.3666666666666667,5.8
+random,validation_028_3,random,28,4657,3,"turmeric, white vinegar, celery",34,83,TF-IDF,0.8,0.8666666666666668,5.0
+random,validation_028_3,random,28,4657,3,"turmeric, white vinegar, celery",34,83,Jaccard,0.8,0.8666666666666666,5.0
+random,validation_028_3,random,28,4657,3,"turmeric, white vinegar, celery",34,83,MiniLM,0.4,0.6666666666666666,4.8
+random,validation_028_4,random,28,4657,4,"turmeric, white vinegar, celery, onion",34,83,TF-IDF,0.6,0.9,4.4
+random,validation_028_4,random,28,4657,4,"turmeric, white vinegar, celery, onion",34,83,Jaccard,0.6,0.85,3.6
+random,validation_028_4,random,28,4657,4,"turmeric, white vinegar, celery, onion",34,83,MiniLM,0.4,0.85,4.4
+random,validation_028_5,random,28,4657,5,"turmeric, white vinegar, celery, onion, coarse salt",34,83,TF-IDF,0.2,0.76,4.6
+random,validation_028_5,random,28,4657,5,"turmeric, white vinegar, celery, onion, coarse salt",34,83,Jaccard,0.2,0.72,3.4
+random,validation_028_5,random,28,4657,5,"turmeric, white vinegar, celery, onion, coarse salt",34,83,MiniLM,0.2,0.64,4.8
+random,validation_028_6,random,28,4657,6,"turmeric, white vinegar, celery, onion, coarse salt, red",34,83,TF-IDF,0.2,0.6333333333333333,3.6
+random,validation_028_6,random,28,4657,6,"turmeric, white vinegar, celery, onion, coarse salt, red",34,83,Jaccard,0.2,0.7,4.2
+random,validation_028_6,random,28,4657,6,"turmeric, white vinegar, celery, onion, coarse salt, red",34,83,MiniLM,0.2,0.5666666666666667,4.6
+random,validation_029_3,random,29,1966,3,"flour, sugar, light",34,83,TF-IDF,0.2,0.6,4.8
+random,validation_029_3,random,29,1966,3,"flour, sugar, light",34,83,Jaccard,0.0,0.6666666666666666,1.0
+random,validation_029_3,random,29,1966,3,"flour, sugar, light",34,83,MiniLM,0.0,0.6,1.4
+random,validation_029_4,random,29,1966,4,"flour, sugar, light, active dry yeast",34,83,TF-IDF,0.2,0.65,3.6
+random,validation_029_4,random,29,1966,4,"flour, sugar, light, active dry yeast",34,83,Jaccard,0.2,0.65,2.0
+random,validation_029_4,random,29,1966,4,"flour, sugar, light, active dry yeast",34,83,MiniLM,0.0,0.65,3.8
+random,validation_029_5,random,29,1966,5,"flour, sugar, light, active dry yeast, salt",34,83,TF-IDF,0.2,0.64,3.0
+random,validation_029_5,random,29,1966,5,"flour, sugar, light, active dry yeast, salt",34,83,Jaccard,0.2,0.8,2.8
+random,validation_029_5,random,29,1966,5,"flour, sugar, light, active dry yeast, salt",34,83,MiniLM,0.0,0.68,3.6
+random,validation_029_6,random,29,1966,6,"flour, sugar, light, active dry yeast, salt, olive oil",34,83,TF-IDF,0.2,0.5666666666666667,2.8
+random,validation_029_6,random,29,1966,6,"flour, sugar, light, active dry yeast, salt, olive oil",34,83,Jaccard,0.2,0.7666666666666666,2.2
+random,validation_029_6,random,29,1966,6,"flour, sugar, light, active dry yeast, salt, olive oil",34,83,MiniLM,0.2,0.6666666666666666,2.6
+random,validation_030_3,random,30,3931,3,"vanilla, egg, baking soda",34,83,TF-IDF,1.0,1.0,4.0
+random,validation_030_3,random,30,3931,3,"vanilla, egg, baking soda",34,83,Jaccard,1.0,1.0,3.4
+random,validation_030_3,random,30,3931,3,"vanilla, egg, baking soda",34,83,MiniLM,0.6,0.8,3.8
+random,validation_030_4,random,30,3931,4,"vanilla, egg, baking soda, cocoa",34,83,TF-IDF,1.0,1.0,4.8
+random,validation_030_4,random,30,3931,4,"vanilla, egg, baking soda, cocoa",34,83,Jaccard,0.8,0.95,4.0
+random,validation_030_4,random,30,3931,4,"vanilla, egg, baking soda, cocoa",34,83,MiniLM,0.6,0.9,4.6
+random,validation_030_5,random,30,3931,5,"vanilla, egg, baking soda, cocoa, mayonnaise",34,83,TF-IDF,0.4,0.7999999999999999,4.0
+random,validation_030_5,random,30,3931,5,"vanilla, egg, baking soda, cocoa, mayonnaise",34,83,Jaccard,0.4,0.8399999999999999,3.6
+random,validation_030_5,random,30,3931,5,"vanilla, egg, baking soda, cocoa, mayonnaise",34,83,MiniLM,0.4,0.8400000000000001,3.8
+random,validation_030_6,random,30,3931,6,"vanilla, egg, baking soda, cocoa, mayonnaise, water",34,83,TF-IDF,0.4,0.8333333333333334,3.2
+random,validation_030_6,random,30,3931,6,"vanilla, egg, baking soda, cocoa, mayonnaise, water",34,83,Jaccard,0.4,0.8666666666666668,3.6
+random,validation_030_6,random,30,3931,6,"vanilla, egg, baking soda, cocoa, mayonnaise, water",34,83,MiniLM,0.4,0.7666666666666666,4.6
+random,validation_031_3,random,31,1464,3,"fresh basil, egg, breadcrumbs",34,83,TF-IDF,0.6,0.8666666666666666,6.4
+random,validation_031_3,random,31,1464,3,"fresh basil, egg, breadcrumbs",34,83,Jaccard,0.2,0.6666666666666666,2.6
+random,validation_031_3,random,31,1464,3,"fresh basil, egg, breadcrumbs",34,83,MiniLM,0.2,0.4666666666666666,4.4
+random,validation_031_4,random,31,1464,4,"fresh basil, egg, breadcrumbs, hamburger",34,83,TF-IDF,0.2,0.8,4.6
+random,validation_031_4,random,31,1464,4,"fresh basil, egg, breadcrumbs, hamburger",34,83,Jaccard,0.2,0.7,3.4
+random,validation_031_4,random,31,1464,4,"fresh basil, egg, breadcrumbs, hamburger",34,83,MiniLM,0.2,0.75,4.0
+random,validation_031_5,random,31,1464,5,"fresh basil, egg, breadcrumbs, hamburger, garlic",34,83,TF-IDF,0.2,0.7200000000000001,4.2
+random,validation_031_5,random,31,1464,5,"fresh basil, egg, breadcrumbs, hamburger, garlic",34,83,Jaccard,0.2,0.72,4.0
+random,validation_031_5,random,31,1464,5,"fresh basil, egg, breadcrumbs, hamburger, garlic",34,83,MiniLM,0.2,0.4800000000000001,6.2
+random,validation_031_6,random,31,1464,6,"fresh basil, egg, breadcrumbs, hamburger, garlic, oregano",34,83,TF-IDF,0.2,0.6333333333333333,4.0
+random,validation_031_6,random,31,1464,6,"fresh basil, egg, breadcrumbs, hamburger, garlic, oregano",34,83,Jaccard,0.2,0.6333333333333333,3.8
+random,validation_031_6,random,31,1464,6,"fresh basil, egg, breadcrumbs, hamburger, garlic, oregano",34,83,MiniLM,0.2,0.6,4.4
+random,validation_032_3,random,32,2553,3,"potato, sugar, egg",34,83,TF-IDF,0.2,0.6,1.8
+random,validation_032_3,random,32,2553,3,"potato, sugar, egg",34,83,Jaccard,0.2,0.7333333333333332,1.0
+random,validation_032_3,random,32,2553,3,"potato, sugar, egg",34,83,MiniLM,0.4,0.7333333333333333,2.8
+random,validation_032_4,random,32,2553,4,"potato, sugar, egg, milk",34,83,TF-IDF,0.4,0.7,2.4
+random,validation_032_4,random,32,2553,4,"potato, sugar, egg, milk",34,83,Jaccard,0.0,0.7,1.2
+random,validation_032_4,random,32,2553,4,"potato, sugar, egg, milk",34,83,MiniLM,0.2,0.65,2.8
+random,validation_032_5,random,32,2553,5,"potato, sugar, egg, milk, butter",34,83,TF-IDF,0.4,0.72,1.6
+random,validation_032_5,random,32,2553,5,"potato, sugar, egg, milk, butter",34,83,Jaccard,0.6,0.9199999999999999,2.2
+random,validation_032_5,random,32,2553,5,"potato, sugar, egg, milk, butter",34,83,MiniLM,0.2,0.68,2.0
+random,validation_032_6,random,32,2553,6,"potato, sugar, egg, milk, butter, cinnamon",34,83,TF-IDF,0.2,0.7,1.0
+random,validation_032_6,random,32,2553,6,"potato, sugar, egg, milk, butter, cinnamon",34,83,Jaccard,0.2,0.7666666666666666,1.2
+random,validation_032_6,random,32,2553,6,"potato, sugar, egg, milk, butter, cinnamon",34,83,MiniLM,0.2,0.7666666666666667,2.4
+random,validation_033_3,random,33,7544,3,"mascarpone cheese, white breadcrumb, tomato",34,83,TF-IDF,0.2,0.4666666666666666,8.6
+random,validation_033_3,random,33,7544,3,"mascarpone cheese, white breadcrumb, tomato",34,83,Jaccard,0.2,0.4666666666666666,3.2
+random,validation_033_3,random,33,7544,3,"mascarpone cheese, white breadcrumb, tomato",34,83,MiniLM,0.2,0.39999999999999997,5.0
+random,validation_033_4,random,33,7544,4,"mascarpone cheese, white breadcrumb, tomato, mozzarella cheese",34,83,TF-IDF,0.2,0.4,8.4
+random,validation_033_4,random,33,7544,4,"mascarpone cheese, white breadcrumb, tomato, mozzarella cheese",34,83,Jaccard,0.2,0.6,4.2
+random,validation_033_4,random,33,7544,4,"mascarpone cheese, white breadcrumb, tomato, mozzarella cheese",34,83,MiniLM,0.2,0.45,5.4
+random,validation_033_5,random,33,7544,5,"mascarpone cheese, white breadcrumb, tomato, mozzarella cheese, red onion",34,83,TF-IDF,0.2,0.36,8.2
+random,validation_033_5,random,33,7544,5,"mascarpone cheese, white breadcrumb, tomato, mozzarella cheese, red onion",34,83,Jaccard,0.2,0.5199999999999999,3.6
+random,validation_033_5,random,33,7544,5,"mascarpone cheese, white breadcrumb, tomato, mozzarella cheese, red onion",34,83,MiniLM,0.2,0.36,6.4
+random,validation_033_6,random,33,7544,6,"mascarpone cheese, white breadcrumb, tomato, mozzarella cheese, red onion, basil",34,83,TF-IDF,0.2,0.6,5.0
+random,validation_033_6,random,33,7544,6,"mascarpone cheese, white breadcrumb, tomato, mozzarella cheese, red onion, basil",34,83,Jaccard,0.2,0.6,4.4
+random,validation_033_6,random,33,7544,6,"mascarpone cheese, white breadcrumb, tomato, mozzarella cheese, red onion, basil",34,83,MiniLM,0.2,0.3,6.4
+random,validation_034_3,random,34,1256,3,"pepper, butter, salmon",34,83,TF-IDF,0.2,0.6,4.6
+random,validation_034_3,random,34,1256,3,"pepper, butter, salmon",34,83,Jaccard,0.0,0.6666666666666666,2.6
+random,validation_034_3,random,34,1256,3,"pepper, butter, salmon",34,83,MiniLM,0.0,0.5999999999999999,3.0
+random,validation_034_4,random,34,1256,4,"pepper, butter, salmon, yellow onion",34,83,TF-IDF,0.2,0.45,3.6
+random,validation_034_4,random,34,1256,4,"pepper, butter, salmon, yellow onion",34,83,Jaccard,0.2,0.6,3.4
+random,validation_034_4,random,34,1256,4,"pepper, butter, salmon, yellow onion",34,83,MiniLM,0.0,0.4,7.0
+random,validation_034_5,random,34,1256,5,"pepper, butter, salmon, yellow onion, artichoke",34,83,TF-IDF,0.2,0.36,4.6
+random,validation_034_5,random,34,1256,5,"pepper, butter, salmon, yellow onion, artichoke",34,83,Jaccard,0.2,0.5199999999999999,3.2
+random,validation_034_5,random,34,1256,5,"pepper, butter, salmon, yellow onion, artichoke",34,83,MiniLM,0.0,0.24,7.2
+random,validation_034_6,random,34,1256,6,"pepper, butter, salmon, yellow onion, artichoke, whole wheat pasta",34,83,TF-IDF,0.2,0.4,5.6
+random,validation_034_6,random,34,1256,6,"pepper, butter, salmon, yellow onion, artichoke, whole wheat pasta",34,83,Jaccard,0.2,0.5,3.8
+random,validation_034_6,random,34,1256,6,"pepper, butter, salmon, yellow onion, artichoke, whole wheat pasta",34,83,MiniLM,0.2,0.23333333333333334,7.8
+random,validation_035_3,random,35,5985,3,"onion, flour, steak",34,83,TF-IDF,0.4,0.7999999999999999,5.2
+random,validation_035_3,random,35,5985,3,"onion, flour, steak",34,83,Jaccard,0.4,0.7999999999999999,2.8
+random,validation_035_3,random,35,5985,3,"onion, flour, steak",34,83,MiniLM,0.2,0.6666666666666666,3.2
+random,validation_035_4,random,35,5985,4,"onion, flour, steak, beef broth",34,83,TF-IDF,0.2,0.65,5.0
+random,validation_035_4,random,35,5985,4,"onion, flour, steak, beef broth",34,83,Jaccard,0.2,0.7,2.8
+random,validation_035_4,random,35,5985,4,"onion, flour, steak, beef broth",34,83,MiniLM,0.2,0.7,2.8
+random,validation_035_5,random,35,5985,5,"onion, flour, steak, beef broth, worcestershire sauce",34,83,TF-IDF,0.2,0.64,4.4
+random,validation_035_5,random,35,5985,5,"onion, flour, steak, beef broth, worcestershire sauce",34,83,Jaccard,0.2,0.7600000000000001,4.2
+random,validation_035_5,random,35,5985,5,"onion, flour, steak, beef broth, worcestershire sauce",34,83,MiniLM,0.2,0.6399999999999999,4.4
+random,validation_035_6,random,35,5985,6,"onion, flour, steak, beef broth, worcestershire sauce, pepper sauce",34,83,TF-IDF,0.2,0.5666666666666667,4.0
+random,validation_035_6,random,35,5985,6,"onion, flour, steak, beef broth, worcestershire sauce, pepper sauce",34,83,Jaccard,0.2,0.6666666666666666,4.0
+random,validation_035_6,random,35,5985,6,"onion, flour, steak, beef broth, worcestershire sauce, pepper sauce",34,83,MiniLM,0.2,0.6,5.8
+random,validation_036_3,random,36,8482,3,"butter, four cheese sauce, water",34,83,TF-IDF,0.2,0.6,2.8
+random,validation_036_3,random,36,8482,3,"butter, four cheese sauce, water",34,83,Jaccard,0.0,0.6666666666666666,2.6
+random,validation_036_3,random,36,8482,3,"butter, four cheese sauce, water",34,83,MiniLM,0.0,0.39999999999999997,4.0
+random,validation_036_4,random,36,8482,4,"butter, four cheese sauce, water, salt",34,83,TF-IDF,0.2,0.7,2.4
+random,validation_036_4,random,36,8482,4,"butter, four cheese sauce, water, salt",34,83,Jaccard,0.0,0.75,1.8
+random,validation_036_4,random,36,8482,4,"butter, four cheese sauce, water, salt",34,83,MiniLM,0.0,0.5,3.6
+random,validation_036_5,random,36,8482,5,"butter, four cheese sauce, water, salt, mushroom",34,83,TF-IDF,0.2,0.72,3.6
+random,validation_036_5,random,36,8482,5,"butter, four cheese sauce, water, salt, mushroom",34,83,Jaccard,0.2,0.68,2.4
+random,validation_036_5,random,36,8482,5,"butter, four cheese sauce, water, salt, mushroom",34,83,MiniLM,0.2,0.64,3.8
+random,validation_036_6,random,36,8482,6,"butter, four cheese sauce, water, salt, mushroom, milk",34,83,TF-IDF,0.2,0.6,2.6
+random,validation_036_6,random,36,8482,6,"butter, four cheese sauce, water, salt, mushroom, milk",34,83,Jaccard,0.2,0.7333333333333332,3.0
+random,validation_036_6,random,36,8482,6,"butter, four cheese sauce, water, salt, mushroom, milk",34,83,MiniLM,0.2,0.5666666666666667,3.4
+random,validation_037_3,random,37,921,3,"white sugar, pecan, brown sugar",34,83,TF-IDF,0.6,0.8666666666666666,3.2
+random,validation_037_3,random,37,921,3,"white sugar, pecan, brown sugar",34,83,Jaccard,0.4,0.7999999999999999,2.2
+random,validation_037_3,random,37,921,3,"white sugar, pecan, brown sugar",34,83,MiniLM,0.2,0.6666666666666666,4.0
+random,validation_037_4,random,37,921,4,"white sugar, pecan, brown sugar, cinnamon",34,83,TF-IDF,0.2,0.8,2.8
+random,validation_037_4,random,37,921,4,"white sugar, pecan, brown sugar, cinnamon",34,83,Jaccard,0.2,0.8,2.4
+random,validation_037_4,random,37,921,4,"white sugar, pecan, brown sugar, cinnamon",34,83,MiniLM,0.2,0.75,2.8
+random,validation_037_5,random,37,921,5,"white sugar, pecan, brown sugar, cinnamon, raisin",34,83,TF-IDF,0.2,0.7200000000000001,3.6
+random,validation_037_5,random,37,921,5,"white sugar, pecan, brown sugar, cinnamon, raisin",34,83,Jaccard,0.2,0.72,2.0
+random,validation_037_5,random,37,921,5,"white sugar, pecan, brown sugar, cinnamon, raisin",34,83,MiniLM,0.2,0.64,2.6
+random,validation_037_6,random,37,921,6,"white sugar, pecan, brown sugar, cinnamon, raisin, margarine",34,83,TF-IDF,0.2,0.6333333333333333,2.8
+random,validation_037_6,random,37,921,6,"white sugar, pecan, brown sugar, cinnamon, raisin, margarine",34,83,Jaccard,0.2,0.7,2.2
+random,validation_037_6,random,37,921,6,"white sugar, pecan, brown sugar, cinnamon, raisin, margarine",34,83,MiniLM,0.2,0.6666666666666666,2.6
+random,validation_038_3,random,38,7761,3,"pepper, butter, beef",34,83,TF-IDF,0.4,0.7333333333333333,3.2
+random,validation_038_3,random,38,7761,3,"pepper, butter, beef",34,83,Jaccard,0.2,0.7333333333333332,2.2
+random,validation_038_3,random,38,7761,3,"pepper, butter, beef",34,83,MiniLM,0.2,0.7333333333333332,2.4
+random,validation_038_4,random,38,7761,4,"pepper, butter, beef, mushroom",34,83,TF-IDF,0.4,0.85,5.2
+random,validation_038_4,random,38,7761,4,"pepper, butter, beef, mushroom",34,83,Jaccard,0.2,0.8,3.4
+random,validation_038_4,random,38,7761,4,"pepper, butter, beef, mushroom",34,83,MiniLM,0.2,0.6,3.2
+random,validation_038_5,random,38,7761,5,"pepper, butter, beef, mushroom, water",34,83,TF-IDF,0.2,0.76,4.0
+random,validation_038_5,random,38,7761,5,"pepper, butter, beef, mushroom, water",34,83,Jaccard,0.2,0.7200000000000001,3.2
+random,validation_038_5,random,38,7761,5,"pepper, butter, beef, mushroom, water",34,83,MiniLM,0.2,0.5599999999999999,3.2
+random,validation_038_6,random,38,7761,6,"pepper, butter, beef, mushroom, water, cornstarch",34,83,TF-IDF,0.2,0.6,2.8
+random,validation_038_6,random,38,7761,6,"pepper, butter, beef, mushroom, water, cornstarch",34,83,Jaccard,0.2,0.7,3.8
+random,validation_038_6,random,38,7761,6,"pepper, butter, beef, mushroom, water, cornstarch",34,83,MiniLM,0.2,0.6333333333333333,4.0
+random,validation_039_3,random,39,6041,3,"beef sirloin steak, original sauce, oil",34,83,TF-IDF,0.2,0.5333333333333333,4.4
+random,validation_039_3,random,39,6041,3,"beef sirloin steak, original sauce, oil",34,83,Jaccard,0.2,0.4666666666666666,1.8
+random,validation_039_3,random,39,6041,3,"beef sirloin steak, original sauce, oil",34,83,MiniLM,0.2,0.26666666666666666,4.4
+random,validation_039_4,random,39,6041,4,"beef sirloin steak, original sauce, oil, poupon",34,83,TF-IDF,0.2,0.45,4.6
+random,validation_039_4,random,39,6041,4,"beef sirloin steak, original sauce, oil, poupon",34,83,Jaccard,0.2,0.4,1.6
+random,validation_039_4,random,39,6041,4,"beef sirloin steak, original sauce, oil, poupon",34,83,MiniLM,0.2,0.35,5.6
+random,validation_039_5,random,39,6041,5,"beef sirloin steak, original sauce, oil, poupon, lemon juice",34,83,TF-IDF,0.2,0.4,4.4
+random,validation_039_5,random,39,6041,5,"beef sirloin steak, original sauce, oil, poupon, lemon juice",34,83,Jaccard,0.2,0.43999999999999995,2.6
+random,validation_039_5,random,39,6041,5,"beef sirloin steak, original sauce, oil, poupon, lemon juice",34,83,MiniLM,0.2,0.24,5.0
+random,validation_039_6,random,39,6041,6,"beef sirloin steak, original sauce, oil, poupon, lemon juice, garlic",34,83,TF-IDF,0.2,0.4,4.0
+random,validation_039_6,random,39,6041,6,"beef sirloin steak, original sauce, oil, poupon, lemon juice, garlic",34,83,Jaccard,0.2,0.4666666666666666,2.0
+random,validation_039_6,random,39,6041,6,"beef sirloin steak, original sauce, oil, poupon, lemon juice, garlic",34,83,MiniLM,0.2,0.2666666666666667,5.4
+random,validation_040_3,random,40,1900,3,"salt, milk, pepper",34,83,TF-IDF,0.4,0.6666666666666666,1.8
+random,validation_040_3,random,40,1900,3,"salt, milk, pepper",34,83,Jaccard,0.6,0.8666666666666666,2.2
+random,validation_040_3,random,40,1900,3,"salt, milk, pepper",34,83,MiniLM,0.2,0.6666666666666666,2.0
+random,validation_040_4,random,40,1900,4,"salt, milk, pepper, bread",34,83,TF-IDF,0.4,0.6,3.2
+random,validation_040_4,random,40,1900,4,"salt, milk, pepper, bread",34,83,Jaccard,1.0,1.0,4.4
+random,validation_040_4,random,40,1900,4,"salt, milk, pepper, bread",34,83,MiniLM,0.0,0.65,4.2
+random,validation_040_5,random,40,1900,5,"salt, milk, pepper, bread, cheddar cheese",34,83,TF-IDF,0.2,0.68,2.6
+random,validation_040_5,random,40,1900,5,"salt, milk, pepper, bread, cheddar cheese",34,83,Jaccard,0.6,0.9199999999999999,3.2
+random,validation_040_5,random,40,1900,5,"salt, milk, pepper, bread, cheddar cheese",34,83,MiniLM,0.0,0.68,3.6
+random,validation_040_6,random,40,1900,6,"salt, milk, pepper, bread, cheddar cheese, egg",34,83,TF-IDF,0.2,0.7333333333333334,1.8
+random,validation_040_6,random,40,1900,6,"salt, milk, pepper, bread, cheddar cheese, egg",34,83,Jaccard,0.6,0.9333333333333333,2.2
+random,validation_040_6,random,40,1900,6,"salt, milk, pepper, bread, cheddar cheese, egg",34,83,MiniLM,0.0,0.7,3.0
+random,validation_041_3,random,41,1730,3,"egg, bread, onion powder",34,83,TF-IDF,0.2,0.6666666666666666,3.0
+random,validation_041_3,random,41,1730,3,"egg, bread, onion powder",34,83,Jaccard,0.0,0.5333333333333333,1.2
+random,validation_041_3,random,41,1730,3,"egg, bread, onion powder",34,83,MiniLM,0.0,0.5333333333333333,4.0
+random,validation_041_4,random,41,1730,4,"egg, bread, onion powder, mushroom",34,83,TF-IDF,0.2,0.6,3.8
+random,validation_041_4,random,41,1730,4,"egg, bread, onion powder, mushroom",34,83,Jaccard,0.2,0.6,3.4
+random,validation_041_4,random,41,1730,4,"egg, bread, onion powder, mushroom",34,83,MiniLM,0.0,0.3,5.2
+random,validation_041_5,random,41,1730,5,"egg, bread, onion powder, mushroom, onion",34,83,TF-IDF,0.2,0.52,2.6
+random,validation_041_5,random,41,1730,5,"egg, bread, onion powder, mushroom, onion",34,83,Jaccard,0.2,0.6799999999999999,4.0
+random,validation_041_5,random,41,1730,5,"egg, bread, onion powder, mushroom, onion",34,83,MiniLM,0.2,0.52,4.8
+random,validation_041_6,random,41,1730,6,"egg, bread, onion powder, mushroom, onion, pepper",34,83,TF-IDF,0.2,0.4666666666666667,2.4
+random,validation_041_6,random,41,1730,6,"egg, bread, onion powder, mushroom, onion, pepper",34,83,Jaccard,0.2,0.7,4.8
+random,validation_041_6,random,41,1730,6,"egg, bread, onion powder, mushroom, onion, pepper",34,83,MiniLM,0.2,0.5333333333333333,4.2
+random,validation_042_3,random,42,8520,3,"basil, oregano, grape tomato",34,83,TF-IDF,0.2,0.6666666666666666,5.4
+random,validation_042_3,random,42,8520,3,"basil, oregano, grape tomato",34,83,Jaccard,0.2,0.7333333333333332,5.0
+random,validation_042_3,random,42,8520,3,"basil, oregano, grape tomato",34,83,MiniLM,0.0,0.4666666666666666,5.0
+random,validation_042_4,random,42,8520,4,"basil, oregano, grape tomato, parmesan cheese",34,83,TF-IDF,0.2,0.7,5.0
+random,validation_042_4,random,42,8520,4,"basil, oregano, grape tomato, parmesan cheese",34,83,Jaccard,0.2,0.75,4.6
+random,validation_042_4,random,42,8520,4,"basil, oregano, grape tomato, parmesan cheese",34,83,MiniLM,0.0,0.6,5.0
+random,validation_042_5,random,42,8520,5,"basil, oregano, grape tomato, parmesan cheese, garlic",34,83,TF-IDF,0.2,0.76,3.8
+random,validation_042_5,random,42,8520,5,"basil, oregano, grape tomato, parmesan cheese, garlic",34,83,Jaccard,0.2,0.8,3.8
+random,validation_042_5,random,42,8520,5,"basil, oregano, grape tomato, parmesan cheese, garlic",34,83,MiniLM,0.0,0.56,4.8
+random,validation_042_6,random,42,8520,6,"basil, oregano, grape tomato, parmesan cheese, garlic, green bean",34,83,TF-IDF,0.2,0.6666666666666666,3.6
+random,validation_042_6,random,42,8520,6,"basil, oregano, grape tomato, parmesan cheese, garlic, green bean",34,83,Jaccard,0.2,0.7,3.6
+random,validation_042_6,random,42,8520,6,"basil, oregano, grape tomato, parmesan cheese, garlic, green bean",34,83,MiniLM,0.2,0.6,4.2
+random,validation_043_3,random,43,5019,3,"marjoram leaf, tomato sauce, oil",34,83,TF-IDF,0.2,0.7333333333333332,7.6
+random,validation_043_3,random,43,5019,3,"marjoram leaf, tomato sauce, oil",34,83,Jaccard,0.0,0.5333333333333333,3.4
+random,validation_043_3,random,43,5019,3,"marjoram leaf, tomato sauce, oil",34,83,MiniLM,0.0,0.2,5.6
+random,validation_043_4,random,43,5019,4,"marjoram leaf, tomato sauce, oil, bay leaf",34,83,TF-IDF,0.2,0.7,7.4
+random,validation_043_4,random,43,5019,4,"marjoram leaf, tomato sauce, oil, bay leaf",34,83,Jaccard,0.2,0.7,7.4
+random,validation_043_4,random,43,5019,4,"marjoram leaf, tomato sauce, oil, bay leaf",34,83,MiniLM,0.2,0.25,8.4
+random,validation_043_5,random,43,5019,5,"marjoram leaf, tomato sauce, oil, bay leaf, white",34,83,TF-IDF,0.2,0.56,8.0
+random,validation_043_5,random,43,5019,5,"marjoram leaf, tomato sauce, oil, bay leaf, white",34,83,Jaccard,0.2,0.6,7.2
+random,validation_043_5,random,43,5019,5,"marjoram leaf, tomato sauce, oil, bay leaf, white",34,83,MiniLM,0.2,0.32,8.6
+random,validation_043_6,random,43,5019,6,"marjoram leaf, tomato sauce, oil, bay leaf, white, shallot",34,83,TF-IDF,0.2,0.5000000000000001,8.0
+random,validation_043_6,random,43,5019,6,"marjoram leaf, tomato sauce, oil, bay leaf, white, shallot",34,83,Jaccard,0.2,0.5,5.8
+random,validation_043_6,random,43,5019,6,"marjoram leaf, tomato sauce, oil, bay leaf, white, shallot",34,83,MiniLM,0.2,0.3,9.0
+random,validation_044_3,random,44,3280,3,"ham, mayonnaise, stalks celery",34,83,TF-IDF,0.2,0.6,3.2
+random,validation_044_3,random,44,3280,3,"ham, mayonnaise, stalks celery",34,83,Jaccard,0.2,0.6,2.6
+random,validation_044_3,random,44,3280,3,"ham, mayonnaise, stalks celery",34,83,MiniLM,0.2,0.6,5.2
+random,validation_044_4,random,44,3280,4,"ham, mayonnaise, stalks celery, white sugar",34,83,TF-IDF,0.2,0.5,3.0
+random,validation_044_4,random,44,3280,4,"ham, mayonnaise, stalks celery, white sugar",34,83,Jaccard,0.2,0.6,4.2
+random,validation_044_4,random,44,3280,4,"ham, mayonnaise, stalks celery, white sugar",34,83,MiniLM,0.2,0.4,5.2
+random,validation_044_5,random,44,3280,5,"ham, mayonnaise, stalks celery, white sugar, velveeta cheese",34,83,TF-IDF,0.2,0.48,3.4
+random,validation_044_5,random,44,3280,5,"ham, mayonnaise, stalks celery, white sugar, velveeta cheese",34,83,Jaccard,0.2,0.5199999999999999,3.6
+random,validation_044_5,random,44,3280,5,"ham, mayonnaise, stalks celery, white sugar, velveeta cheese",34,83,MiniLM,0.2,0.39999999999999997,5.4
+random,validation_044_6,random,44,3280,6,"ham, mayonnaise, stalks celery, white sugar, velveeta cheese, onion",34,83,TF-IDF,0.2,0.4666666666666667,3.0
+random,validation_044_6,random,44,3280,6,"ham, mayonnaise, stalks celery, white sugar, velveeta cheese, onion",34,83,Jaccard,0.2,0.5,2.6
+random,validation_044_6,random,44,3280,6,"ham, mayonnaise, stalks celery, white sugar, velveeta cheese, onion",34,83,MiniLM,0.2,0.4666666666666667,5.2
+random,validation_045_3,random,45,9853,3,"green pepper, chili powder, cheddar cheese",34,83,TF-IDF,0.6,0.8666666666666666,7.2
+random,validation_045_3,random,45,9853,3,"green pepper, chili powder, cheddar cheese",34,83,Jaccard,0.4,0.8,4.6
+random,validation_045_3,random,45,9853,3,"green pepper, chili powder, cheddar cheese",34,83,MiniLM,0.0,0.26666666666666666,5.4
+random,validation_045_4,random,45,9853,4,"green pepper, chili powder, cheddar cheese, cream of chicken soup",34,83,TF-IDF,0.2,0.65,6.4
+random,validation_045_4,random,45,9853,4,"green pepper, chili powder, cheddar cheese, cream of chicken soup",34,83,Jaccard,0.2,0.65,4.4
+random,validation_045_4,random,45,9853,4,"green pepper, chili powder, cheddar cheese, cream of chicken soup",34,83,MiniLM,0.2,0.6,6.4
+random,validation_045_5,random,45,9853,5,"green pepper, chili powder, cheddar cheese, cream of chicken soup, ro-tel tomato",34,83,TF-IDF,0.2,0.52,5.6
+random,validation_045_5,random,45,9853,5,"green pepper, chili powder, cheddar cheese, cream of chicken soup, ro-tel tomato",34,83,Jaccard,0.2,0.64,5.4
+random,validation_045_5,random,45,9853,5,"green pepper, chili powder, cheddar cheese, cream of chicken soup, ro-tel tomato",34,83,MiniLM,0.2,0.52,6.2
+random,validation_045_6,random,45,9853,6,"green pepper, chili powder, cheddar cheese, cream of chicken soup, ro-tel tomato, garlic",34,83,TF-IDF,0.2,0.4666666666666666,4.8
+random,validation_045_6,random,45,9853,6,"green pepper, chili powder, cheddar cheese, cream of chicken soup, ro-tel tomato, garlic",34,83,Jaccard,0.2,0.5666666666666667,3.8
+random,validation_045_6,random,45,9853,6,"green pepper, chili powder, cheddar cheese, cream of chicken soup, ro-tel tomato, garlic",34,83,MiniLM,0.2,0.5333333333333333,6.8
+random,validation_046_3,random,46,842,3,"egg, onion, salt",34,83,TF-IDF,0.6,0.8,1.2
+random,validation_046_3,random,46,842,3,"egg, onion, salt",34,83,Jaccard,0.8,0.9333333333333332,1.6
+random,validation_046_3,random,46,842,3,"egg, onion, salt",34,83,MiniLM,0.8,0.9333333333333332,1.8
+random,validation_046_4,random,46,842,4,"egg, onion, salt, pepper",34,83,TF-IDF,0.8,0.95,2.6
+random,validation_046_4,random,46,842,4,"egg, onion, salt, pepper",34,83,Jaccard,0.8,0.95,2.2
+random,validation_046_4,random,46,842,4,"egg, onion, salt, pepper",34,83,MiniLM,0.6,0.85,2.6
+random,validation_046_5,random,46,842,5,"egg, onion, salt, pepper, zucchini",34,83,TF-IDF,0.0,0.6,2.8
+random,validation_046_5,random,46,842,5,"egg, onion, salt, pepper, zucchini",34,83,Jaccard,0.2,0.8400000000000001,2.4
+random,validation_046_5,random,46,842,5,"egg, onion, salt, pepper, zucchini",34,83,MiniLM,0.2,0.72,3.4
+random,validation_046_6,random,46,842,6,"egg, onion, salt, pepper, zucchini, vegetable oil",34,83,TF-IDF,0.4,0.8333333333333333,3.0
+random,validation_046_6,random,46,842,6,"egg, onion, salt, pepper, zucchini, vegetable oil",34,83,Jaccard,0.4,0.8666666666666668,2.8
+random,validation_046_6,random,46,842,6,"egg, onion, salt, pepper, zucchini, vegetable oil",34,83,MiniLM,0.2,0.7666666666666666,2.8
+random,validation_047_3,random,47,560,3,"oil, garlic, water",34,83,TF-IDF,0.4,0.7999999999999999,4.0
+random,validation_047_3,random,47,560,3,"oil, garlic, water",34,83,Jaccard,0.6,0.8666666666666666,2.4
+random,validation_047_3,random,47,560,3,"oil, garlic, water",34,83,MiniLM,0.0,0.3333333333333333,3.2
+random,validation_047_4,random,47,560,4,"oil, garlic, water, baking powder",34,83,TF-IDF,0.0,0.65,4.6
+random,validation_047_4,random,47,560,4,"oil, garlic, water, baking powder",34,83,Jaccard,0.0,0.7,2.6
+random,validation_047_4,random,47,560,4,"oil, garlic, water, baking powder",34,83,MiniLM,0.0,0.4,4.0
+random,validation_047_5,random,47,560,5,"oil, garlic, water, baking powder, chutney",34,83,TF-IDF,0.2,0.5599999999999999,6.6
+random,validation_047_5,random,47,560,5,"oil, garlic, water, baking powder, chutney",34,83,Jaccard,0.2,0.64,3.0
+random,validation_047_5,random,47,560,5,"oil, garlic, water, baking powder, chutney",34,83,MiniLM,0.2,0.44000000000000006,5.0
+random,validation_047_6,random,47,560,6,"oil, garlic, water, baking powder, chutney, coriander seed",34,83,TF-IDF,0.2,0.5,5.8
+random,validation_047_6,random,47,560,6,"oil, garlic, water, baking powder, chutney, coriander seed",34,83,Jaccard,0.2,0.6333333333333333,4.0
+random,validation_047_6,random,47,560,6,"oil, garlic, water, baking powder, chutney, coriander seed",34,83,MiniLM,0.2,0.4,5.6
+random,validation_048_3,random,48,3266,3,"black pepper, tomato paste, tomato",34,83,TF-IDF,0.0,0.6,5.0
+random,validation_048_3,random,48,3266,3,"black pepper, tomato paste, tomato",34,83,Jaccard,0.0,0.6666666666666666,3.2
+random,validation_048_3,random,48,3266,3,"black pepper, tomato paste, tomato",34,83,MiniLM,0.0,0.6,4.4
+random,validation_048_4,random,48,3266,4,"black pepper, tomato paste, tomato, garlic",34,83,TF-IDF,0.0,0.75,4.2
+random,validation_048_4,random,48,3266,4,"black pepper, tomato paste, tomato, garlic",34,83,Jaccard,0.2,0.8,4.4
+random,validation_048_4,random,48,3266,4,"black pepper, tomato paste, tomato, garlic",34,83,MiniLM,0.0,0.65,4.4
+random,validation_048_5,random,48,3266,5,"black pepper, tomato paste, tomato, garlic, breadcrumbs",34,83,TF-IDF,0.0,0.64,5.8
+random,validation_048_5,random,48,3266,5,"black pepper, tomato paste, tomato, garlic, breadcrumbs",34,83,Jaccard,0.2,0.68,4.4
+random,validation_048_5,random,48,3266,5,"black pepper, tomato paste, tomato, garlic, breadcrumbs",34,83,MiniLM,0.0,0.4,6.0
+random,validation_048_6,random,48,3266,6,"black pepper, tomato paste, tomato, garlic, breadcrumbs, turmeric",34,83,TF-IDF,0.2,0.5666666666666667,5.2
+random,validation_048_6,random,48,3266,6,"black pepper, tomato paste, tomato, garlic, breadcrumbs, turmeric",34,83,Jaccard,0.2,0.6333333333333333,4.8
+random,validation_048_6,random,48,3266,6,"black pepper, tomato paste, tomato, garlic, breadcrumbs, turmeric",34,83,MiniLM,0.2,0.5333333333333334,6.4
+random,validation_049_3,random,49,179,3,"butter, water, cheddar cheese",34,83,TF-IDF,0.6,0.8666666666666666,3.6
+random,validation_049_3,random,49,179,3,"butter, water, cheddar cheese",34,83,Jaccard,0.6,0.8666666666666666,3.0
+random,validation_049_3,random,49,179,3,"butter, water, cheddar cheese",34,83,MiniLM,0.2,0.7333333333333333,3.4
+random,validation_049_4,random,49,179,4,"butter, water, cheddar cheese, egg",34,83,TF-IDF,0.4,0.75,2.6
+random,validation_049_4,random,49,179,4,"butter, water, cheddar cheese, egg",34,83,Jaccard,0.6,0.85,2.8
+random,validation_049_4,random,49,179,4,"butter, water, cheddar cheese, egg",34,83,MiniLM,0.4,0.75,3.8
+random,validation_049_5,random,49,179,5,"butter, water, cheddar cheese, egg, milk",34,83,TF-IDF,0.2,0.7200000000000001,2.0
+random,validation_049_5,random,49,179,5,"butter, water, cheddar cheese, egg, milk",34,83,Jaccard,0.4,0.8799999999999999,2.6
+random,validation_049_5,random,49,179,5,"butter, water, cheddar cheese, egg, milk",34,83,MiniLM,0.2,0.6799999999999999,3.0
+random,validation_049_6,random,49,179,6,"butter, water, cheddar cheese, egg, milk, grits",34,83,TF-IDF,0.2,0.6666666666666666,4.8
+random,validation_049_6,random,49,179,6,"butter, water, cheddar cheese, egg, milk, grits",34,83,Jaccard,0.2,0.8,2.4
+random,validation_049_6,random,49,179,6,"butter, water, cheddar cheese, egg, milk, grits",34,83,MiniLM,0.2,0.7333333333333333,3.0
+random,validation_050_3,random,50,4910,3,"egg, sugar, flour",34,83,TF-IDF,0.8,0.9333333333333332,0.8
+random,validation_050_3,random,50,4910,3,"egg, sugar, flour",34,83,Jaccard,0.8,0.9333333333333333,0.6
+random,validation_050_3,random,50,4910,3,"egg, sugar, flour",34,83,MiniLM,0.6,0.8666666666666666,1.4
+random,validation_050_4,random,50,4910,4,"egg, sugar, flour, salt",34,83,TF-IDF,0.6,0.9,1.2
+random,validation_050_4,random,50,4910,4,"egg, sugar, flour, salt",34,83,Jaccard,0.8,0.95,1.2
+random,validation_050_4,random,50,4910,4,"egg, sugar, flour, salt",34,83,MiniLM,0.4,0.85,1.2
+random,validation_050_5,random,50,4910,5,"egg, sugar, flour, salt, vanilla",34,83,TF-IDF,0.6,0.9199999999999999,1.0
+random,validation_050_5,random,50,4910,5,"egg, sugar, flour, salt, vanilla",34,83,Jaccard,0.8,0.96,1.0
+random,validation_050_5,random,50,4910,5,"egg, sugar, flour, salt, vanilla",34,83,MiniLM,0.6,0.9199999999999999,1.4
+random,validation_050_6,random,50,4910,6,"egg, sugar, flour, salt, vanilla, baking powder",34,83,TF-IDF,0.8,0.9666666666666666,1.4
+random,validation_050_6,random,50,4910,6,"egg, sugar, flour, salt, vanilla, baking powder",34,83,Jaccard,1.0,1.0,1.2
+random,validation_050_6,random,50,4910,6,"egg, sugar, flour, salt, vanilla, baking powder",34,83,MiniLM,0.8,0.9666666666666668,1.6

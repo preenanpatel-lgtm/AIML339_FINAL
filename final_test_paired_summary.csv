@@ -1,0 +1,5 @@
+,,,seed,seed,precision_difference,precision_difference,recall_difference,recall_difference,ndcg_difference,ndcg_difference,coverage_difference,coverage_difference,missing_difference,missing_difference
+,,,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+model,configuration,k,,,,,,,,,,,,
+Jaccard,Combined V2,5,1014.5,8.8034,0.0074,0.0042,0.0141,0.0073,0.0063,0.0032,-0.0163,0.0039,-0.2598,0.0624
+Jaccard,Combined V2,10,1014.5,8.8034,0.0049,0.0034,0.0149,0.0096,0.0053,0.0027,-0.0193,0.0031,-0.3149,0.0534

@@ -1,0 +1,5 @@
+first,second,first_normalised,second_normalised,same_normalisation
+scallion,green onion,['green onion'],['green onion'],True
+spring onion,green onion,['green onion'],['green onion'],True
+capsicum,bell pepper,['capsicum'],['capsicum'],True
+icing sugar,powdered sugar,['powdered sugar'],['powdered sugar'],True

@@ -1,0 +1,241 @@
+experiment,seed,query_id,group,query_length,query,model,configuration,k,total_relevant,precision,recall,ndcg,coverage,missing
+manual,,tomato_pasta_3,tomato_pasta,3,"pasta, tomato, garlic",TF-IDF,baseline,5,41,0.4,0.04878048780487805,0.5733697430514892,0.7333333333333333,3.0
+manual,,tomato_pasta_3,tomato_pasta,3,"pasta, tomato, garlic",TF-IDF,baseline,10,41,0.6,0.14634146341463414,0.6807322964748714,0.8333333333333333,4.1
+manual,,tomato_pasta_3,tomato_pasta,3,"pasta, tomato, garlic",TF-IDF,reranked v1,5,41,0.6,0.07317073170731707,0.6765142965891182,0.8,3.6
+manual,,tomato_pasta_3,tomato_pasta,3,"pasta, tomato, garlic",TF-IDF,reranked v1,10,41,0.7,0.17073170731707318,0.74591043058532,0.8666666666666668,4.2
+manual,,tomato_pasta_3,tomato_pasta,3,"pasta, tomato, garlic",Jaccard,baseline,5,41,0.8,0.0975609756097561,0.9026211001048622,0.9333333333333332,3.6
+manual,,tomato_pasta_3,tomato_pasta,3,"pasta, tomato, garlic",Jaccard,baseline,10,41,0.6,0.14634146341463414,0.8013151345851657,0.8666666666666666,3.8
+manual,,tomato_pasta_3,tomato_pasta,3,"pasta, tomato, garlic",Jaccard,reranked v1,5,41,0.8,0.0975609756097561,0.9026211001048622,0.9333333333333332,3.6
+manual,,tomato_pasta_3,tomato_pasta,3,"pasta, tomato, garlic",Jaccard,reranked v1,10,41,0.7,0.17073170731707318,0.8502244159847391,0.8999999999999998,4.1
+manual,,tomato_pasta_3,tomato_pasta,3,"pasta, tomato, garlic",MiniLM,baseline,5,41,0.4,0.04878048780487805,0.6724935386069494,0.7999999999999999,4.4
+manual,,tomato_pasta_3,tomato_pasta,3,"pasta, tomato, garlic",MiniLM,baseline,10,41,0.4,0.0975609756097561,0.6447482398302881,0.8,4.6
+manual,,tomato_pasta_3,tomato_pasta,3,"pasta, tomato, garlic",MiniLM,reranked v1,5,41,0.6,0.07317073170731707,0.7895676983469901,0.8666666666666666,4.0
+manual,,tomato_pasta_3,tomato_pasta,3,"pasta, tomato, garlic",MiniLM,reranked v1,10,41,0.5,0.12195121951219512,0.7258332134975468,0.8333333333333333,4.6
+manual,,tomato_pasta_4,tomato_pasta,4,"pasta, tomato, garlic, onion",TF-IDF,baseline,5,17,0.4,0.11764705882352941,0.5634608948312462,0.7,3.6
+manual,,tomato_pasta_4,tomato_pasta,4,"pasta, tomato, garlic, onion",TF-IDF,baseline,10,17,0.4,0.23529411764705882,0.5773497457952017,0.75,4.2
+manual,,tomato_pasta_4,tomato_pasta,4,"pasta, tomato, garlic, onion",TF-IDF,reranked v1,5,17,0.6,0.17647058823529413,0.7442890884191096,0.85,4.6
+manual,,tomato_pasta_4,tomato_pasta,4,"pasta, tomato, garlic, onion",TF-IDF,reranked v1,10,17,0.4,0.23529411764705882,0.6463029801640195,0.775,4.5
+manual,,tomato_pasta_4,tomato_pasta,4,"pasta, tomato, garlic, onion",Jaccard,baseline,5,17,0.2,0.058823529411764705,0.5594401368490773,0.8,3.0
+manual,,tomato_pasta_4,tomato_pasta,4,"pasta, tomato, garlic, onion",Jaccard,baseline,10,17,0.3,0.17647058823529413,0.581235971584077,0.825,3.9
+manual,,tomato_pasta_4,tomato_pasta,4,"pasta, tomato, garlic, onion",Jaccard,reranked v1,5,17,0.2,0.058823529411764705,0.5594401368490773,0.8,3.0
+manual,,tomato_pasta_4,tomato_pasta,4,"pasta, tomato, garlic, onion",Jaccard,reranked v1,10,17,0.6,0.35294117647058826,0.7141067939774891,0.9,4.8
+manual,,tomato_pasta_4,tomato_pasta,4,"pasta, tomato, garlic, onion",MiniLM,baseline,5,17,0.2,0.058823529411764705,0.5594401368490773,0.8,4.4
+manual,,tomato_pasta_4,tomato_pasta,4,"pasta, tomato, garlic, onion",MiniLM,baseline,10,17,0.1,0.058823529411764705,0.48006117753205346,0.625,4.4
+manual,,tomato_pasta_4,tomato_pasta,4,"pasta, tomato, garlic, onion",MiniLM,reranked v1,5,17,0.2,0.058823529411764705,0.5594401368490773,0.8,4.4
+manual,,tomato_pasta_4,tomato_pasta,4,"pasta, tomato, garlic, onion",MiniLM,reranked v1,10,17,0.1,0.058823529411764705,0.48006117753205346,0.7,4.0
+manual,,tomato_pasta_5,tomato_pasta,5,"pasta, tomato, garlic, onion, olive oil",TF-IDF,baseline,5,6,0.0,0.0,0.3333333333333333,0.7200000000000001,2.4
+manual,,tomato_pasta_5,tomato_pasta,5,"pasta, tomato, garlic, onion, olive oil",TF-IDF,baseline,10,6,0.0,0.0,0.40738844762703974,0.7,3.0
+manual,,tomato_pasta_5,tomato_pasta,5,"pasta, tomato, garlic, onion, olive oil",TF-IDF,reranked v1,5,6,0.2,0.16666666666666666,0.42080338500822784,0.8,3.2
+manual,,tomato_pasta_5,tomato_pasta,5,"pasta, tomato, garlic, onion, olive oil",TF-IDF,reranked v1,10,6,0.1,0.16666666666666666,0.47676109267133265,0.78,3.5
+manual,,tomato_pasta_5,tomato_pasta,5,"pasta, tomato, garlic, onion, olive oil",Jaccard,baseline,5,6,0.0,0.0,0.3333333333333333,0.7600000000000001,2.2
+manual,,tomato_pasta_5,tomato_pasta,5,"pasta, tomato, garlic, onion, olive oil",Jaccard,baseline,10,6,0.1,0.16666666666666666,0.4639594030703841,0.8,2.8
+manual,,tomato_pasta_5,tomato_pasta,5,"pasta, tomato, garlic, onion, olive oil",Jaccard,reranked v1,5,6,0.4,0.3333333333333333,0.543765634986343,0.8800000000000001,3.4
+manual,,tomato_pasta_5,tomato_pasta,5,"pasta, tomato, garlic, onion, olive oil",Jaccard,reranked v1,10,6,0.2,0.3333333333333333,0.5742826598619429,0.8400000000000001,3.2
+manual,,tomato_pasta_5,tomato_pasta,5,"pasta, tomato, garlic, onion, olive oil",MiniLM,baseline,5,6,0.0,0.0,0.3333333333333333,0.64,2.6
+manual,,tomato_pasta_5,tomato_pasta,5,"pasta, tomato, garlic, onion, olive oil",MiniLM,baseline,10,6,0.1,0.16666666666666666,0.46137085811067685,0.72,3.1
+manual,,tomato_pasta_5,tomato_pasta,5,"pasta, tomato, garlic, onion, olive oil",MiniLM,reranked v1,5,6,0.0,0.0,0.3333333333333333,0.6799999999999999,1.8
+manual,,tomato_pasta_5,tomato_pasta,5,"pasta, tomato, garlic, onion, olive oil",MiniLM,reranked v1,10,6,0.1,0.16666666666666666,0.4639594030703841,0.72,3.1
+manual,,tomato_pasta_6,tomato_pasta,6,"pasta, tomato, garlic, onion, olive oil, basil",TF-IDF,baseline,5,4,0.0,0.0,0.3652848149752749,0.6666666666666667,1.8
+manual,,tomato_pasta_6,tomato_pasta,6,"pasta, tomato, garlic, onion, olive oil, basil",TF-IDF,baseline,10,4,0.3,0.75,0.6610702801566619,0.7666666666666666,3.7
+manual,,tomato_pasta_6,tomato_pasta,6,"pasta, tomato, garlic, onion, olive oil, basil",TF-IDF,reranked v1,5,4,0.0,0.0,0.3652848149752749,0.6666666666666667,1.8
+manual,,tomato_pasta_6,tomato_pasta,6,"pasta, tomato, garlic, onion, olive oil, basil",TF-IDF,reranked v1,10,4,0.4,1.0,0.7310706343415321,0.8,4.0
+manual,,tomato_pasta_6,tomato_pasta,6,"pasta, tomato, garlic, onion, olive oil, basil",Jaccard,baseline,5,4,0.4,0.5,0.5678523601931732,0.8666666666666668,3.2
+manual,,tomato_pasta_6,tomato_pasta,6,"pasta, tomato, garlic, onion, olive oil, basil",Jaccard,baseline,10,4,0.3,0.75,0.7081251903655179,0.85,4.0
+manual,,tomato_pasta_6,tomato_pasta,6,"pasta, tomato, garlic, onion, olive oil, basil",Jaccard,reranked v1,5,4,0.4,0.5,0.5850293327314487,0.8666666666666668,3.2
+manual,,tomato_pasta_6,tomato_pasta,6,"pasta, tomato, garlic, onion, olive oil, basil",Jaccard,reranked v1,10,4,0.3,0.75,0.722467815225932,0.85,4.0
+manual,,tomato_pasta_6,tomato_pasta,6,"pasta, tomato, garlic, onion, olive oil, basil",MiniLM,baseline,5,4,0.0,0.0,0.3652848149752749,0.7666666666666667,2.6
+manual,,tomato_pasta_6,tomato_pasta,6,"pasta, tomato, garlic, onion, olive oil, basil",MiniLM,baseline,10,4,0.1,0.25,0.5389830261406381,0.7166666666666667,3.8
+manual,,tomato_pasta_6,tomato_pasta,6,"pasta, tomato, garlic, onion, olive oil, basil",MiniLM,reranked v1,5,4,0.0,0.0,0.3652848149752749,0.7666666666666667,2.6
+manual,,tomato_pasta_6,tomato_pasta,6,"pasta, tomato, garlic, onion, olive oil, basil",MiniLM,reranked v1,10,4,0.1,0.25,0.5437154960625681,0.7500000000000001,3.7
+manual,,white_cake_3,white_cake,3,"flour, sugar, egg",TF-IDF,baseline,5,845,0.8,0.004733727810650888,0.8546456263113074,0.9333333333333332,0.8
+manual,,white_cake_3,white_cake,3,"flour, sugar, egg",TF-IDF,baseline,10,845,0.7,0.008284023668639054,0.7076322666962248,0.8999999999999998,1.3
+manual,,white_cake_3,white_cake,3,"flour, sugar, egg",TF-IDF,reranked v1,5,845,0.8,0.004733727810650888,0.8747985572776802,0.9333333333333332,0.8
+manual,,white_cake_3,white_cake,3,"flour, sugar, egg",TF-IDF,reranked v1,10,845,0.9,0.010650887573964497,0.8008008692631913,0.9666666666666666,1.6
+manual,,white_cake_3,white_cake,3,"flour, sugar, egg",Jaccard,baseline,5,845,0.8,0.004733727810650888,0.8875385049894211,0.9333333333333333,0.6
+manual,,white_cake_3,white_cake,3,"flour, sugar, egg",Jaccard,baseline,10,845,0.9,0.010650887573964497,0.9270201848786106,0.9666666666666666,1.3
+manual,,white_cake_3,white_cake,3,"flour, sugar, egg",Jaccard,reranked v1,5,845,0.8,0.004733727810650888,0.8875385049894211,0.9333333333333333,0.6
+manual,,white_cake_3,white_cake,3,"flour, sugar, egg",Jaccard,reranked v1,10,845,0.9,0.010650887573964497,0.9270201848786106,0.9666666666666666,1.3
+manual,,white_cake_3,white_cake,3,"flour, sugar, egg",MiniLM,baseline,5,845,0.4,0.002366863905325444,0.5789202639232207,0.7999999999999999,1.6
+manual,,white_cake_3,white_cake,3,"flour, sugar, egg",MiniLM,baseline,10,845,0.5,0.005917159763313609,0.5317980573338723,0.8333333333333333,1.9
+manual,,white_cake_3,white_cake,3,"flour, sugar, egg",MiniLM,reranked v1,5,845,0.6,0.0035502958579881655,0.7623370622671015,0.8666666666666666,1.4
+manual,,white_cake_3,white_cake,3,"flour, sugar, egg",MiniLM,reranked v1,10,845,0.7,0.008284023668639054,0.6624379655785877,0.9,1.9
+manual,,white_cake_4,white_cake,4,"flour, sugar, egg, butter",TF-IDF,baseline,5,361,0.2,0.002770083102493075,0.2553186378677215,0.8,0.4
+manual,,white_cake_4,white_cake,4,"flour, sugar, egg, butter",TF-IDF,baseline,10,361,0.5,0.013850415512465374,0.4572402746054261,0.875,1.1
+manual,,white_cake_4,white_cake,4,"flour, sugar, egg, butter",TF-IDF,reranked v1,5,361,0.2,0.002770083102493075,0.2553186378677215,0.8,0.4
+manual,,white_cake_4,white_cake,4,"flour, sugar, egg, butter",TF-IDF,reranked v1,10,361,0.5,0.013850415512465374,0.4599634161617589,0.875,1.1
+manual,,white_cake_4,white_cake,4,"flour, sugar, egg, butter",Jaccard,baseline,5,361,0.6,0.008310249307479225,0.7623370622671015,0.9,0.6
+manual,,white_cake_4,white_cake,4,"flour, sugar, egg, butter",Jaccard,baseline,10,361,0.6,0.01662049861495845,0.7156911373521081,0.9,0.9
+manual,,white_cake_4,white_cake,4,"flour, sugar, egg, butter",Jaccard,reranked v1,5,361,0.6,0.008310249307479225,0.7623370622671015,0.9,0.6
+manual,,white_cake_4,white_cake,4,"flour, sugar, egg, butter",Jaccard,reranked v1,10,361,0.6,0.01662049861495845,0.7156911373521081,0.9,0.9
+manual,,white_cake_4,white_cake,4,"flour, sugar, egg, butter",MiniLM,baseline,5,361,0.0,0.0,0.14285714285714285,0.75,0.4
+manual,,white_cake_4,white_cake,4,"flour, sugar, egg, butter",MiniLM,baseline,10,361,0.2,0.00554016620498615,0.26252983904607075,0.8,0.9
+manual,,white_cake_4,white_cake,4,"flour, sugar, egg, butter",MiniLM,reranked v1,5,361,0.0,0.0,0.14285714285714285,0.75,0.4
+manual,,white_cake_4,white_cake,4,"flour, sugar, egg, butter",MiniLM,reranked v1,10,361,0.3,0.008310249307479225,0.3213770976845852,0.825,0.9
+manual,,white_cake_5,white_cake,5,"flour, sugar, egg, butter, milk",TF-IDF,baseline,5,125,0.4,0.016,0.4387354362116023,0.8800000000000001,0.8
+manual,,white_cake_5,white_cake,5,"flour, sugar, egg, butter, milk",TF-IDF,baseline,10,125,0.4,0.032,0.4572577476154111,0.8800000000000001,1.1
+manual,,white_cake_5,white_cake,5,"flour, sugar, egg, butter, milk",TF-IDF,reranked v1,5,125,0.4,0.016,0.4387354362116023,0.8800000000000001,0.8
+manual,,white_cake_5,white_cake,5,"flour, sugar, egg, butter, milk",TF-IDF,reranked v1,10,125,0.4,0.032,0.464943787937038,0.8800000000000001,1.1
+manual,,white_cake_5,white_cake,5,"flour, sugar, egg, butter, milk",Jaccard,baseline,5,125,0.8,0.032,0.8747985572776802,0.96,1.0
+manual,,white_cake_5,white_cake,5,"flour, sugar, egg, butter, milk",Jaccard,baseline,10,125,0.9,0.072,0.918752830540385,0.9800000000000001,1.5
+manual,,white_cake_5,white_cake,5,"flour, sugar, egg, butter, milk",Jaccard,reranked v1,5,125,0.8,0.032,0.8747985572776802,0.96,1.0
+manual,,white_cake_5,white_cake,5,"flour, sugar, egg, butter, milk",Jaccard,reranked v1,10,125,0.9,0.072,0.918752830540385,0.9800000000000001,1.5
+manual,,white_cake_5,white_cake,5,"flour, sugar, egg, butter, milk",MiniLM,baseline,5,125,0.0,0.0,0.14285714285714285,0.76,0.8
+manual,,white_cake_5,white_cake,5,"flour, sugar, egg, butter, milk",MiniLM,baseline,10,125,0.2,0.016,0.26956813507038796,0.82,1.2
+manual,,white_cake_5,white_cake,5,"flour, sugar, egg, butter, milk",MiniLM,reranked v1,5,125,0.2,0.008,0.2553186378677215,0.8,0.8
+manual,,white_cake_5,white_cake,5,"flour, sugar, egg, butter, milk",MiniLM,reranked v1,10,125,0.3,0.024,0.33550965416746015,0.8400000000000001,1.1
+manual,,white_cake_6,white_cake,6,"flour, sugar, egg, butter, milk, vanilla",TF-IDF,baseline,5,60,0.2,0.016666666666666666,0.43356589023452813,0.8666666666666668,0.4
+manual,,white_cake_6,white_cake,6,"flour, sugar, egg, butter, milk, vanilla",TF-IDF,baseline,10,60,0.2,0.03333333333333333,0.44508048432673586,0.8333333333333334,0.5
+manual,,white_cake_6,white_cake,6,"flour, sugar, egg, butter, milk, vanilla",TF-IDF,reranked v1,5,60,0.2,0.016666666666666666,0.43356589023452813,0.8666666666666668,0.4
+manual,,white_cake_6,white_cake,6,"flour, sugar, egg, butter, milk, vanilla",TF-IDF,reranked v1,10,60,0.2,0.03333333333333333,0.44508048432673586,0.8333333333333334,0.5
+manual,,white_cake_6,white_cake,6,"flour, sugar, egg, butter, milk, vanilla",Jaccard,baseline,5,60,0.6,0.05,0.7294441835889875,0.9333333333333333,0.6
+manual,,white_cake_6,white_cake,6,"flour, sugar, egg, butter, milk, vanilla",Jaccard,baseline,10,60,0.7,0.11666666666666667,0.8688481733843255,0.9500000000000002,1.2
+manual,,white_cake_6,white_cake,6,"flour, sugar, egg, butter, milk, vanilla",Jaccard,reranked v1,5,60,0.6,0.05,0.7294441835889875,0.9333333333333333,0.6
+manual,,white_cake_6,white_cake,6,"flour, sugar, egg, butter, milk, vanilla",Jaccard,reranked v1,10,60,0.7,0.11666666666666667,0.8688481733843255,0.9500000000000002,1.2
+manual,,white_cake_6,white_cake,6,"flour, sugar, egg, butter, milk, vanilla",MiniLM,baseline,5,60,0.4,0.03333333333333333,0.5587673329568479,0.9,0.6
+manual,,white_cake_6,white_cake,6,"flour, sugar, egg, butter, milk, vanilla",MiniLM,baseline,10,60,0.2,0.03333333333333333,0.4658045396504944,0.8333333333333334,0.9
+manual,,white_cake_6,white_cake,6,"flour, sugar, egg, butter, milk, vanilla",MiniLM,reranked v1,5,60,0.4,0.03333333333333333,0.6169826885784089,0.9,0.6
+manual,,white_cake_6,white_cake,6,"flour, sugar, egg, butter, milk, vanilla",MiniLM,reranked v1,10,60,0.2,0.03333333333333333,0.508437792384246,0.8333333333333334,0.8
+manual,,mashed_potatoes_3,mashed_potatoes,3,"potato, butter, salt",TF-IDF,baseline,5,72,0.8,0.05555555555555555,0.8747985572776802,0.8666666666666668,0.8
+manual,,mashed_potatoes_3,mashed_potatoes,3,"potato, butter, salt",TF-IDF,baseline,10,72,0.7,0.09722222222222222,0.9035013081584653,0.8333333333333333,1.6
+manual,,mashed_potatoes_3,mashed_potatoes,3,"potato, butter, salt",TF-IDF,reranked v1,5,72,1.0,0.06944444444444445,1.0,1.0,1.2
+manual,,mashed_potatoes_3,mashed_potatoes,3,"potato, butter, salt",TF-IDF,reranked v1,10,72,0.9,0.125,0.9700584933425636,0.9333333333333332,1.8
+manual,,mashed_potatoes_3,mashed_potatoes,3,"potato, butter, salt",Jaccard,baseline,5,72,1.0,0.06944444444444445,1.0,1.0,1.2
+manual,,mashed_potatoes_3,mashed_potatoes,3,"potato, butter, salt",Jaccard,baseline,10,72,0.9,0.125,0.9784676426716865,0.9666666666666666,1.8
+manual,,mashed_potatoes_3,mashed_potatoes,3,"potato, butter, salt",Jaccard,reranked v1,5,72,1.0,0.06944444444444445,1.0,1.0,1.2
+manual,,mashed_potatoes_3,mashed_potatoes,3,"potato, butter, salt",Jaccard,reranked v1,10,72,1.0,0.1388888888888889,1.0,1.0,2.0
+manual,,mashed_potatoes_3,mashed_potatoes,3,"potato, butter, salt",MiniLM,baseline,5,72,1.0,0.06944444444444445,1.0,1.0,1.2
+manual,,mashed_potatoes_3,mashed_potatoes,3,"potato, butter, salt",MiniLM,baseline,10,72,0.8,0.1111111111111111,0.8979750420830688,0.9,2.2
+manual,,mashed_potatoes_3,mashed_potatoes,3,"potato, butter, salt",MiniLM,reranked v1,5,72,1.0,0.06944444444444445,1.0,1.0,1.2
+manual,,mashed_potatoes_3,mashed_potatoes,3,"potato, butter, salt",MiniLM,reranked v1,10,72,1.0,0.1388888888888889,0.9917797331644959,1.0,2.2
+manual,,mashed_potatoes_4,mashed_potatoes,4,"potato, butter, salt, pepper",TF-IDF,baseline,5,29,0.6,0.10344827586206896,0.8595377572759725,0.9,1.4
+manual,,mashed_potatoes_4,mashed_potatoes,4,"potato, butter, salt, pepper",TF-IDF,baseline,10,29,0.5,0.1724137931034483,0.7963629545352734,0.825,1.8
+manual,,mashed_potatoes_4,mashed_potatoes,4,"potato, butter, salt, pepper",TF-IDF,reranked v1,5,29,0.6,0.10344827586206896,0.8936138669994189,0.9,1.4
+manual,,mashed_potatoes_4,mashed_potatoes,4,"potato, butter, salt, pepper",TF-IDF,reranked v1,10,29,0.6,0.20689655172413793,0.8559229837292094,0.9,2.2
+manual,,mashed_potatoes_4,mashed_potatoes,4,"potato, butter, salt, pepper",Jaccard,baseline,5,29,0.4,0.06896551724137931,0.8285482329591609,0.85,1.0
+manual,,mashed_potatoes_4,mashed_potatoes,4,"potato, butter, salt, pepper",Jaccard,baseline,10,29,0.6,0.20689655172413793,0.8339085461058519,0.9,1.8
+manual,,mashed_potatoes_4,mashed_potatoes,4,"potato, butter, salt, pepper",Jaccard,reranked v1,5,29,0.6,0.10344827586206896,0.8788898793250992,0.9,1.4
+manual,,mashed_potatoes_4,mashed_potatoes,4,"potato, butter, salt, pepper",Jaccard,reranked v1,10,29,0.6,0.20689655172413793,0.8392194937690731,0.9,1.8
+manual,,mashed_potatoes_4,mashed_potatoes,4,"potato, butter, salt, pepper",MiniLM,baseline,5,29,0.4,0.06896551724137931,0.6325788126191553,0.85,1.2
+manual,,mashed_potatoes_4,mashed_potatoes,4,"potato, butter, salt, pepper",MiniLM,baseline,10,29,0.4,0.13793103448275862,0.6281809901040363,0.85,2.3
+manual,,mashed_potatoes_4,mashed_potatoes,4,"potato, butter, salt, pepper",MiniLM,reranked v1,5,29,0.4,0.06896551724137931,0.6325788126191553,0.85,1.2
+manual,,mashed_potatoes_4,mashed_potatoes,4,"potato, butter, salt, pepper",MiniLM,reranked v1,10,29,0.4,0.13793103448275862,0.6299541472490794,0.85,2.3
+manual,,mashed_potatoes_5,mashed_potatoes,5,"potato, butter, salt, pepper, milk",TF-IDF,baseline,5,11,0.4,0.18181818181818182,0.43729337406231816,0.8800000000000001,1.4
+manual,,mashed_potatoes_5,mashed_potatoes,5,"potato, butter, salt, pepper, milk",TF-IDF,baseline,10,11,0.4,0.36363636363636365,0.5928355466127075,0.8400000000000001,1.7
+manual,,mashed_potatoes_5,mashed_potatoes,5,"potato, butter, salt, pepper, milk",TF-IDF,reranked v1,5,11,0.6,0.2727272727272727,0.5709282387575717,0.9199999999999999,1.4
+manual,,mashed_potatoes_5,mashed_potatoes,5,"potato, butter, salt, pepper, milk",TF-IDF,reranked v1,10,11,0.4,0.36363636363636365,0.6098837987627655,0.8400000000000001,1.7
+manual,,mashed_potatoes_5,mashed_potatoes,5,"potato, butter, salt, pepper, milk",Jaccard,baseline,5,11,0.6,0.2727272727272727,0.6248819788285628,0.9199999999999999,1.2
+manual,,mashed_potatoes_5,mashed_potatoes,5,"potato, butter, salt, pepper, milk",Jaccard,baseline,10,11,0.4,0.36363636363636365,0.5940649112314332,0.8800000000000001,1.7
+manual,,mashed_potatoes_5,mashed_potatoes,5,"potato, butter, salt, pepper, milk",Jaccard,reranked v1,5,11,0.6,0.2727272727272727,0.6248819788285628,0.9199999999999999,1.2
+manual,,mashed_potatoes_5,mashed_potatoes,5,"potato, butter, salt, pepper, milk",Jaccard,reranked v1,10,11,0.5,0.45454545454545453,0.6241567555640737,0.9000000000000001,1.9
+manual,,mashed_potatoes_5,mashed_potatoes,5,"potato, butter, salt, pepper, milk",MiniLM,baseline,5,11,0.6,0.2727272727272727,0.6248819788285628,0.9199999999999999,1.2
+manual,,mashed_potatoes_5,mashed_potatoes,5,"potato, butter, salt, pepper, milk",MiniLM,baseline,10,11,0.3,0.2727272727272727,0.5619081175575661,0.8,1.7
+manual,,mashed_potatoes_5,mashed_potatoes,5,"potato, butter, salt, pepper, milk",MiniLM,reranked v1,5,11,0.6,0.2727272727272727,0.6248819788285628,0.9199999999999999,1.2
+manual,,mashed_potatoes_5,mashed_potatoes,5,"potato, butter, salt, pepper, milk",MiniLM,reranked v1,10,11,0.3,0.2727272727272727,0.5619081175575661,0.8200000000000001,1.7
+manual,,mashed_potatoes_6,mashed_potatoes,6,"potato, butter, salt, pepper, milk, onion",TF-IDF,baseline,5,7,0.4,0.2857142857142857,0.7774340683739911,0.7999999999999999,1.0
+manual,,mashed_potatoes_6,mashed_potatoes,6,"potato, butter, salt, pepper, milk, onion",TF-IDF,baseline,10,7,0.2,0.2857142857142857,0.7383391131358261,0.7166666666666666,1.5
+manual,,mashed_potatoes_6,mashed_potatoes,6,"potato, butter, salt, pepper, milk, onion",TF-IDF,reranked v1,5,7,0.4,0.2857142857142857,0.8285482329591609,0.7999999999999999,1.0
+manual,,mashed_potatoes_6,mashed_potatoes,6,"potato, butter, salt, pepper, milk, onion",TF-IDF,reranked v1,10,7,0.3,0.42857142857142855,0.8175095437048913,0.8,1.8
+manual,,mashed_potatoes_6,mashed_potatoes,6,"potato, butter, salt, pepper, milk, onion",Jaccard,baseline,5,7,0.6,0.42857142857142855,0.8788898793250992,0.8666666666666666,1.2
+manual,,mashed_potatoes_6,mashed_potatoes,6,"potato, butter, salt, pepper, milk, onion",Jaccard,baseline,10,7,0.3,0.42857142857142855,0.8233448665929572,0.85,1.6
+manual,,mashed_potatoes_6,mashed_potatoes,6,"potato, butter, salt, pepper, milk, onion",Jaccard,reranked v1,5,7,0.6,0.42857142857142855,0.8936138669994189,0.8666666666666666,1.2
+manual,,mashed_potatoes_6,mashed_potatoes,6,"potato, butter, salt, pepper, milk, onion",Jaccard,reranked v1,10,7,0.3,0.42857142857142855,0.8356815051197758,0.85,1.6
+manual,,mashed_potatoes_6,mashed_potatoes,6,"potato, butter, salt, pepper, milk, onion",MiniLM,baseline,5,7,0.2,0.14285714285714285,0.5822371662532169,0.8333333333333334,1.4
+manual,,mashed_potatoes_6,mashed_potatoes,6,"potato, butter, salt, pepper, milk, onion",MiniLM,baseline,10,7,0.1,0.14285714285714285,0.5747914604018642,0.7166666666666667,1.8
+manual,,mashed_potatoes_6,mashed_potatoes,6,"potato, butter, salt, pepper, milk, onion",MiniLM,reranked v1,5,7,0.2,0.14285714285714285,0.5822371662532169,0.8333333333333334,1.4
+manual,,mashed_potatoes_6,mashed_potatoes,6,"potato, butter, salt, pepper, milk, onion",MiniLM,reranked v1,10,7,0.1,0.14285714285714285,0.5747914604018642,0.75,1.8
+manual,,tomato_chilli_3,tomato_chilli,3,"cumin, onion, garlic",TF-IDF,baseline,5,94,1.0,0.05319148936170213,1.0,1.0,6.2
+manual,,tomato_chilli_3,tomato_chilli,3,"cumin, onion, garlic",TF-IDF,baseline,10,94,0.8,0.0851063829787234,0.9134166588977729,0.9,5.7
+manual,,tomato_chilli_3,tomato_chilli,3,"cumin, onion, garlic",TF-IDF,reranked v1,5,94,1.0,0.05319148936170213,1.0,1.0,6.2
+manual,,tomato_chilli_3,tomato_chilli,3,"cumin, onion, garlic",TF-IDF,reranked v1,10,94,1.0,0.10638297872340426,1.0,1.0,6.4
+manual,,tomato_chilli_3,tomato_chilli,3,"cumin, onion, garlic",Jaccard,baseline,5,94,0.6,0.031914893617021274,0.7599635902818439,0.8666666666666666,4.0
+manual,,tomato_chilli_3,tomato_chilli,3,"cumin, onion, garlic",Jaccard,baseline,10,94,0.6,0.06382978723404255,0.7537758309104857,0.8666666666666668,4.4
+manual,,tomato_chilli_3,tomato_chilli,3,"cumin, onion, garlic",Jaccard,reranked v1,5,94,0.8,0.0425531914893617,0.8573424901769816,0.9333333333333332,4.6
+manual,,tomato_chilli_3,tomato_chilli,3,"cumin, onion, garlic",Jaccard,reranked v1,10,94,0.7,0.07446808510638298,0.8208416963154033,0.8999999999999998,4.7
+manual,,tomato_chilli_3,tomato_chilli,3,"cumin, onion, garlic",MiniLM,baseline,5,94,0.2,0.010638297872340425,0.4759908431563516,0.5999999999999999,3.0
+manual,,tomato_chilli_3,tomato_chilli,3,"cumin, onion, garlic",MiniLM,baseline,10,94,0.3,0.031914893617021274,0.5205876673674544,0.6333333333333333,3.8
+manual,,tomato_chilli_3,tomato_chilli,3,"cumin, onion, garlic",MiniLM,reranked v1,5,94,0.4,0.02127659574468085,0.6724935386069494,0.7333333333333333,3.6
+manual,,tomato_chilli_3,tomato_chilli,3,"cumin, onion, garlic",MiniLM,reranked v1,10,94,0.3,0.031914893617021274,0.5997125809225984,0.6666666666666666,4.1
+manual,,tomato_chilli_4,tomato_chilli,4,"cumin, onion, garlic, tomato",TF-IDF,baseline,5,42,0.6,0.07142857142857142,0.7994765465672333,0.9,4.4
+manual,,tomato_chilli_4,tomato_chilli,4,"cumin, onion, garlic, tomato",TF-IDF,baseline,10,42,0.7,0.16666666666666666,0.8274601406735915,0.925,5.4
+manual,,tomato_chilli_4,tomato_chilli,4,"cumin, onion, garlic, tomato",TF-IDF,reranked v1,5,42,0.8,0.09523809523809523,0.9125299483251055,0.95,5.0
+manual,,tomato_chilli_4,tomato_chilli,4,"cumin, onion, garlic, tomato",TF-IDF,reranked v1,10,42,0.8,0.19047619047619047,0.8909724089198024,0.95,5.6
+manual,,tomato_chilli_4,tomato_chilli,4,"cumin, onion, garlic, tomato",Jaccard,baseline,5,42,0.4,0.047619047619047616,0.7020976466720956,0.85,3.4
+manual,,tomato_chilli_4,tomato_chilli,4,"cumin, onion, garlic, tomato",Jaccard,baseline,10,42,0.4,0.09523809523809523,0.6738109341664468,0.85,4.1
+manual,,tomato_chilli_4,tomato_chilli,4,"cumin, onion, garlic, tomato",Jaccard,reranked v1,5,42,0.4,0.047619047619047616,0.7020976466720956,0.85,3.4
+manual,,tomato_chilli_4,tomato_chilli,4,"cumin, onion, garlic, tomato",Jaccard,reranked v1,10,42,0.7,0.16666666666666666,0.8066817565598587,0.925,5.0
+manual,,tomato_chilli_4,tomato_chilli,4,"cumin, onion, garlic, tomato",MiniLM,baseline,5,42,0.2,0.023809523809523808,0.5594401368490773,0.7,4.0
+manual,,tomato_chilli_4,tomato_chilli,4,"cumin, onion, garlic, tomato",MiniLM,baseline,10,42,0.2,0.047619047619047616,0.5224750363313546,0.625,4.1
+manual,,tomato_chilli_4,tomato_chilli,4,"cumin, onion, garlic, tomato",MiniLM,reranked v1,5,42,0.4,0.047619047619047616,0.6469101885239719,0.85,4.4
+manual,,tomato_chilli_4,tomato_chilli,4,"cumin, onion, garlic, tomato",MiniLM,reranked v1,10,42,0.3,0.07142857142857142,0.579237114759102,0.725,4.3
+manual,,tomato_chilli_5,tomato_chilli,5,"cumin, onion, garlic, tomato, chili powder",TF-IDF,baseline,5,21,0.6,0.14285714285714285,0.7698724385020871,0.9199999999999999,5.8
+manual,,tomato_chilli_5,tomato_chilli,5,"cumin, onion, garlic, tomato, chili powder",TF-IDF,baseline,10,21,0.6,0.2857142857142857,0.752109965046248,0.9199999999999999,6.5
+manual,,tomato_chilli_5,tomato_chilli,5,"cumin, onion, garlic, tomato, chili powder",TF-IDF,reranked v1,5,21,0.8,0.19047619047619047,0.8573424901769816,0.96,5.4
+manual,,tomato_chilli_5,tomato_chilli,5,"cumin, onion, garlic, tomato, chili powder",TF-IDF,reranked v1,10,21,0.6,0.2857142857142857,0.7745542150242184,0.9200000000000002,6.5
+manual,,tomato_chilli_5,tomato_chilli,5,"cumin, onion, garlic, tomato, chili powder",Jaccard,baseline,5,21,0.8,0.19047619047619047,0.7738931964842558,0.96,5.4
+manual,,tomato_chilli_5,tomato_chilli,5,"cumin, onion, garlic, tomato, chili powder",Jaccard,baseline,10,21,0.7,0.3333333333333333,0.7645708157107939,0.9199999999999999,5.7
+manual,,tomato_chilli_5,tomato_chilli,5,"cumin, onion, garlic, tomato, chili powder",Jaccard,reranked v1,5,21,0.8,0.19047619047619047,0.8573424901769816,0.96,5.4
+manual,,tomato_chilli_5,tomato_chilli,5,"cumin, onion, garlic, tomato, chili powder",Jaccard,reranked v1,10,21,0.8,0.38095238095238093,0.8611375561264455,0.96,6.3
+manual,,tomato_chilli_5,tomato_chilli,5,"cumin, onion, garlic, tomato, chili powder",MiniLM,baseline,5,21,0.2,0.047619047619047616,0.44638673509120536,0.7200000000000001,5.0
+manual,,tomato_chilli_5,tomato_chilli,5,"cumin, onion, garlic, tomato, chili powder",MiniLM,baseline,10,21,0.1,0.047619047619047616,0.4066972554326934,0.6599999999999999,4.6
+manual,,tomato_chilli_5,tomato_chilli,5,"cumin, onion, garlic, tomato, chili powder",MiniLM,reranked v1,5,21,0.2,0.047619047619047616,0.4759908431563516,0.7200000000000001,5.0
+manual,,tomato_chilli_5,tomato_chilli,5,"cumin, onion, garlic, tomato, chili powder",MiniLM,reranked v1,10,21,0.1,0.047619047619047616,0.42590829591570295,0.6599999999999999,4.6
+manual,,tomato_chilli_6,tomato_chilli,6,"cumin, onion, garlic, tomato, chili powder, salt",TF-IDF,baseline,5,12,0.4,0.16666666666666666,0.656819036744215,0.9,5.0
+manual,,tomato_chilli_6,tomato_chilli,6,"cumin, onion, garlic, tomato, chili powder, salt",TF-IDF,baseline,10,12,0.3,0.25,0.5921627018446607,0.85,5.5
+manual,,tomato_chilli_6,tomato_chilli,6,"cumin, onion, garlic, tomato, chili powder, salt",TF-IDF,reranked v1,5,12,0.4,0.16666666666666666,0.6724935386069494,0.9,4.4
+manual,,tomato_chilli_6,tomato_chilli,6,"cumin, onion, garlic, tomato, chili powder, salt",TF-IDF,reranked v1,10,12,0.6,0.5,0.7385614346772758,0.9333333333333333,6.1
+manual,,tomato_chilli_6,tomato_chilli,6,"cumin, onion, garlic, tomato, chili powder, salt",Jaccard,baseline,5,12,0.4,0.16666666666666666,0.5890442449142237,0.8333333333333334,3.0
+manual,,tomato_chilli_6,tomato_chilli,6,"cumin, onion, garlic, tomato, chili powder, salt",Jaccard,baseline,10,12,0.3,0.25,0.5515377306675132,0.8166666666666667,3.8
+manual,,tomato_chilli_6,tomato_chilli,6,"cumin, onion, garlic, tomato, chili powder, salt",Jaccard,reranked v1,5,12,0.4,0.16666666666666666,0.5890442449142237,0.8333333333333334,3.0
+manual,,tomato_chilli_6,tomato_chilli,6,"cumin, onion, garlic, tomato, chili powder, salt",Jaccard,reranked v1,10,12,0.5,0.4166666666666667,0.6381210717697404,0.8833333333333332,4.8
+manual,,tomato_chilli_6,tomato_chilli,6,"cumin, onion, garlic, tomato, chili powder, salt",MiniLM,baseline,5,12,0.2,0.08333333333333333,0.5594401368490773,0.7333333333333333,4.2
+manual,,tomato_chilli_6,tomato_chilli,6,"cumin, onion, garlic, tomato, chili powder, salt",MiniLM,baseline,10,12,0.1,0.08333333333333333,0.48006117753205346,0.7,5.2
+manual,,tomato_chilli_6,tomato_chilli,6,"cumin, onion, garlic, tomato, chili powder, salt",MiniLM,reranked v1,5,12,0.2,0.08333333333333333,0.5594401368490773,0.7666666666666667,4.0
+manual,,tomato_chilli_6,tomato_chilli,6,"cumin, onion, garlic, tomato, chili powder, salt",MiniLM,reranked v1,10,12,0.1,0.08333333333333333,0.48006117753205346,0.7333333333333333,5.4
+manual,,beef_rice_3,beef_rice,3,"rice, beef, onion",TF-IDF,baseline,5,19,0.8,0.21052631578947367,0.9026211001048622,0.9333333333333332,6.0
+manual,,beef_rice_3,beef_rice,3,"rice, beef, onion",TF-IDF,baseline,10,19,0.7,0.3684210526315789,0.841610994396208,0.8666666666666666,6.0
+manual,,beef_rice_3,beef_rice,3,"rice, beef, onion",TF-IDF,reranked v1,5,19,1.0,0.2631578947368421,1.0,1.0,7.0
+manual,,beef_rice_3,beef_rice,3,"rice, beef, onion",TF-IDF,reranked v1,10,19,0.8,0.42105263157894735,0.9035650050446238,0.9333333333333332,6.2
+manual,,beef_rice_3,beef_rice,3,"rice, beef, onion",Jaccard,baseline,5,19,0.4,0.10526315789473684,0.5181822849033655,0.8,3.0
+manual,,beef_rice_3,beef_rice,3,"rice, beef, onion",Jaccard,baseline,10,19,0.3,0.15789473684210525,0.4957015134734157,0.7666666666666667,3.3
+manual,,beef_rice_3,beef_rice,3,"rice, beef, onion",Jaccard,reranked v1,5,19,0.4,0.10526315789473684,0.5181822849033655,0.8,3.0
+manual,,beef_rice_3,beef_rice,3,"rice, beef, onion",Jaccard,reranked v1,10,19,0.4,0.21052631578947367,0.5544624487261381,0.8,3.6
+manual,,beef_rice_3,beef_rice,3,"rice, beef, onion",MiniLM,baseline,5,19,0.2,0.05263157894736842,0.42080338500822784,0.6,3.8
+manual,,beef_rice_3,beef_rice,3,"rice, beef, onion",MiniLM,baseline,10,19,0.2,0.10526315789473684,0.40805462986059515,0.5666666666666667,4.4
+manual,,beef_rice_3,beef_rice,3,"rice, beef, onion",MiniLM,reranked v1,5,19,0.4,0.10526315789473684,0.543765634986343,0.7999999999999999,4.0
+manual,,beef_rice_3,beef_rice,3,"rice, beef, onion",MiniLM,reranked v1,10,19,0.4,0.21052631578947367,0.5629682620482267,0.7666666666666667,4.5
+manual,,beef_rice_4,beef_rice,4,"rice, beef, onion, salt",TF-IDF,baseline,5,16,0.8,0.25,0.9026211001048622,0.95,5.0
+manual,,beef_rice_4,beef_rice,4,"rice, beef, onion, salt",TF-IDF,baseline,10,16,0.7,0.4375,0.84037276213159,0.925,5.1
+manual,,beef_rice_4,beef_rice,4,"rice, beef, onion, salt",TF-IDF,reranked v1,5,16,0.8,0.25,0.9026211001048622,0.95,5.0
+manual,,beef_rice_4,beef_rice,4,"rice, beef, onion, salt",TF-IDF,reranked v1,10,16,0.7,0.4375,0.8481064169964802,0.925,5.1
+manual,,beef_rice_4,beef_rice,4,"rice, beef, onion, salt",Jaccard,baseline,5,16,0.4,0.125,0.5181822849033655,0.8,2.8
+manual,,beef_rice_4,beef_rice,4,"rice, beef, onion, salt",Jaccard,baseline,10,16,0.3,0.1875,0.4957015134734157,0.8,3.2
+manual,,beef_rice_4,beef_rice,4,"rice, beef, onion, salt",Jaccard,reranked v1,5,16,0.4,0.125,0.5181822849033655,0.8,2.8
+manual,,beef_rice_4,beef_rice,4,"rice, beef, onion, salt",Jaccard,reranked v1,10,16,0.3,0.1875,0.4957015134734157,0.8,3.2
+manual,,beef_rice_4,beef_rice,4,"rice, beef, onion, salt",MiniLM,baseline,5,16,0.0,0.0,0.3333333333333333,0.65,3.6
+manual,,beef_rice_4,beef_rice,4,"rice, beef, onion, salt",MiniLM,baseline,10,16,0.1,0.0625,0.37962081462451813,0.725,4.2
+manual,,beef_rice_4,beef_rice,4,"rice, beef, onion, salt",MiniLM,reranked v1,5,16,0.2,0.0625,0.44638673509120536,0.75,3.4
+manual,,beef_rice_4,beef_rice,4,"rice, beef, onion, salt",MiniLM,reranked v1,10,16,0.2,0.125,0.45560653683226676,0.775,4.3
+manual,,beef_rice_5,beef_rice,5,"rice, beef, onion, salt, pepper",TF-IDF,baseline,5,10,0.8,0.4,0.9125299483251055,0.96,5.4
+manual,,beef_rice_5,beef_rice,5,"rice, beef, onion, salt, pepper",TF-IDF,baseline,10,10,0.6,0.6,0.8022710688293165,0.9,5.3
+manual,,beef_rice_5,beef_rice,5,"rice, beef, onion, salt, pepper",TF-IDF,reranked v1,5,10,0.8,0.4,0.9125299483251055,0.96,5.4
+manual,,beef_rice_5,beef_rice,5,"rice, beef, onion, salt, pepper",TF-IDF,reranked v1,10,10,0.7,0.7,0.8501591578697533,0.9400000000000001,5.8
+manual,,beef_rice_5,beef_rice,5,"rice, beef, onion, salt, pepper",Jaccard,baseline,5,10,0.6,0.3,0.7442890884191096,0.8800000000000001,3.6
+manual,,beef_rice_5,beef_rice,5,"rice, beef, onion, salt, pepper",Jaccard,baseline,10,10,0.4,0.4,0.6489247802724082,0.86,3.5
+manual,,beef_rice_5,beef_rice,5,"rice, beef, onion, salt, pepper",Jaccard,reranked v1,5,10,0.8,0.4,0.9125299483251055,0.96,4.4
+manual,,beef_rice_5,beef_rice,5,"rice, beef, onion, salt, pepper",Jaccard,reranked v1,10,10,0.4,0.4,0.7091923051268172,0.86,3.5
+manual,,beef_rice_5,beef_rice,5,"rice, beef, onion, salt, pepper",MiniLM,baseline,5,10,0.2,0.1,0.44638673509120536,0.6,3.8
+manual,,beef_rice_5,beef_rice,5,"rice, beef, onion, salt, pepper",MiniLM,baseline,10,10,0.1,0.1,0.4066972554326934,0.64,3.8
+manual,,beef_rice_5,beef_rice,5,"rice, beef, onion, salt, pepper",MiniLM,reranked v1,5,10,0.2,0.1,0.4759908431563516,0.64,3.6
+manual,,beef_rice_5,beef_rice,5,"rice, beef, onion, salt, pepper",MiniLM,reranked v1,10,10,0.1,0.1,0.42590829591570295,0.6799999999999999,3.8
+manual,,beef_rice_6,beef_rice,6,"rice, beef, onion, salt, pepper, tomato",TF-IDF,baseline,5,5,0.2,0.2,0.4759908431563516,0.8333333333333334,3.8
+manual,,beef_rice_6,beef_rice,6,"rice, beef, onion, salt, pepper, tomato",TF-IDF,baseline,10,5,0.4,0.8,0.7357081955594277,0.8833333333333332,4.7
+manual,,beef_rice_6,beef_rice,6,"rice, beef, onion, salt, pepper, tomato",TF-IDF,reranked v1,5,5,0.2,0.2,0.5594401368490773,0.8333333333333334,3.8
+manual,,beef_rice_6,beef_rice,6,"rice, beef, onion, salt, pepper, tomato",TF-IDF,reranked v1,10,5,0.4,0.8,0.8130819108162324,0.8833333333333334,4.7
+manual,,beef_rice_6,beef_rice,6,"rice, beef, onion, salt, pepper, tomato",Jaccard,baseline,5,5,0.2,0.2,0.4759908431563516,0.8333333333333334,2.6
+manual,,beef_rice_6,beef_rice,6,"rice, beef, onion, salt, pepper, tomato",Jaccard,baseline,10,5,0.3,0.6,0.675277075527999,0.8666666666666668,3.5
+manual,,beef_rice_6,beef_rice,6,"rice, beef, onion, salt, pepper, tomato",Jaccard,reranked v1,5,5,0.4,0.4,0.5634608948312462,0.8666666666666668,3.0
+manual,,beef_rice_6,beef_rice,6,"rice, beef, onion, salt, pepper, tomato",Jaccard,reranked v1,10,5,0.3,0.6,0.6905866289058892,0.8666666666666666,3.5
+manual,,beef_rice_6,beef_rice,6,"rice, beef, onion, salt, pepper, tomato",MiniLM,baseline,5,5,0.0,0.0,0.3333333333333333,0.6333333333333334,3.6
+manual,,beef_rice_6,beef_rice,6,"rice, beef, onion, salt, pepper, tomato",MiniLM,baseline,10,5,0.0,0.0,0.43518692560571726,0.7166666666666666,3.4
+manual,,beef_rice_6,beef_rice,6,"rice, beef, onion, salt, pepper, tomato",MiniLM,reranked v1,5,5,0.0,0.0,0.3333333333333333,0.7333333333333334,3.0
+manual,,beef_rice_6,beef_rice,6,"rice, beef, onion, salt, pepper, tomato",MiniLM,reranked v1,10,5,0.0,0.0,0.43518692560571726,0.7166666666666666,3.4
